@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savings Goal Planner — OSFL Balkans</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<main id="main-content" style="max-width:640px;margin:40px auto;padding:0 20px">
+  <a href="/" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <h1 style="margin-top:16px">Savings Goal Planner</h1>
+  <p style="color:#555;margin-bottom:28px">Calculate how much you need to save each month to reach your goal.</p>
+
+  <div class="form-group">
+    <label for="goal-name">Goal name</label>
+    <input type="text" id="goal-name" placeholder="e.g. Emergency fund">
+  </div>
+
+  <div style="display:flex;gap:12px">
+    <div class="form-group" style="flex:1">
+      <label for="goal-amount">Target amount</label>
+      <input type="number" id="goal-amount" min="0" step="100" placeholder="0">
+    </div>
+    <div class="form-group" style="width:120px">
+      <label for="currency">Currency</label>
+      <select id="currency">
+        <option>EUR</option><option>RSD</option><option>BAM</option><option>MKD</option><option>ALL</option>
+      </select>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:12px">
+    <div class="form-group" style="flex:1">
+      <label for="current-balance">Current savings</label>
+      <input type="number" id="current-balance" min="0" step="10" placeholder="0" value="0">
+    </div>
+    <div class="form-group" style="flex:1">
+      <label for="interest-rate">Annual interest rate (%)</label>
+      <input type="number" id="interest-rate" min="0" max="30" step="0.1" placeholder="2.5" value="2.5">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="target-date">Target date</label>
+    <input type="month" id="target-date">
+  </div>
+
+  <div style="margin-bottom:18px">
+    <strong style="font-size:0.9rem;display:block;margin-bottom:8px">Preset goals</strong>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      <button onclick="preset('Emergency fund', 3000, 2.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Emergency fund</button>
+      <button onclick="preset('Down payment', 15000, 2.5)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Down payment</button>
+      <button onclick="preset('Education', 5000, 2.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Education</button>
+      <button onclick="preset('Travel', 1500, 1.5)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Travel</button>
+      <button onclick="preset('Retirement top-up', 30000, 4.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Retirement top-up</button>
+    </div>
+  </div>
+
+  <button class="btn-primary" onclick="calculate()" style="width:100%">Calculate</button>
+
+  <div id="result" style="display:none;margin-top:28px">
+    <div id="summary" style="padding:20px;background:#f0f7ff;border-radius:6px;border:1px solid #b3d4f0;margin-bottom:24px"></div>
+    <canvas id="chart" height="200"></canvas>
+  </div>
+</main>
+<script src="planner.js"></script>
+</body>
+</html>

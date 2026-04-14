@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Calculator — OSFL Balkans</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>
+    .expense-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+    .expense-row input[type="text"] { flex: 2; }
+    .expense-row input[type="number"] { flex: 1; }
+    .expense-row select { flex: 1; }
+    .expense-row button { padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px; background: #f0f0f0; cursor: pointer; }
+    .chart-bar { height: 28px; border-radius: 4px; margin-bottom: 8px; display: flex; align-items: center; padding: 0 10px; color: #fff; font-size: 0.85rem; font-weight: 600; min-width: 40px; transition: width 0.4s; }
+    .bar-needs { background: #1a7a4a; }
+    .bar-wants { background: #b06000; }
+    .bar-savings { background: #005fa3; }
+    .surplus { color: #1a7a4a; font-weight: 700; }
+    .deficit { color: #c0392b; font-weight: 700; }
+    #result { margin-top: 28px; padding: 20px; background: #f8f9fa; border-radius: 6px; border: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+<main id="main-content" style="max-width:640px;margin:40px auto;padding:0 20px">
+  <a href="/" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <h1 style="margin-top:16px">Budget Calculator</h1>
+  <p style="color:#555;margin-bottom:28px">Enter your monthly income and expenses to see your budget breakdown using the 50/30/20 rule.</p>
+
+  <div class="form-group">
+    <label for="income">Monthly income</label>
+    <div style="display:flex;gap:8px">
+      <input type="number" id="income" min="0" step="10" placeholder="0" style="flex:1">
+      <select id="currency" style="width:100px">
+        <option value="EUR">EUR €</option>
+        <option value="RSD">RSD din</option>
+        <option value="BAM">BAM KM</option>
+        <option value="MKD">MKD ден</option>
+        <option value="ALL">ALL L</option>
+      </select>
+    </div>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+    <strong>Expenses</strong>
+    <button class="btn-primary" onclick="addRow()" style="font-size:0.85rem;padding:6px 14px">+ Add expense</button>
+  </div>
+  <div id="expense-rows"></div>
+
+  <button class="btn-primary" onclick="calculate()" style="margin-top:16px;width:100%">Calculate budget</button>
+
+  <div id="result" style="display:none">
+    <h2 style="font-size:1.1rem;margin-bottom:16px">Your budget breakdown</h2>
+    <div id="chart"></div>
+    <div id="summary" style="margin-top:20px"></div>
+    <button onclick="saveState()" style="margin-top:16px;padding:6px 14px;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:0.85rem">Save to URL</button>
+  </div>
+</main>
+<script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{{ define "main" }}
+<section class="module-list">
+  <h1>{{ .Title }}</h1>
+
+  {{ $foundation := where .Pages "Params.path" "foundation" }}
+  {{ $intermediate := where .Pages "Params.path" "intermediate" }}
+  {{ $advanced := where .Pages "Params.path" "advanced" }}
+
+  {{ if $foundation }}
+  <div class="path-section">
+    <h2 class="path-title path-foundation">{{ i18n "path_foundation" }}</h2>
+    <ul class="module-cards">
+      {{ range $foundation }}
+      <li class="module-card">
+        <a href="{{ .RelPermalink }}">
+          <span class="module-number">{{ i18n "module" }} {{ .Params.module_number }}</span>
+          <span class="module-title">{{ .Title }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ if $intermediate }}
+  <div class="path-section">
+    <h2 class="path-title path-intermediate">{{ i18n "path_intermediate" }}</h2>
+    <ul class="module-cards">
+      {{ range $intermediate }}
+      <li class="module-card">
+        <a href="{{ .RelPermalink }}">
+          <span class="module-number">{{ i18n "module" }} {{ .Params.module_number }}</span>
+          <span class="module-title">{{ .Title }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ if $advanced }}
+  <div class="path-section">
+    <h2 class="path-title path-advanced">{{ i18n "path_advanced" }}</h2>
+    <ul class="module-cards">
+      {{ range $advanced }}
+      <li class="module-card">
+        <a href="{{ .RelPermalink }}">
+          <span class="module-number">{{ i18n "module" }} {{ .Params.module_number }}</span>
+          <span class="module-title">{{ .Title }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

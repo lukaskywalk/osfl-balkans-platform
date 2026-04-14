@@ -1,0 +1,9 @@
+<div class="lang-switcher">
+  {{ range .Site.Languages }}
+  <a href="{{ $.RelPermalink | replaceRE (printf "^/%s/" $.Language.Lang) (printf "/%s/" .Lang) }}"
+     class="lang-option {{ if eq .Lang $.Language.Lang }}lang-active{{ end }}"
+     lang="{{ .Lang }}">
+    {{ .LanguageName }}
+  </a>
+  {{ end }}
+</div>

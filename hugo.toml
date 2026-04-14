@@ -1,0 +1,51 @@
+baseURL = "https://osflbalkans.org"
+title = "OSFL Balkans"
+defaultContentLanguage = "hr"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.hr]
+    languageName = "Hrvatski"
+    languageCode = "hr"
+    weight = 1
+    title = "OSFL Balkans — Financijska pismenost"
+  [languages.sr-latn]
+    languageName = "Srpski (latinica)"
+    languageCode = "sr-Latn"
+    weight = 2
+    title = "OSFL Balkans — Finansijska pismenost"
+  [languages.sr-cyrl]
+    languageName = "Српски (ћирилица)"
+    languageCode = "sr-Cyrl"
+    weight = 3
+    title = "OSFL Balkans — Финансијска писменост"
+  [languages.bs]
+    languageName = "Bosanski"
+    languageCode = "bs"
+    weight = 4
+    title = "OSFL Balkans — Finansijska pismenost"
+  [languages.cnr]
+    languageName = "Crnogorski"
+    languageCode = "cnr"
+    weight = 5
+    title = "OSFL Balkans — Finansijska pismenost"
+  [languages.mk]
+    languageName = "Македонски"
+    languageCode = "mk"
+    weight = 6
+    title = "OSFL Balkans — Финансиска писменост"
+  [languages.sq]
+    languageName = "Shqip"
+    languageCode = "sq"
+    weight = 7
+    title = "OSFL Balkans — Arsimi financiar"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Open Source Financial Literacy for the Balkans"
+  countries = ["HR", "RS", "BA", "ME", "MK", "AL"]
+  analyticsURL = ""

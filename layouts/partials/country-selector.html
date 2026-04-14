@@ -1,0 +1,9 @@
+<div class="country-selector">
+  <label for="country-select">{{ i18n "country_select_label" }}</label>
+  <select id="country-select" onchange="setCountry(this.value)">
+    <option value="">— {{ i18n "country_all" }} —</option>
+    {{ range $.Site.Params.countries }}
+    <option value="{{ . }}">{{ i18n (printf "country_%s" .) }}</option>
+    {{ end }}
+  </select>
+</div>

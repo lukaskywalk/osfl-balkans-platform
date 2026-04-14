@@ -1,0 +1,80 @@
+{{ $lang := .lang }}
+{{ $moduleNum := printf "%02d" (int .module) }}
+{{ $quizFile := printf "quiz-banks/%s/Module-%s.json" $lang $moduleNum }}
+{{ $quiz := index $.Site.Data.quiz_banks $lang (printf "Module-%s" $moduleNum) }}
+
+{{ if $quiz }}
+<div class="quiz" id="quiz-{{ $moduleNum }}" data-module="{{ $moduleNum }}" data-lang="{{ $lang }}">
+  <h2 class="quiz-title">{{ i18n "quiz_title" }}</h2>
+  <div class="quiz-questions" id="quiz-questions-{{ $moduleNum }}"></div>
+  <button class="quiz-submit btn-primary" onclick="submitQuiz('{{ $moduleNum }}')" style="display:none">
+    {{ i18n "quiz_submit" }}
+  </button>
+  <div class="quiz-result" id="quiz-result-{{ $moduleNum }}" style="display:none"></div>
+</div>
+
+<script>
+(function() {
+  const quiz = {{ $quiz | jsonify }};
+  const moduleNum = "{{ $moduleNum }}";
+  const storageKey = "quiz_" + moduleNum + "_{{ $lang }}";
+
+  function renderQuiz() {
+    const container = document.getElementById("quiz-questions-" + moduleNum);
+    if (!container || !quiz.questions) return;
+
+    const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+
+    quiz.questions.forEach(function(q, i) {
+      const div = document.createElement("div");
+      div.className = "quiz-question";
+      div.innerHTML = '<p class="question-text"><strong>' + (i+1) + '.</strong> ' + q.question + '</p>';
+
+      const opts = document.createElement("ul");
+      opts.className = "question-options";
+      q.options.forEach(function(opt, j) {
+        const li = document.createElement("li");
+        const id = "q" + moduleNum + "_" + i + "_" + j;
+        li.innerHTML = '<label for="' + id + '">' +
+          '<input type="radio" name="q' + moduleNum + '_' + i + '" id="' + id + '" value="' + j + '"' +
+          (saved[i] == j ? " checked" : "") + '> ' + opt + '</label>';
+        opts.appendChild(li);
+      });
+      div.appendChild(opts);
+      container.appendChild(div);
+    });
+
+    document.querySelector(".quiz-submit").style.display = "block";
+    if (saved.completed) showResult(saved.score, quiz.questions.length);
+  }
+
+  window.submitQuiz = function(mod) {
+    if (mod !== moduleNum) return;
+    const answers = {};
+    let score = 0;
+    quiz.questions.forEach(function(q, i) {
+      const sel = document.querySelector('input[name="q' + moduleNum + '_' + i + '"]:checked');
+      if (sel) {
+        answers[i] = parseInt(sel.value);
+        if (parseInt(sel.value) === q.correct) score++;
+      }
+    });
+    answers.score = score;
+    answers.completed = true;
+    localStorage.setItem(storageKey, JSON.stringify(answers));
+    showResult(score, quiz.questions.length);
+  };
+
+  function showResult(score, total) {
+    const result = document.getElementById("quiz-result-" + moduleNum);
+    const pct = Math.round((score / total) * 100);
+    result.style.display = "block";
+    result.className = "quiz-result " + (pct >= 70 ? "quiz-pass" : "quiz-fail");
+    result.innerHTML = '<strong>' + score + '/' + total + ' (' + pct + '%)</strong>' +
+      (pct >= 70 ? ' ✓' : ' — {{ i18n "quiz_retry" }}');
+  }
+
+  document.addEventListener("DOMContentLoaded", renderQuiz);
+})();
+</script>
+{{ end }}

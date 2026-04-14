@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="module">
+  <header class="module-header">
+    <div class="module-meta">
+      {{ with .Params.module_number }}<span class="module-number">{{ i18n "module" }} {{ . }}</span>{{ end }}
+      {{ with .Params.path }}<span class="module-path path-{{ . }}">{{ i18n (printf "path_%s" .) }}</span>{{ end }}
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.country }}
+    <div class="country-selector-wrapper">
+      {{ partial "country-selector.html" $ }}
+    </div>
+    {{ end }}
+  </header>
+
+  <div class="module-content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.quiz_file }}
+  <section class="module-quiz" id="quiz">
+    {{ partial "quiz-engine.html" (dict "lang" $.Language.Lang "module" $.Params.module_number) }}
+  </section>
+  {{ end }}
+
+  <nav class="module-nav">
+    {{ with .PrevInSection }}<a class="module-nav-prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+    {{ with .NextInSection }}<a class="module-nav-next" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+  </nav>
+</article>
+{{ end }}
