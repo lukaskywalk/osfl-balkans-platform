@@ -13,11 +13,11 @@
 <body>
   <header class="site-header">
     <nav class="nav-main">
-      <a class="nav-logo" href="{{ "/" | relLangURL }}">OSFL Balkans</a>
+      <a class="nav-logo" href="{{ printf "%s/" .Language.Lang | relURL }}">OSFL Balkans</a>
       <div class="nav-links">
-        <a href="{{ "/modules/" | relLangURL }}">{{ i18n "nav_modules" }}</a>
-        <a href="{{ "/tools/" | relLangURL }}">{{ i18n "nav_tools" }}</a>
-        <a href="{{ "/facilitator/" | relLangURL }}">{{ i18n "nav_facilitator" }}</a>
+        <a href="{{ printf "%s/modules/" .Language.Lang | relURL }}">{{ i18n "nav_modules" }}</a>
+        <a href="{{ printf "%s/tools/" .Language.Lang | relURL }}">{{ i18n "nav_tools" }}</a>
+        <a href="{{ printf "%s/facilitator/" .Language.Lang | relURL }}">{{ i18n "nav_facilitator" }}</a>
       </div>
       {{ partial "lang-switcher.html" . }}
     </nav>
