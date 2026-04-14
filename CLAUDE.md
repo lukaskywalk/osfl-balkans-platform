@@ -77,7 +77,7 @@ osfl-balkans-platform/
 ### First-time setup
 ```bash
 # 1. Clone this repo
-git clone https://github.com/YOUR_ORG/osfl-balkans-platform.git /var/www/osfl-balkans/repo
+git clone https://github.com/lukaskywalk/osfl-balkans-platform.git /var/www/osfl-balkans/repo
 cd /var/www/osfl-balkans/repo
 
 # 2. Run server setup (installs Hugo, writes Nginx config, first build)

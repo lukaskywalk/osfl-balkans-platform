@@ -15,7 +15,7 @@ set -euo pipefail
 
 DOMAIN="osflbalkans.org"
 WEBROOT="/var/www/osfl-balkans/public"
-REPO_URL="https://github.com/YOUR_ORG/osfl-balkans-platform.git"  # UPDATE THIS
+REPO_URL="https://github.com/lukaskywalk/osfl-balkans-platform.git"
 REPO_DIR="/var/www/osfl-balkans/repo"
 HUGO_VERSION="0.160.1"  # update to latest stable
 
