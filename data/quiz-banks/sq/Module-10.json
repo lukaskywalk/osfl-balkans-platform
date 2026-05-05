@@ -1,0 +1,106 @@
+{
+  "module": 10,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Çfarë nënkupton «ribalancimi» në menaxhimin e portofolit?",
+      "options": [
+        "Shitja e të gjitha investimeve dhe rifillimi nga e para",
+        "Rregullimi i portofolit tuaj në alokimin e synuar duke shitur mbi-performuesit dhe duke blerë nën-performuesit",
+        "Investimi vetëm në fonde të balancuara",
+        "Kontrolli i balancës së portofolit çdo ditë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Duke përdorur rregullin 4%, sa keni nevojë të keni të investuar për të tërhequr me siguri 52.500 ALL (500 EUR)/muaj në pension?",
+      "options": [
+        "5.250.000 ALL (50.000 EUR)",
+        "10.500.000 ALL (100.000 EUR)",
+        "15.750.000 ALL (150.000 EUR)",
+        "31.500.000 ALL (300.000 EUR)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Në Kroaci, fitimet kapitale mbi letrat me vlerë janë të përjashtuara nga tatimi pas sa viteve mbajtjeje?",
+      "options": [
+        "6 muaj",
+        "1 vit",
+        "2 vjet",
+        "5 vjet"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Pse Shtylla III e pensionit vullnetar të Kroacisë është një nga investimet më të mira të para?",
+      "options": [
+        "Garanton kthime 20%",
+        "Qeveria shton bashkëpagesë 15% mbi kontributet deri në 5.000 EUR/vit — efektivisht para falas",
+        "Është pa rrezik dhe likuid",
+        "Zëvendëson pensionin tuaj shtetëror"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dy apartamentet me qira të Dritanit sollën rendiment neto të kombinuar prej:",
+      "options": [
+        "10%",
+        "7%",
+        "2,3%",
+        "0%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cili është faktori më i rëndësishëm në suksesin e investimit të Milës?",
+      "options": [
+        "Shuma që investon",
+        "Zgjedhja e aksioneve të duhura",
+        "Koha — fillimi në moshën 22 i jep interesit të përbërë 40 vjet punë",
+        "Jetesa në Tiranë"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Për shumicën e investitorëve shqiptarë, çfarë duhet të jetë «bërthama» e portofolit të tyre të investimeve?",
+      "options": [
+        "100% aksione lokale shqiptare",
+        "100% depozita bankare",
+        "70–80% fonde/ETF globale të diversifikuara",
+        "100% pasuri e paluajtshme"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cilat kosto nënvlerësojnë më shpesh pronarët amatorë?",
+      "options": [
+        "Çmimi i blerjes së pronës",
+        "Zbrazëtia, mirëmbajtja, tarifat e menaxhimit dhe tatimi mbi të ardhurat nga qiraja",
+        "Interesi i hipotekës",
+        "Vetëm kostot e mobilieve"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Një fond «akumulues» është tatimisht eficient sepse:",
+      "options": [
+        "Nuk paguan tarifa menaxhimi",
+        "Riinveston dividendët brenda, duke shmangur tatimin vjetor mbi dividendët — paguani tatim vetëm kur shisni",
+        "Nuk gjeneron kurrë kthime",
+        "Është i disponueshëm vetëm në parajsat tatimore"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Fillimi i investimit për pension në moshën 25 kundrejt 40 nënkupton që keni nevojë për afërsisht:",
+      "options": [
+        "të njëjtën shumë mujore",
+        "gjysmën e shumës mujore",
+        "një të tretën e shumës mujore (ose më pak) falë interesit të përbërë që ka më shumë kohë",
+        "dyfishin e shumës mujore"
+      ],
+      "correct": 2
+    }
+  ]
+}

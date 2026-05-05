@@ -2,9 +2,9 @@
 <section class="module-list">
   <h1>{{ .Title }}</h1>
 
-  {{ $foundation := where .Pages "Params.path" "foundation" }}
-  {{ $intermediate := where .Pages "Params.path" "intermediate" }}
-  {{ $advanced := where .Pages "Params.path" "advanced" }}
+  {{ $foundation := where .Pages "Params.module_path" "foundation" }}
+  {{ $intermediate := where .Pages "Params.module_path" "intermediate" }}
+  {{ $advanced := where .Pages "Params.module_path" "advanced" }}
 
   {{ if $foundation }}
   <div class="path-section">

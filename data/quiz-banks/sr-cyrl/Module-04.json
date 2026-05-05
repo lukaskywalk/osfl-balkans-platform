@@ -1,0 +1,106 @@
+{
+  "module": 4,
+  "lang": "sr-cyrl",
+  "questions": [
+    {
+      "question": "Koja je osnovna razlika između proste i složene kamate?",
+      "options": [
+        "Prosta kamata se plaća mesečno, složena godišnje",
+        "Prosta kamata se računa samo na glavnicu; složena kamata se računa na glavnicu plus akumuliranu kamatu",
+        "Nema razlike — to je ista stvar",
+        "Prosta kamata se primenjuje na kredite, složena na štednju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koristeći Pravilo 72, otprilike koliko je potrebno da udvostručite novac uz kamatnu stopu od 3%?",
+      "options": [
+        "3 godine",
+        "12 godina",
+        "24 godine",
+        "72 godine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako je inflacija 5%, a Vaš štedni račun plaća 2%, kolika je Vaša realna kamatna stopa?",
+      "options": [
+        "+7%",
+        "+3%",
+        "-3%",
+        "+2%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Gde treba da čuvate fond za hitne slučajeve?",
+      "options": [
+        "Na dvogodišnjem oročenom depozitu",
+        "Pod dušekom kod kuće",
+        "Na a vista štednom računu dostupnom u roku od 24 sata",
+        "U akcijama radi maksimalnog rasta"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je preporučeni početni fond za hitne slučajeve?",
+      "options": [
+        "5.850 RSD (~50 EUR)",
+        "1 mesec suštinskih troškova",
+        "1 godina prihoda",
+        "Koliki god je minimalni iznos Vaše banke"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta znači „platite prvo sebi\"?",
+      "options": [
+        "Potrošite na sebe pre nego što platite račune",
+        "Izdvojite ušteđevinu odmah kada primite platu, pre svih drugih troškova",
+        "Otplatite sve dugove pre nego što počnete da štedite",
+        "Uvek koristite gotovinu umesto kartice"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Izazov 52 nedelje bi Vam pomogao da uštedite otprilike koliko za jednu godinu?",
+      "options": [
+        "6.084 RSD (~52 EUR)",
+        "60.840 RSD (~520 EUR)",
+        "161.226 RSD (~1.378 EUR)",
+        "608.400 RSD (~5.200 EUR)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto štedni računi u dinarima (RSD) u Srbiji često imaju više kamatne stope od evro računa?",
+      "options": [
+        "Zato što je dinar jači od evra",
+        "Zato što banke plaćaju više da kompenzuju rizik devalvacije valute",
+        "Zato što EU zabranjuje visoke kamatne stope",
+        "Zato što ima manje štediša u lokalnoj valuti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ivan je čuvao 1.404.000 RSD u gotovini kod kuće 14 godina. Šta se desilo sa realnom vrednošću?",
+      "options": [
+        "Porasla je jer je gotovina najsigurnija opcija",
+        "Ostala je potpuno ista",
+        "Izgubila je približno 35–40% kupovne moći usled inflacije",
+        "Udvostručila se zbog deflacije"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je početak štednje sa 22 godine značajno bolji od početka sa 32 godine, čak i sa manjim iznosima?",
+      "options": [
+        "Zato što banke nude bolje stope mlađim ljudima",
+        "Zato što složena kamata ima više vremena da deluje — vreme je moćnije od iznosa",
+        "Zato što mladi ljudi imaju manje troškova",
+        "Zato što inflacija utiče samo na ušteđevinu starijih ljudi"
+      ],
+      "correct": 1
+    }
+  ]
+}

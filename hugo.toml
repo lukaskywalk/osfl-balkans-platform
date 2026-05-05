@@ -7,36 +7,43 @@ defaultContentLanguageInSubdir = true
   [languages.hr]
     languageName = "Hrvatski"
     languageCode = "hr"
+    contentDir = "content/hr"
     weight = 1
     title = "OSFL Balkans — Financijska pismenost"
   [languages.sr-latn]
     languageName = "Srpski (latinica)"
     languageCode = "sr-Latn"
+    contentDir = "content/sr-latn"
     weight = 2
     title = "OSFL Balkans — Finansijska pismenost"
   [languages.sr-cyrl]
     languageName = "Српски (ћирилица)"
     languageCode = "sr-Cyrl"
+    contentDir = "content/sr-cyrl"
     weight = 3
     title = "OSFL Balkans — Финансијска писменост"
   [languages.bs]
     languageName = "Bosanski"
     languageCode = "bs"
+    contentDir = "content/bs"
     weight = 4
     title = "OSFL Balkans — Finansijska pismenost"
   [languages.cnr]
     languageName = "Crnogorski"
     languageCode = "cnr"
+    contentDir = "content/cnr"
     weight = 5
     title = "OSFL Balkans — Finansijska pismenost"
   [languages.mk]
     languageName = "Македонски"
     languageCode = "mk"
+    contentDir = "content/mk"
     weight = 6
     title = "OSFL Balkans — Финансиска писменост"
   [languages.sq]
     languageName = "Shqip"
     languageCode = "sq"
+    contentDir = "content/sq"
     weight = 7
     title = "OSFL Balkans — Arsimi financiar"
 

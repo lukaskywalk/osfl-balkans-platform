@@ -1,0 +1,106 @@
+{
+  "module": 6,
+  "lang": "sr-cyrl",
+  "questions": [
+    {
+      "question": "Koja je razlika između bruto i neto plate?",
+      "options": [
+        "Bruto je ono što primite; neto je ono što poslodavac plaća",
+        "Bruto je ukupna plata pre odbitaka; neto je ono što dobijete „na ruke\" nakon poreza i doprinosa",
+        "To je ista stvar",
+        "Neto je uvek tačno polovina bruta"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Socijalni doprinosi finansiraju koje od navedenog?",
+      "options": [
+        "Samo vojnu opremu",
+        "Penzijsko, zdravstveno osiguranje i osiguranje za nezaposlenost",
+        "Samo izgradnju puteva",
+        "Samo plate političara"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kolika je stopa poreza na dohodak u Srbiji?",
+      "options": [
+        "Progresivna — od 10% do 25%",
+        "10% proporcionalni (ravni) porez na iznos iznad neoporezivog dela",
+        "20% na sav prihod",
+        "U Srbiji nema poreza na dohodak"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliko bi frilenser trebalo da odvoji od svake uplate za poreze?",
+      "options": [
+        "Ništa — frilenseri ne plaćaju poreze",
+        "5%",
+        "Oko 30% kao sigurna procena",
+        "100% — ne zadržavajte ništa"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta se desilo Ani u Beogradu kada je radila kao frilenser 3 godine bez registracije?",
+      "options": [
+        "Ništa — Poreska uprava nikada ne proverava",
+        "Dobila je retroaktivni porez + kazne + kamatu u ukupnom iznosu od oko 26.000 EUR",
+        "Čestitali su joj na preduzetničkom duhu",
+        "Banka joj je zatvorila račun"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliki je prag za obaveznu registraciju za PDV u Srbiji?",
+      "options": [
+        "1.000.000 RSD godišnjeg prometa",
+        "8.000.000 RSD godišnjeg prometa (~68.000 EUR)",
+        "Ne postoji prag — svi moraju da se registruju",
+        "50.000.000 RSD godišnjeg prometa"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je „penzioni jaz\"?",
+      "options": [
+        "Vreme između poslednjeg radnog dana i prve penzijske isplate",
+        "Razlika između očekivane državne penzije i prihoda koji će Vam zaista trebati",
+        "Vrsta penzionog fonda",
+        "Iznos koji Vaš poslodavac uplaćuje za Vašu penziju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Igorova porodica je propuštala novac jer:",
+      "options": [
+        "Su zarađivali previše da bi ispunili uslove za beneficije",
+        "Nikada nisu tražili poreske olakšice za izdržavane članove niti aplicirali za dečiji dodatak na koji su imali pravo",
+        "Su skrivali prihode od poreskih organa",
+        "Beneficije ne postoje u Srbiji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kolika je stopa poreza na kapitalni dobitak u Srbiji?",
+      "options": [
+        "0% — kapitalni dobitak se ne oporezuje",
+        "10%",
+        "15%",
+        "25%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako investirate preko međunarodnog brokera, ko je odgovoran za plaćanje Vašeg lokalnog poreza na kapitalni dobitak?",
+      "options": [
+        "Broker to rešava automatski",
+        "Vi ste — broker ne obustava lokalne poreze",
+        "Nema poreza na međunarodne investicije",
+        "Vaš poslodavac to odbija od Vaše plate"
+      ],
+      "correct": 1
+    }
+  ]
+}

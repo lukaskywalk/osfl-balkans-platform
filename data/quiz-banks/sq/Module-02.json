@@ -1,0 +1,106 @@
+{
+  "module": 2,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Cili është qëllimi kryesor i një buxheti?",
+      "options": [
+        "Të ndaloni shpenzimet krejtësisht",
+        "Të dini ku shkojnë paratë tuaja dhe t'i drejtoni me qëllim",
+        "Të bëni përshtypje te drejtori i bankës",
+        "Të ndiheni fajtor për shpenzimet"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Në rregullin 50/30/20, çfarë përfaqëson «20%»?",
+      "options": [
+        "Argëtimin dhe ngrënien jashtë",
+        "Strehimin dhe qiranë",
+        "Kursimet dhe shlyerjen e borxhit",
+        "Ushqimet dhe shërbimet"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "A duhet të buxhetoni bazuar në pagën bruto apo neto?",
+      "options": [
+        "Bruto — është numër më i madh dhe buxheti duket më mirë",
+        "Neto — kjo është paraja reale që merrni dhe mund ta shpenzoni",
+        "Cilado funksionon njëlloj mirë",
+        "Koston totale të punëdhënësit duke përfshirë kontributet e tij"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë është një «shpenzim periodik»?",
+      "options": [
+        "Një shpenzim që ndodh çdo ditë",
+        "Një shpenzim që ndodh herë pas here (vjetore, tremujore) dhe jo çdo muaj",
+        "Një shpenzim që mund ta shmangni krejtësisht",
+        "Një abonim që e keni harruar"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sa fond emergjence duhet të synojë një punonjës i pavarur me të ardhura të parregullta?",
+      "options": [
+        "1 muaj shpenzime",
+        "2 muaj shpenzime",
+        "6–9 muaj shpenzime thelbësore",
+        "Nuk ka nevojë për fond emergjence nëse keni kartë krediti"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë është buxhetimi me bazë zero?",
+      "options": [
+        "Buxhet ku përpiqeni të shpenzoni zero para",
+        "Buxhet ku çdo njësi e të ardhurave i caktohet një qëllim, duke lënë zero të pashpërndarë",
+        "Buxhet që fillon nga zero çdo vit",
+        "Buxhet vetëm për njerëzit me zero kursime"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili është vendi MË I MIRË për ta mbajtur fondin tuaj të emergjencës?",
+      "options": [
+        "Para në dorë të fshehura në shtëpi",
+        "Llogari kursimi e veçantë pa afat në bankën tuaj",
+        "Të investuara në aksione",
+        "Të huazuara te një mik për ruajtje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Familja Kelmendi në rastin e studimit kurseu 13.000 ALL/muaj duke bërë çfarë?",
+      "options": [
+        "Duke marrë punë të dytë",
+        "Duke anuluar abonim të dyfishuar të internetit, duke ulur shpenzimet për cigare, dhe duke blerë në treg",
+        "Duke marrë hua nga të afërmit",
+        "Duke u shpërngulur në qytet më të lirë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Nëse keni të ardhura të parregullta, cila është mënyra e rekomanduar e buxhetimit?",
+      "options": [
+        "Mos buxhetoni — është e pamundur me të ardhura të ndryshueshme",
+        "Buxhetoni bazuar në muajin tuaj me fitime më të larta",
+        "Buxhetoni bazuar në muajin tuaj më të ulët dhe kurseni shtesën nga muajt më të lartë në fond tampon",
+        "Shpenzoni gjithçka në muajt e mirë dhe huazoni në muajt e këqij"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ju fitoni 65.000 ALL/muaj neto dhe doni të përdorni rregullin 50/30/20. Sa duhet të alokoni për kursime?",
+      "options": [
+        "6.500 ALL",
+        "9.750 ALL",
+        "13.000 ALL",
+        "19.500 ALL"
+      ],
+      "correct": 2
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "module": 9,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Koja je kljucna prednost d.o.o. u odnosu na preduzetnika?",
+      "options": [
+        "Uvijek je jeftinije za osnivanje",
+        "Ogranicena odgovornost — Vasa licna imovina je zasticena ako preduzece propadne",
+        "Ne morate placati poreze",
+        "Ne treba Vam nikakvo knjigovodstvo"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja je stopa poreza na dobit u Crnoj Gori za preduzeca sa dobiti do 100.000 EUR?",
+      "options": [
+        "15%",
+        "12%",
+        "9%",
+        "21%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koja je razlika izmedju dobiti i novcanog toka?",
+      "options": [
+        "To je ista stvar",
+        "Dobit pokazuje sta ste zaradili na papiru; novcani tok pokazuje stvarnu raspolocivu gotovinu. Mozete biti profitabilni i svejedno ostati bez gotovine.",
+        "Novcani tok je uvijek veci od dobiti",
+        "Samo velika preduzeca trebaju pratiti novcani tok"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Eminina agencija je bila profitabilna ali gotovo bankrotirala. Zasto?",
+      "options": [
+        "Imala je previse klijenata",
+        "Dva kljucna klijenta su odgodila placanja za 90 dana, stvarajuci jaz novcanog toka koji nije mogla pokriti",
+        "Njeni zaposleni su trazili povecanje plate",
+        "Zaboravila je platiti poreze"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji je prag za obaveznu PDV registraciju u Crnoj Gori?",
+      "options": [
+        "0 EUR (sva preduzeca se moraju registrovati)",
+        "30.000 EUR godišnjih prihoda",
+        "100.000 EUR",
+        "U Crnoj Gori nema PDV-a"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dobar poslovni krizni fond trebao bi pokriti:",
+      "options": [
+        "1 sedmicu rashoda",
+        "2–3 mjeseca poslovnih rashoda",
+        "1 godinu prihoda",
+        "Samo licne rashode"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta je ucinilo Artonovu prijavu za grant uspjesnom?",
+      "options": [
+        "Trazio je maksimalni iznos",
+        "Imao je jasan poslovni plan, istrazivanje trzista, obecanje otvaranja radnih mjesta i realisticne projekcije",
+        "Imao je politicke veze",
+        "Prijavio se za samo jedan program"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kada bi frilensi trebao razmotriti prelazak sa preduzetnika na d.o.o.?",
+      "options": [
+        "Odmah pri pokretanju bilo kog posla",
+        "Kada prihodi predjedu granicu pausalnog oporezivanja, klijenti to zahtijevaju ili raste rizik od odgovornosti",
+        "Samo nakon 10 godina u biznisu",
+        "Nikad — preduzetnik je uvijek bolji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zasto poslovni i licni bankovni racuni trebaju biti odvojeni?",
+      "options": [
+        "Nije vazno — mogu biti isti",
+        "Cisto knjigovodstvo, pravna zastita, lakse poresko izvjestavanje i izbjegavanje problema pri poreskoj kontroli",
+        "Banke to zahtijevaju od svih klijenata",
+        "Samo za preduzeca sa zaposlenima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta je fiskalizacija?",
+      "options": [
+        "Vrsta poslovnog osiguranja",
+        "Elektronsko evidentiranje faktura u realnom vremenu kod Poreske uprave CG",
+        "Postupak zatvaranja preduzeca",
+        "Bancarski kreditni proizvod"
+      ],
+      "correct": 1
+    }
+  ]
+}

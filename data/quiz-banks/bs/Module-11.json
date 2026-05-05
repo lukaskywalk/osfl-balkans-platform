@@ -1,0 +1,106 @@
+{
+  "module": 11,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Šta je IPA III?",
+      "options": [
+        "Talijanska marka piva",
+        "Glavni finansijski instrument EU za kandidatske zemlje (pretpristupna pomoć)",
+        "Vrsta investicijskog fonda",
+        "Hrvatski porezni zakon"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji EU program finansira prekogranične projekte obrazovanja i omladine?",
+      "options": [
+        "Horizon Europe",
+        "LIFE",
+        "Erasmus+",
+        "COSME"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je najčešći razlog neuspjeha EU prijava za grantove?",
+      "options": [
+        "Projektna ideja je loša",
+        "Aplikanat nije pročitao smjernice poziva i prijedlog ne odgovara onome što se finansira",
+        "Ima previše konkurencije",
+        "EU fondovi idu samo velikim organizacijama"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je logički okvir?",
+      "options": [
+        "Vrsta drvene konstrukcije",
+        "Strukturirana matrica koja povezuje projektne ciljeve, aktivnosti, indikatore i izvore provjere",
+        "Format budžeta",
+        "Obrazac za registraciju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "IPARD grantovi funkcionišu na principu nadoknade. To znači:",
+      "options": [
+        "Novac dobivate prije početka projekta",
+        "Troškove plaćate unaprijed i dobivate nadoknadu nakon dostavljanja dokaza o trošenju",
+        "Nikada zapravo ne primite novac",
+        "EU direktno plaća dobavljačima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je doprinijelo uspjehu Amirine Erasmus+ prijave?",
+      "options": [
+        "Aplicirala je u zadnji trenutak",
+        "Snažno prekogranično partnerstvo, jasni mjerljivi ciljevi, plan održivosti i pohađanje pripremne radionice",
+        "Imala je političke veze",
+        "Podnijela je najduži zahtjev"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Amrelin crowdfunding je uspio primarno jer:",
+      "options": [
+        "Nudila je veoma skupe nagrade",
+        "Ciljala je bosanskohercegovačku dijasporu s uvjerljivom pričom i profesionalnom prezentacijom",
+        "Prikupila je novac samo od prijatelja i porodice",
+        "Koristila je lokalnu bosanskohercegovačku platformu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kada biste trebali početi pratiti mogućnosti grantova?",
+      "options": [
+        "Dan prije roka",
+        "Samo kada hitno trebate novac",
+        "6–12 mjeseci prije nego što planirate aplicirati, kako biste izgradili partnerstva i pripremili se",
+        "Nakon što je poziv zatvoren"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koja balkanska zemlja ima najrazvijeniji sektor mikrofinansiranja?",
+      "options": [
+        "Hrvatska",
+        "Srbija",
+        "Bosna i Hercegovina",
+        "Crna Gora"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta je sufinansiranje u prijavama za grantove?",
+      "options": [
+        "Kada dvije banke finansiraju isti kredit",
+        "Dio projektnih troškova koji aplikanat mora pokriti iz vlastitih ili drugih izvora",
+        "Vrsta crowdfundinga",
+        "EU fondovi koje automatski uparuju nacionalne vlade"
+      ],
+      "correct": 1
+    }
+  ]
+}

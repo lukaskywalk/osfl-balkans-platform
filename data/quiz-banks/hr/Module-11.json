@@ -1,0 +1,106 @@
+{
+  "module": 11,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Što je IPA III?",
+      "options": [
+        "Talijanska marka piva",
+        "Glavni financijski instrument EU za zemlje kandidatkinje (instrument pretpristupne pomoći)",
+        "Vrsta investicijskog fonda",
+        "Hrvatski porezni zakon"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji EU program financira prekogranične obrazovne i projekte s mladima?",
+      "options": [
+        "Obzor Europa",
+        "LIFE",
+        "Erasmus+",
+        "COSME"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je najčešći razlog neuspjeha EU prijava?",
+      "options": [
+        "Projektna ideja je loša",
+        "Prijavitelj nije pročitao smjernice natječaja i prijedlog ne odgovara onome što se financira",
+        "Previše je konkurencije",
+        "EU fondovi idu samo velikim organizacijama"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je logički okvir (LogFrame)?",
+      "options": [
+        "Vrsta drvene konstrukcije",
+        "Strukturirana matrica koja povezuje projektne ciljeve, aktivnosti, pokazatelje i izvore provjere",
+        "Format proračuna",
+        "Obrazac za registraciju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Potpore IPARD-a funkcioniraju na principu nadoknade. To znači:",
+      "options": [
+        "Novac dobijete prije početka projekta",
+        "Troškove plaćate unaprijed, a naknađuju Vam se nakon dostave dokaza o plaćanju",
+        "Nikada zapravo ne primate novac",
+        "EU izravno plaća dobavljačima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je osiguralo uspjeh Marinina Erasmus+ prijedloga?",
+      "options": [
+        "Prijavila se u zadnji trenutak",
+        "Snažno prekogranično partnerstvo, jasni mjerljivi ciljevi, plan održivosti i pohađanje pripremne radionice",
+        "Imala je političke veze",
+        "Podnijela je najdužu prijavu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Teutina crowdfunding kampanja uspjela je primarno zato što:",
+      "options": [
+        "Nudila je jako skupe nagrade",
+        "Ciljala je albansku dijasporu s uvjerljivom pričom i profesionalnom prezentacijom",
+        "Prikupljala je novac samo od prijatelja i obitelji",
+        "Koristila je lokalnu albansku platformu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kada biste trebali početi pratiti prilike za potpore?",
+      "options": [
+        "Dan prije roka",
+        "Samo kada Vam hitno treba novac",
+        "6–12 mjeseci prije planiranog podnošenja prijave, kako biste izgradili partnerstva i pripremili se",
+        "Nakon što se natječaj zatvorio"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koja balkanska zemlja ima najrazvijeniji sektor mikrofinanciranja?",
+      "options": [
+        "Hrvatska",
+        "Srbija",
+        "Bosna i Hercegovina",
+        "Crna Gora"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što je sufinanciranje u prijavama za potpore?",
+      "options": [
+        "Kada dvije banke financiraju isti zajam",
+        "Dio projektnih troškova koji prijavitelj mora pokriti iz vlastitih ili drugih izvora",
+        "Vrsta skupnog financiranja",
+        "EU sredstva koja automatski usklađuju nacionalne vlade"
+      ],
+      "correct": 1
+    }
+  ]
+}

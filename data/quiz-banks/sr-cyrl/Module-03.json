@@ -1,0 +1,106 @@
+{
+  "module": 3,
+  "lang": "sr-cyrl",
+  "questions": [
+    {
+      "question": "Šta je EKS (Efektivna kamatna stopa)?",
+      "options": [
+        "Profitna margina banke na kreditu",
+        "Nominalna kamatna stopa minus naknade",
+        "Stvarna godišnja cena kredita uključujući sve naknade i troškove",
+        "Državni porez na zaduživanje"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je poređenje kredita po nominalnoj kamatnoj stopi pogrešno?",
+      "options": [
+        "Zato što su nominalne stope uvek netačne",
+        "Zato što ne uključuje naknade, osiguranje i druge troškove koji utiču na stvarnu cenu",
+        "Zato što banke izmišljaju nominalne stope",
+        "Zato što nominalne stope važe samo za stambene kredite"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Imate dugovanje od 234.000 RSD (2.000 EUR) na kreditnoj kartici sa 18% kamate. Plaćajući samo minimum, koliko će otprilike trajati otplata?",
+      "options": [
+        "2 godine",
+        "5 godina",
+        "10 godina",
+        "19+ godina"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Koja je ključna lekcija iz krize kredita u švajcarskim francima na Balkanu?",
+      "options": [
+        "Švajcarske banke su uvek najjeftinije",
+        "Nikada se ne zadužujte u valuti u kojoj ne zarađujete",
+        "Stambeni krediti uvek treba da budu sa promenljivom stopom",
+        "Država će Vas uvek spasiti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "U metodu lavine za otplatu duga, fokusirate višak uplata na:",
+      "options": [
+        "Najmanji dug prvo",
+        "Najnoviji kredit prvo",
+        "Dug sa najvišom kamatnom stopom prvo",
+        "Najveći dug prvo"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Kada trajno prekoračenje po tekućem računu postaje problem?",
+      "options": [
+        "Nikada — prekoračenje je besplatno",
+        "Kada svakog meseca ulazite i izlazite iz minusa, suštinski plaćajući kamatu samo da pristupite sopstvenoj plati",
+        "Samo ako prekoračite limit",
+        "Samo u zemljama koje koriste evro"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta treba da uradite PRVO ako ne možete da plaćate rate kredita?",
+      "options": [
+        "Ignorišete pozive banke i nadate se da će problem nestati",
+        "Uzmete još jedan kredit da pokrijete rate",
+        "Odmah kontaktirate banku i razgovarate o opcijama restrukturiranja",
+        "Napustite zemlju"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je preporučeni maksimalni procenat neto prihoda za ukupne mesečne otplate dugova?",
+      "options": [
+        "10%",
+        "30%",
+        "50%",
+        "75%"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Pre nego što pristanete da budete žirant, trebalo bi da:",
+      "options": [
+        "Ne brinete — žiranti nikada zaista ne moraju da plate",
+        "Žirirate samo za blisku porodicu, jer je to sigurno",
+        "Budete spremni i sposobni da sami platite celokupan kredit ako korisnik prestane da plaća",
+        "Samo brzo potpišete da izbegnete neprijatnost"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Konsolidacija duga je dobra ideja kada:",
+      "options": [
+        "Želite da pozajmite još novca povrh postojećih dugova",
+        "EKS novog kredita je niži I nećete koristiti oslobođene kreditne linije za novo zaduživanje",
+        "Želite da produžite dugove što je duže moguće",
+        "Vam banka predloži konsolidaciju bez obzira na uslove"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "module": 3,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Çfarë është NEI (Norma Efektive e Interesit)?",
+      "options": [
+        "Marzhi i fitimit të bankës mbi një kredi",
+        "Norma nominale e interesit minus tarifat",
+        "Kosto e vërtetë vjetore e një kredie duke përfshirë të gjitha tarifat dhe ngarkesat",
+        "Tatimi qeveritar mbi huamarrjen"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Pse është mashtruese krahasimi i kredive sipas normës nominale të interesit?",
+      "options": [
+        "Sepse normat nominale janë gjithmonë gabim",
+        "Sepse nuk përfshin tarifat, sigurimin dhe ngarkesat e tjera që ndikojnë në koston e vërtetë",
+        "Sepse bankat e sajojnë normën nominale",
+        "Sepse normat nominale janë vetëm për kreditë hipotekore"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ju keni një balancë karte krediti prej 210.000 ALL (≈ 2.000 EUR) me 18% interes. Duke paguar vetëm minimumin, përafërsisht sa kohë do t'Ju duhet për ta shlyer?",
+      "options": [
+        "2 vjet",
+        "5 vjet",
+        "10 vjet",
+        "19+ vjet"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Cili ishte mësimi kyç nga kriza e kredive në franga zvicerane në Ballkan?",
+      "options": [
+        "Bankat zvicerane janë gjithmonë më të lirat",
+        "Kurrë mos huazoni në një monedhë që nuk e fitoni",
+        "Kreditë hipotekore duhet të kenë gjithmonë normë të ndryshueshme",
+        "Qeveria gjithmonë do t'Ju shpëtojë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Në metodën e ortekut të shlyerjes së borxhit, pagesat shtesë përqendrohen te:",
+      "options": [
+        "Balanca më e vogël e para",
+        "Kredia më e re e para",
+        "Norma më e lartë e interesit e para",
+        "Balanca më e madhe e para"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Kur bëhet problem tejkalimi i përhershëm i llogarisë?",
+      "options": [
+        "Kurrë — tejkalimet janë falas",
+        "Kur hyni e dilni nga ai çdo muaj, duke paguar interes në thelb vetëm për të pasur qasje në pagën tuaj",
+        "Vetëm nëse kaloni kufirin",
+        "Vetëm në vendet që përdorin euron"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë duhet të bëni FILLIMISHT nëse nuk mund t'i bëni pagesat e kredisë?",
+      "options": [
+        "Injoroni thirrjet e bankës dhe shpresoni që do të kalojë",
+        "Merrni një kredi tjetër për të mbuluar pagesat",
+        "Kontaktoni bankën tuaj menjëherë për të diskutuar mundësitë e ristrukturimit",
+        "Largohuni nga vendi"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cila është përqindja maksimale e rekomanduar e të ardhurave neto për pagesat totale mujore të borxhit?",
+      "options": [
+        "10%",
+        "30%",
+        "50%",
+        "75%"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Para se të pranoni të jeni dorëzanës, duhet:",
+      "options": [
+        "Të mos shqetësoheni — dorëzanësve nuk u kërkohet kurrë të paguajnë",
+        "Të garantoni vetëm për familjen e ngushtë, gjë që e bën të sigurt",
+        "Të jeni të përgatitur dhe në gjendje ta paguani tërë kredinë vetë nëse huamarrësi nuk paguan",
+        "Thjesht të nënshkruani shpejt për të shmangur sikletin"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Konsolidimi i borxhit është ide e mirë kur:",
+      "options": [
+        "Doni të huazoni më shumë para mbi borxhet ekzistuese",
+        "NEI e kredisë së re është më e ulët DHE nuk do t'i përdorni linjat e liruara të kreditit për të huazuar më shumë",
+        "Doni t'i zgjatni borxhet tuaja sa më shumë kohë të jetë e mundur",
+        "Banka Juaj e sugjeron pavarësisht kushteve"
+      ],
+      "correct": 1
+    }
+  ]
+}

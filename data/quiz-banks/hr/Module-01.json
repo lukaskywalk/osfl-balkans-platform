@@ -1,0 +1,106 @@
+{
+  "module": 1,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Koje su tri funkcije novca?",
+      "options": [
+        "Štednja, potrošnja, investiranje",
+        "Sredstvo razmjene, čuvar vrijednosti, obračunska jedinica",
+        "Zarađivanje, posuđivanje, oporezivanje",
+        "Zlato, srebro, papir"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja balkanska država koristi euro kao službena članica eurozone?",
+      "options": [
+        "Crna Gora",
+        "Srbija",
+        "Hrvatska",
+        "Albanija"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Za što je vezana konvertibilna marka (BAM)?",
+      "options": [
+        "Američki dolar",
+        "Švicarski franak",
+        "Euro",
+        "Srpski dinar"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Kako poslovne banke primarno zarađuju?",
+      "options": [
+        "Tiskanjem valute",
+        "Naplaćivanjem razlike između kamatnih stopa na kredite i depozite",
+        "Ubiranje poreza u ime države",
+        "Prodajom zlata"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je „bankarstvo s djelomičnim rezervama\"?",
+      "options": [
+        "Banke drže sve depozite zaključane u trezoru",
+        "Banke drže samo dio depozita u rezervi, a ostatak posuđuju",
+        "Banke rade samo pola radnog vremena",
+        "Banke dijele svaki depozit jednako između štednje i tekućeg računa"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliki je limit osiguranja depozita u Hrvatskoj?",
+      "options": [
+        "50.000 EUR",
+        "75.000 EUR",
+        "100.000 EUR",
+        "250.000 EUR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako imate 80.000 EUR štednje u Srbiji (gdje osiguranje pokriva 50.000 EUR), koji je najsigurniji pristup?",
+      "options": [
+        "Držati sve u jednoj banci — država će sve pokriti",
+        "Pretvoriti u gotovinu i držati kod kuće",
+        "Podijeliti na dvije banke tako da je svaki depozit ispod limita osiguranja",
+        "Sve uložiti u kriptovalutu"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što od navedenog vaša banka NIKADA neće legitimno tražiti od vas?",
+      "options": [
+        "Posjet poslovnici za ažuriranje osobnih podataka",
+        "Dijeljenje lozinke za internetsko bankarstvo putem e-pošte",
+        "Predočenje osobne iskaznice pri otvaranju novog računa",
+        "Potpis dokumenata za novi proizvod koji ste zatražili"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što biste trebali PRVO provjeriti kod usporedbe banaka za novi tekući račun?",
+      "options": [
+        "Boju debitne kartice",
+        "Mjesečne naknade, pristup bankomatima i kvalitetu digitalnog bankarstva",
+        "Ima li banka lijepu zgradu",
+        "Samo kamatnu stopu na kredite"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Crna Gora koristi euro. Znači li to da je Crna Gora članica eurozone?",
+      "options": [
+        "Da, Crna Gora je punopravna članica eurozone",
+        "Ne — Crna Gora je jednostrano usvojila euro i nema mjesto u Europskoj središnjoj banci",
+        "Crna Gora koristi i euro i vlastitu valutu",
+        "Crna Gora je dio eurozone, ali s ograničenim pravima"
+      ],
+      "correct": 1
+    }
+  ]
+}

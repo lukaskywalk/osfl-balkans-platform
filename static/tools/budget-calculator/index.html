@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Budget Calculator — OSFL Balkans</title>
   <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/tool-i18n.js"></script>
   <style>
     .expense-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
     .expense-row input[type="text"] { flex: 2; }
@@ -56,5 +57,18 @@
   </div>
 </main>
 <script src="calculator.js"></script>
+<script>
+// Apply i18n labels after DOM loads
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof toolI18n === 'undefined') return;
+  var t = toolI18n.t.bind(toolI18n);
+  var el = document.getElementById('income');
+  if (el) el.closest('.form-group').querySelector('label').textContent = t('income');
+  var addBtn = document.querySelector('[onclick="addRow()"]');
+  if (addBtn) addBtn.textContent = t('add_expense');
+  var calcBtn = document.querySelector('[onclick="calculate()"]');
+  if (calcBtn) calcBtn.textContent = t('calculate');
+});
+</script>
 </body>
 </html>

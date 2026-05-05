@@ -1,0 +1,106 @@
+{
+  "module": 11,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Sta је IPA III?",
+      "options": [
+        "Italijanska marka piva",
+        "Glavni finansijski instrument EU za drzave kandidate (predpristupna pomoc)",
+        "Vrsta investicionog fonda",
+        "Hrvatski poreski zakon"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji EU program finansira prekogranicne obrazovne projekte i projekte za mlade?",
+      "options": [
+        "Horizon Europe",
+        "LIFE",
+        "Erasmus+",
+        "COSME"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji је najcesci razlog neuspjeha EU grant prijava?",
+      "options": [
+        "Projektna ideja је losa",
+        "Aplikant nije procitao smjernice poziva i prijedlog ne odgovara onome sto se finansira",
+        "Ima previse konkurencije",
+        "EU fondovi idu samo velikim organizacijama"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta је logicki okvir (LogFrame)?",
+      "options": [
+        "Vrsta drvene konstrukcije",
+        "Strukturirana matrica koja povezuje ciljeve projekta, aktivnosti, indikatore i izvore verifikacije",
+        "Format budzeta",
+        "Obrazac za registraciju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "IPARD grantovi rade na bazi naknade. To znaci:",
+      "options": [
+        "Dobijate novac prije pocetka projekta",
+        "Placate troskove unaprijed i naknadjuju Vas nakon sto dostavite dokaze o rashodima",
+        "Nikad zapravo ne primite novac",
+        "EU direktno placa dobavljacima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta је dovelo do uspjeha Marine u prijavi za Erasmus+?",
+      "options": [
+        "Aplicirala је u zadnjem casu",
+        "Snazno prekogranično partnerstvo, jasni mjerljivi ciljevi, plan odrzivosti i prisustvo pripremnoj radionici",
+        "Imala је politicke veze",
+        "Podnijela је najduzu prijavu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Teutina crowdfunding kampanja је uspjela primarno zato sto:",
+      "options": [
+        "Ponudila је veoma skupe nagrade",
+        "Ciljala је albansku dijasporu uvjerljivom pricom i profesionalnom prezentacijom",
+        "Prikupljala је novac samo od prijatelja i porodice",
+        "Koristila је lokalnu albansku platformu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kada trebate poceti pratiti grant prilike?",
+      "options": [
+        "Dan prije roka",
+        "Samo kada Vam hitno treba novac",
+        "6–12 meseci prije nego planirate aplicirati, kako biste izgradili partnerstva i pripremili se",
+        "Nakon sto se poziv zatvori"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koja balkanska drzava ima najrazvijeniji sektor mikrofinansiranja?",
+      "options": [
+        "Hrvatska",
+        "Srbija",
+        "Bosna i Hercegovina",
+        "Crna Gora"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Sta је sufinansiranje u grant prijavama?",
+      "options": [
+        "Kada dvije banke finansiraju isti zajam",
+        "Dio troskova projekta koji aplikant mora pokriti iz vlastitih ili drugih izvora",
+        "Vrsta crowdfundinga",
+        "EU fondovi koji se automatski uskladjuju s nacionalnim vladama"
+      ],
+      "correct": 1
+    }
+  ]
+}

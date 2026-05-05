@@ -1,0 +1,106 @@
+{
+  "module": 8,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Ako Vaša banka ne riješi Vaš prigovor, koji je sljedeći korak?",
+      "options": [
+        "Odustanite — ne možete ništa učiniti",
+        "Eskalirajte prigovor financijskom regulatoru (HNB ili HANFA)",
+        "Objavite ljutite komentare na društvenim mrežama",
+        "Odmah angažirajte odvjetnika"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je „rok za odustajanje\"?",
+      "options": [
+        "Vrijeme koje banci treba za obradu Vašeg zahtjeva",
+        "Razdoblje (obično 14 dana) u kojem možete otkazati financijski proizvod bez penala",
+        "Vrijeme između potpisivanja ugovora i početka plaćanja",
+        "Čekanje prije nego pokriće osiguranja počne vrijediti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja je ključna pouka iz Aninog slučaja s osiguranjem od potresa?",
+      "options": [
+        "Osiguranje od potresa uvijek je uključeno u standardno osiguranje doma",
+        "Uvijek trebate pročitati isključenosti u polici osiguranja — standardno pokriće možda ne uključuje rizik s kojim se suočavate",
+        "Osiguravajuća društva uvijek isplaćuju štete",
+        "Potresi se ne događaju u Hrvatskoj"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prodavač kaže „ne trebate čitati cijeli ugovor, samo potpišite ovdje.\" Što biste trebali učiniti?",
+      "options": [
+        "Vjerovati mu i brzo potpisati",
+        "Potpisati, ali napisati „pod prigovorom\" pored potpisa",
+        "Odnijeti ugovor kući, pročitati ga u cijelosti i postaviti pitanja o svemu nejasnom",
+        "Zamoliti prijatelja da potpiše umjesto Vas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što je franšiza u osiguranju?",
+      "options": [
+        "Ukupna godišnja premija koju plaćate",
+        "Iznos koji plaćate iz vlastitog džepa prije nego osiguravajuće društvo počne pokrivati troškove",
+        "Popust za vjerne klijente",
+        "Maksimalni iznos koji će osiguravatelj isplatiti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Milan je otkrio da mu banka naplaćuje 3 EUR mjesečno za uslugu koju nikada nije zatražio. Ukupno za 28 mjeseci bilo je 84 EUR. Kako je riješeno?",
+      "options": [
+        "Prihvatio je početnu ponudu banke za povrat 3 mjeseca",
+        "Podnio je prigovor HNB-u, što je dovelo do punog povrata jer banka nije mogla dokazati pristanak",
+        "Morao je ići na sud",
+        "Nikada nije riješeno"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje su vrste osiguranja OBVEZNE u Hrvatskoj?",
+      "options": [
+        "Životno osiguranje i putno osiguranje",
+        "Zdravstveno osiguranje (putem obveznih doprinosa) i osiguranje od automobilske odgovornosti (AO) za vlasnike vozila",
+        "Osiguranje doma i osiguranje kućnih ljubimaca",
+        "Sve vrste osiguranja su obvezne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što biste trebali PRVO provjeriti kada uspoređujete police osiguranja?",
+      "options": [
+        "Samo premiju (najjeftinije je najbolje)",
+        "Boju kartice osiguranja",
+        "Pokriće, isključenosti, franšizu, limit pokrića I premiju — sve zajedno",
+        "Je li agent ljubazan"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je osiguranje doma/imovine posebno važno u Hrvatskoj?",
+      "options": [
+        "Zakonski je obvezno svugdje",
+        "Regija se suočava sa značajnim rizicima od potresa i poplava — nedavni događaji (Zagreb i Petrinja 2020.) to pokazuju, a standardne police često NE uključuju potresno pokriće bez dodatka",
+        "Besplatno je u Hrvatskoj",
+        "Vrijednosti nekretnina nikada ne padaju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako financijski ugovor kaže „pružatelj zadržava pravo promjene svih uvjeta u bilo kojem trenutku bez prethodne obavijesti,\" to je:",
+      "options": [
+        "Potpuno normalno i prihvatljivo",
+        "Upozoravajući znak — potencijalno nepravičan ugovorni uvjet koji može biti neprovediv prema EU pravu zaštite potrošača",
+        "Problem samo ako posuđujete novac",
+        "Nešto što treba ignorirati jer ne možete to promijeniti"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "module": 10,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Što znači „rebalansiranje\" u upravljanju portfeljem?",
+      "options": [
+        "Prodati sva ulaganja i početi iznova",
+        "Uskladiti portfelj s ciljanom alokacijom prodajom nadmašivača i kupnjom slabije performantnih ulaganja",
+        "Ulagati samo u uravnotežene fondove",
+        "Svakodnevno provjeravati stanje portfelja"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Primjenom pravila 4%, koliko Vam treba uloženo da biste sigurno povlačili 500 EUR/mj. u mirovini?",
+      "options": [
+        "50.000 EUR",
+        "100.000 EUR",
+        "150.000 EUR",
+        "300.000 EUR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "U Hrvatskoj, kapitalni dobitak na vrijednosnice je izuzet od poreza nakon koliko dugo držanja?",
+      "options": [
+        "6 mjeseci",
+        "1 godinu",
+        "2 godine",
+        "5 godina"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je hrvatski III. stup dobrovoljne mirovine jedno od prvih i najboljih ulaganja?",
+      "options": [
+        "Jamči prinos od 20%",
+        "Država dodaje 15% potpore na uplate do 5.000 EUR/godišnje — učinkovito besplatan novac",
+        "Bez je rizika i likvidan",
+        "Zamjenjuje državnu mirovinu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dva Zoranova iznajmljena stana donijela su kombinirani neto prinos od:",
+      "options": [
+        "10%",
+        "7%",
+        "2,3%",
+        "0%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je najvažniji čimbenik Milinog investicijskog uspjeha?",
+      "options": [
+        "Iznos koji ulaže",
+        "Odabir pravih dionica",
+        "Vrijeme — početak ulaganja sa 22 godine daje složenoj kamati 40 godina da djeluje",
+        "Živjeti u Sjevernoj Makedoniji"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Za većinu balkanskih investitora, što bi trebalo biti „jezgra\" njihovog investicijskog portfelja?",
+      "options": [
+        "100% lokalne balkanske dionice",
+        "100% bankovni depoziti",
+        "70–80% globalni diversificirani fondovi/ETF-ovi",
+        "100% nekretnine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koje troškove amaterski iznajmljivači najčešće potcjenjuju?",
+      "options": [
+        "Kupovnu cijenu nekretnine",
+        "Praznu nekretninu, održavanje, naknade za upravljanje i porez na prihod od najma",
+        "Kamate na hipoteku",
+        "Samo troškove namještaja"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Akumulacijski fond je porezno učinkovit jer:",
+      "options": [
+        "Ne naplaćuje naknade za upravljanje",
+        "Interno reinvestira dividende, izbjegavajući godišnji porez na dividende — porez plaćate tek kada prodate",
+        "Nikada ne ostvaruje prinos",
+        "Dostupan je samo u poreznim oazama"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Početak ulaganja za mirovinu sa 25 nasuprot 40 godina znači da Vam je potrebno otprilike:",
+      "options": [
+        "Isti mjesečni iznos",
+        "Polovica mjesečnog iznosa",
+        "Trećina mjesečnog iznosa (ili manje) zbog toga što složena kamata ima više vremena za djelovanje",
+        "Dvostruki mjesečni iznos"
+      ],
+      "correct": 2
+    }
+  ]
+}

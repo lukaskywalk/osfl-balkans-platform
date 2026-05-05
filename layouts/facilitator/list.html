@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="facilitator-page">
+  <h1>{{ i18n "facilitator_title" }}</h1>
+  <p style="color:var(--color-muted);margin:12px 0 36px">{{ i18n "facilitator_intro" }}</p>
+
+  <div class="resource-grid">
+
+    <div class="resource-card">
+      <h3>📋 {{ i18n "facilitator_guides" }}</h3>
+      <p>{{ i18n "path_foundation_desc" }}</p>
+      <a href="{{ "/modules/" | relLangURL }}" class="btn-primary" style="font-size:0.875rem;padding:7px 16px">{{ i18n "cta_modules" }}</a>
+    </div>
+
+    <div class="resource-card">
+      <h3>📄 {{ i18n "facilitator_worksheets" }}</h3>
+      <p>{{ i18n "path_foundation_desc" }}</p>
+      <a href="/worksheets/" class="btn-primary" style="font-size:0.875rem;padding:7px 16px">{{ i18n "facilitator_worksheets" }}</a>
+    </div>
+
+    <div class="resource-card">
+      <h3>🗓️ {{ i18n "facilitator_sessions" }}</h3>
+      <p>{{ i18n "path_intermediate_desc" }}</p>
+      <a href="{{ "/modules/" | relLangURL }}" class="btn-primary" style="font-size:0.875rem;padding:7px 16px">{{ i18n "cta_modules" }}</a>
+    </div>
+
+  </div>
+
+  <div style="margin-top:48px;padding:24px;background:#f8f9fa;border-radius:6px;border:1px solid #ddd">
+    <h2 style="font-size:1.1rem;margin-bottom:12px">{{ i18n "modules" }}</h2>
+    <ul style="list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
+      {{ range where .Site.Pages "Params.module_number" "ne" nil }}
+      {{ if eq .Language.Lang $.Language.Lang }}
+      <li><a href="{{ .RelPermalink }}" style="font-size:0.875rem">
+        {{ i18n "module" }} {{ .Params.module_number }} — {{ .Title }}
+      </a></li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

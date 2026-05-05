@@ -1,0 +1,106 @@
+{
+  "module": 8,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Nëse banka juaj nuk e zgjidh ankesën tuaj, cili është hapi tjetër?",
+      "options": [
+        "Hiqni dorë — nuk ka asgjë që mundeni të bëni",
+        "Përshkallëzoni te rregullatori financiar (BSH për banka, AMF për sigurime)",
+        "Publikoni komente të zemëruara në rrjetet shoqërore",
+        "Punësoni menjëherë një avokat"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë është «periudha e tërheqjes»?",
+      "options": [
+        "Koha që banka merr për të përpunuar aplikimin tuaj",
+        "Një periudhë (zakonisht 14 ditë) gjatë së cilës mundeni të anuloni një produkt financiar pa gjobë",
+        "Koha ndërmjet nënshkrimit të kontratës dhe fillimit të pagesave",
+        "Një periudhë pritjeje para se mbulimi i sigurimit të fillojë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili ishte mësimi kyç nga rasti i sigurimit të tërmetit i Anës?",
+      "options": [
+        "Sigurimi i tërmetit përfshihet gjithmonë në sigurimin standard të pronës",
+        "Duhet të lexoni gjithmonë përjashtimet e policës suaj të sigurimit — mbulimi standard mund të mos përfshijë rrezikun me të cilin përballeni",
+        "Shoqëritë e sigurimit gjithmonë paguajnë kërkesat",
+        "Tërmete nuk ndodhin në Shqipëri"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Një shitës thotë «nuk keni nevojë ta lexoni tërë kontratën, thjesht nënshkruani këtu». Çfarë duhet të bëni?",
+      "options": [
+        "Besojini dhe nënshkruani shpejt",
+        "Nënshkruani por shkruani «nën protestë» pranë nënshkrimit tuaj",
+        "Merreni kontratën në shtëpi, lexojeni plotësisht dhe bëni pyetje rreth çfarëdo gjëje të paqartë",
+        "Kërkoni një miku ta nënshkruajë për Ju"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë është vetë-pagesa (zbritja) në sigurim?",
+      "options": [
+        "Primi total vjetor që paguani",
+        "Shuma që paguani nga xhepi para se shoqëria e sigurimit fillon të mbulojë kostot",
+        "Zbritje për klientë besnikë",
+        "Maksimumi që siguruësi do të paguajë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Arbeni zbuloi se banka e kishte tarifuar 315 ALL në muaj për një shërbim që nuk e kishte kërkuar kurrë. Gjithsej gjatë 28 muajsh ishte 8.820 ALL. Si u zgjidh?",
+      "options": [
+        "Ai pranoi ofertën fillestare të bankës për rimbursim 3-mujor",
+        "Ai paraqiti ankesë te rregullatori BSH, i cili çoi në rimbursim të plotë pasi banka nuk mund të provonte pëlqimin",
+        "Ai duhej të shkonte në gjykatë",
+        "Nuk u zgjidh kurrë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cilat lloje sigurimi janë TË DETYRUESHME në Shqipëri?",
+      "options": [
+        "Sigurimi i jetës dhe sigurimi i udhëtimit",
+        "Sigurimi shëndetësor (nëpërmjet kontributeve shoqërore) dhe sigurimi i përgjegjësisë së automjetit (TPL) për zotëruesit e automjeteve",
+        "Sigurimi i pronës dhe sigurimi i kafshëve shtëpiake",
+        "Të gjitha llojet e sigurimit janë të detyrueshme"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë duhet të kontrolloni FILLIMISHT kur krahasoni policat e sigurimit?",
+      "options": [
+        "Vetëm primin (më e lira është më e mira)",
+        "Ngjyrën e kartës së sigurimit",
+        "Mbulimin, përjashtimet, vetë-pagesën, kufirin e mbulimit DHE primin — të gjitha bashkë",
+        "Nëse agjenti është i sjellshëm"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Pse sigurimi i pronës/shtëpisë është veçanërisht i rëndësishëm në Shqipëri?",
+      "options": [
+        "Është ligjërisht i detyrueshëm kudo",
+        "Vendi përballet me rreziqe të rëndësishme tërmeti dhe përmbytjeje — ngjarjet e fundit (tërmeti i 2019 në Durrës/Thumanë, përmbytjet e Shkodrës) e vërtetojnë këtë",
+        "Është falas në shumicën e vendeve",
+        "Vlerat e pronave nuk bien kurrë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Nëse një kontratë financiare thotë «ofruësi rezervon të drejtën të ndryshojë të gjitha kushtet në çdo kohë pa njoftim», kjo është:",
+      "options": [
+        "Krejtësisht normale dhe e pranueshme",
+        "Sinjal paralajmërues — potencialisht kusht i padrejtë kontraktual që mund të jetë i pazbatueshëm",
+        "Problem vetëm nëse po merrni hua",
+        "Diçka për ta injoruar sepse nuk mundeni ta ndryshoni"
+      ],
+      "correct": 1
+    }
+  ]
+}

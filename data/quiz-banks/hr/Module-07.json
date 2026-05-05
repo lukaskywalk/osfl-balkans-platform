@@ -1,0 +1,106 @@
+{
+  "module": 7,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Banka Vam šalje SMS u kojem traži da kliknete na link i potvrdite identitet. Što trebate učiniti?",
+      "options": [
+        "Kliknuti na link i unijeti podatke — banka treba potvrditi Vaš identitet",
+        "Ignorirati poruku — banke nikada ne traže potvrdu identiteta putem SMS linkova. Ako ste zabrinuti, nazovite banku izravno.",
+        "Odgovoriti na SMS s brojem računa",
+        "Proslijediti poruku svim kontaktima kao upozorenje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Netko Vas nazove tvrdeći da je iz odjela za prevenciju prijevara Vaše banke i traži da mu pročitate SMS kod koji ste upravo primili. Što se događa?",
+      "options": [
+        "Banka štiti Vaš račun",
+        "Prevara je — pokušavaju ukrasti Vaš 2FA kod da bi odobrili lažnu transakciju",
+        "Kod je ionako istekao, pa je sigurno podijeliti ga",
+        "Trebate ga podijeliti jer oni već znaju Vaš račun"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji je glavni skriveni trošak u međunarodnim doznakama?",
+      "options": [
+        "Naknada za prijenos",
+        "Tečajna marža — razlika između tečaja koji dobivate i stvarnog srednjeg tečaja",
+        "Vrijeme koje treba",
+        "Ispis potvrde"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što mobilna plaćanja (Google Pay/Apple Pay) čini SIGURNIJIMA od fizičkog plaćanja karticom?",
+      "options": [
+        "Koriste Vaš stvarni broj kartice na svakom terminalu",
+        "Koriste token umjesto Vašeg stvarnog broja kartice, pa se Vaši podaci nikada ne dijele s trgovcem",
+        "Ne zahtijevaju nikakvu provjeru",
+        "Funkcioniraju samo u Vašoj matičnoj zemlji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je SIM swap napad?",
+      "options": [
+        "Kada nadograđujete telefon",
+        "Kriminalac uvjeri Vašeg mobilnog operatera da prebaci Vaš broj na njihovu SIM karticu, presrećući Vaše SMS kodove",
+        "Kada Vašem telefonu ponestane memorije",
+        "Prebacivanje između dviju SIM kartica u telefonu s dualnim SIM-om"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "„Kupi sada, plati poslije\" (BNPL) je:",
+      "options": [
+        "Besplatan novac bez rizika",
+        "I dalje oblik duga koji može dovesti do pretjeranog trošenja i naknada za kašnjenje",
+        "Dostupno samo u EU",
+        "Štedni proizvod"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prije korištenja fintech aplikacije za Vaš novac, trebate provjeriti:",
+      "options": [
+        "Samo koliko lijepo izgleda dizajn aplikacije",
+        "Je li regulirana, gdje se drže depoziti, jesu li osigurani i kakva je stvarna struktura naknada",
+        "Koliko preuzimanja ima",
+        "Koriste li je Vaši prijatelji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Darko je uštedio ~420 EUR godišnje prelaskom sa SWIFT prijenosa na SEPA prijenos nakon što je Hrvatska uvela euro. Najveća ušteda proizašla je iz:",
+      "options": [
+        "Brže brzine prijenosa",
+        "Boljeg dizajna aplikacije",
+        "Eliminacije tečajne marže, posredničkih naknada i naknada za primanje",
+        "Korištenja druge valute"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koja je tvrdnja o kriptovalutama TOČNA?",
+      "options": [
+        "Kripto ulaganja su osigurana kao bankarski depoziti",
+        "Dobici od kriptovaluta nisu oporezivi u Hrvatskoj",
+        "Bitcoin je padao 50–80% više puta — ekstremna volatilnost je uobičajena",
+        "Kripto transakcije se mogu poništiti ako pogriješite"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako ste prevareni online, što trebate učiniti PRVO?",
+      "options": [
+        "Objaviti o tome na društvenim mrežama",
+        "Odmah kontaktirati banku da blokirate kartice i zamrznete račune",
+        "Pričekati nekoliko dana da vidite hoće li se novac vratiti",
+        "Obrisati poruke prevaranta i zaboraviti na to"
+      ],
+      "correct": 1
+    }
+  ]
+}

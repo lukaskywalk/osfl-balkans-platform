@@ -1,0 +1,106 @@
+{
+  "module": 1,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Cila nga këto NUK është funksion i parasë?",
+      "options": [
+        "Mjet shkëmbimi",
+        "Njësi matëse e vlerës",
+        "Burim fitimi i garantuar",
+        "Ruajtëse e vlerës"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cila është monedha zyrtare e Shqipërisë?",
+      "options": [
+        "Euro (EUR)",
+        "Dinari (RSD)",
+        "Leku shqiptar (ALL)",
+        "Marka e konvertueshme (BAM)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë lloj kursi këmbimi ka leku shqiptar?",
+      "options": [
+        "Kurs i fiksuar ndaj euros",
+        "Kurs i lirë (lundrues)",
+        "Kurs i fiksuar ndaj dollarit",
+        "Leku nuk ka kurs këmbimi"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili institucion është banka qendrore e Shqipërisë?",
+      "options": [
+        "ASD",
+        "AMF",
+        "BSH (Banka e Shqipërisë)",
+        "BKT"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Si fitojnë kryesisht bankat tregtare?",
+      "options": [
+        "Duke shitur kartëmonedha",
+        "Nga diferenca midis interesit të depozitave dhe interesit të kredive",
+        "Duke prodhuar para të reja",
+        "Nga taksat qeveritare"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë do të thotë \"bankim me rezervë të pjesshme\"?",
+      "options": [
+        "Banka mban gjysmën e parave tuaja dhe gjysmën tjetër e dërgon jashtë shtetit",
+        "Banka mban vetëm një pjesë të depozitave si rezervë dhe pjesën tjetër e jep kredi",
+        "Banka mban paratë vetëm gjysmën e kohës",
+        "Vetëm gjysma e bankave punojnë me rezerva"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sa është kufiri i sigurimit të depozitave në Shqipëri (nga ASD)?",
+      "options": [
+        "500.000 ALL",
+        "1.000.000 ALL",
+        "2.500.000 ALL",
+        "5.000.000 ALL"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cili është ndryshimi kryesor midis kartës së debitit dhe kartës së kreditit?",
+      "options": [
+        "Karta e debitit përdoret vetëm jashtë vendit",
+        "Karta e debitit tërheq para drejtpërdrejt nga llogaria juaj, ndërsa karta e kreditit Ju lejon të shpenzoni në borxh",
+        "Karta e kreditit nuk ka interes kurrë",
+        "Nuk ka ndryshim, janë e njëjta gjë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cilat dy vende të Ballkanit Perëndimor përdorin euron si monedhë zyrtare?",
+      "options": [
+        "Shqipëria dhe Serbia",
+        "Kosova dhe Mali i Zi",
+        "Maqedonia e Veriut dhe Bosnja",
+        "Serbia dhe Kosova"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë duhej të bënte Besniku (nga rasti i studimit) me kursimet e tij prej 3.000.000 ALL për t'i mbrojtur plotësisht?",
+      "options": [
+        "T'i mbajë tërë paratë në shtëpi",
+        "T'i vendosë tërë shumën në një bankë të vetme",
+        "T'i shpërndajë në dy ose më shumë banka, në mënyrë që secila depozitë të jetë brenda kufirit të ASD-së (2.500.000 ALL)",
+        "T'i investojë në skema me kthime të larta"
+      ],
+      "correct": 2
+    }
+  ]
+}

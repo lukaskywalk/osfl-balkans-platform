@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Business Structure Comparator — OSFL Balkans</title>
   <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/tool-i18n.js"></script>
   <style>
     .question { margin-bottom: 20px; }
     .question p { font-weight: 600; margin-bottom: 8px; }
@@ -63,5 +64,15 @@
   <div id="result" style="display:none"></div>
 </main>
 <script src="comparator.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof toolI18n === 'undefined') return;
+  var t = toolI18n.t.bind(toolI18n);
+  var compareBtn = document.querySelector('[onclick="compare()"]');
+  if (compareBtn) compareBtn.textContent = t('compare');
+  var countryLbl = document.querySelector('label[for="country"]');
+  if (countryLbl) countryLbl.textContent = t('country');
+});
+</script>
 </body>
 </html>

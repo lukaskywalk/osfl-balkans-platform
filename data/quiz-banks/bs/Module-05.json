@@ -1,0 +1,106 @@
+{
+  "module": 5,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Koja je glavna razlika između štednje i investiranja?",
+      "options": [
+        "Štednja je za bogate ljude, investiranje je za sve",
+        "Štednja čuva kapital uz nizak rizik; investiranje teži rastu uz veći rizik",
+        "Nema razlike",
+        "Investiranje je uvijek bolje od štednje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prije nego što počnete investirati, trebali biste imati:",
+      "options": [
+        "Najmanje 50.000 EUR u banci",
+        "Univerzitetsku diplomu iz finansija",
+        "Fond za hitne slučajeve, bez visokokamatnog duga i dugi vremenski horizont",
+        "Prijatelja koji radi u banci"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta je diversifikacija?",
+      "options": [
+        "Investiranje svog novca u najprofitabilniju dionicu",
+        "Raspodjela investicija na različitu imovinu radi smanjenja rizika",
+        "Mijenjanje investicija svake sedmice",
+        "Investiranje samo u vlastitu zemlju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zašto se niskobudžetni indeksni fondovi preporučuju za većinu individualnih investitora?",
+      "options": [
+        "Garantiraju najviše prinose",
+        "Pružaju široku diversifikaciju uz vrlo niske naknade, a većina aktivnih menadžera ne uspijeva ih dugoročno nadmašiti",
+        "Dostupni su samo bogatim investitorima",
+        "Bez su rizika"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje berze funkcionišu u Bosni i Hercegovini?",
+      "options": [
+        "Samo Zagrebačka berza",
+        "Sarajevska berza (SASE) u FBiH i Banjalučka berza (BLSE) u RS-u",
+        "Londonska berza",
+        "BiH nema berzu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "DCA (prosječenje troškova) znači:",
+      "options": [
+        "Konvertovanje svog novca u dolare i eure",
+        "Investiranje fiksnog iznosa u redovnim intervalima, bez obzira na tržišnu cijenu",
+        "Kupovanje samo kada su cijene na najnižem nivou",
+        "Usrednjavanje prinosa tokom više godina"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je TER i zašto je važan?",
+      "options": [
+        "Porezna stopa na investicije — određuje porezni razred",
+        "Godišnja naknada fonda — čak i male razlike se kumuliraju u velike iznose tokom decenija",
+        "Mjera rizika — veći TER znači veći rizik",
+        "Ukupni ostvareni prinos — što veći, to bolji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji od navedenih je UPOZORAVAJUĆI SIGNAL investicijske prevare?",
+      "options": [
+        "Kompanija je regulisana od strane nadležnog finansijskog tijela",
+        "Očekivani prinosi od 5–8% godišnje",
+        "„Zagarantovanih 20% mjesečnih prinosa, bez rizika\"",
+        "Fond objavljuje kvartalne izvještaje o svom portfoliju"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nikola je izgubio 50% svoje investicije. Koja je bila njegova najveća greška?",
+      "options": [
+        "Uopće investiranje u dionice",
+        "Korištenje međunarodnog brokera",
+        "Investiranje fonda za hitne slučajeve, koncentracija u nekoliko pozicija i trgovanje na osnovu savjeta s društvenih mreža",
+        "Nedovoljno investiranog novca"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako imate 25 godina, stabilan posao, fond za hitne slučajeve od 3 mjeseca, bez visokokamatnog duga i investicijski horizont od 30 godina, koji investitorski profil Vam najbolje odgovara?",
+      "options": [
+        "Konzervativni (80% obveznice)",
+        "Balansirani (50/50)",
+        "Investitor rasta (80–90% dionički fondovi)",
+        "Trebali biste čekati do 40. godine da investirate"
+      ],
+      "correct": 2
+    }
+  ]
+}

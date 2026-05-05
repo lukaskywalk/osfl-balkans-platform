@@ -1,0 +1,106 @@
+{
+  "module": 4,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Koja je osnovna razlika izmedju proste i slozene kamate?",
+      "options": [
+        "Prosta kamata se placa mjesecno, slozena godisnje",
+        "Prosta kamata se obracunava samo na glavnicu; slozena kamata se obracunava na glavnicu plus prethodno zaradjenu kamatu",
+        "Nema razlike — to je isti pojam",
+        "Prosta kamata se primjenjuje na kredite, slozena na stednju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koristeci Pravilo 72, otprilike koliko vremena je potrebno da se Vas novac udvostruci pri kamatnoj stopi od 3%?",
+      "options": [
+        "3 godine",
+        "12 godina",
+        "24 godine",
+        "72 godine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako je inflacija 5% a Vas stedni racun placa 2%, kolika je Vasa realna kamatna stopa?",
+      "options": [
+        "+7%",
+        "+3%",
+        "-3%",
+        "+2%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Đe treba cuvati fond za hitne slucajeve?",
+      "options": [
+        "Na orocenom depozitu na 2 godine",
+        "Pod jastukom kod kuce",
+        "Na a vista stednom racunu dostupnom u roku od 24 sata",
+        "U akcijama radi maksimalnog rasta"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je preporuceni pocetni cilj fonda za hitne slucajeve?",
+      "options": [
+        "50 EUR",
+        "1 mjesec osnovnih troskova",
+        "1 godina primanja",
+        "Koliki god je bankarski minimum"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta znaci „prvo platite sebi\"?",
+      "options": [
+        "Prvo trositi na sebe prije placanja racuna",
+        "Odmah izdvojiti stednju cim dobijete platu, prije ostale potrosnje",
+        "Prvo otplatiti sve dugove pa tek onda stediti",
+        "Uvijek koristiti gotovinu umjesto kartica"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Izazov 52 sedmice bi Vam pomogao da ustedite otprilike koliko za jednu godinu?",
+      "options": [
+        "52 EUR",
+        "520 EUR",
+        "1.378 EUR",
+        "5.200 EUR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zasto je „stednja pod jastukom\" losa strategija, cak i u evrima?",
+      "options": [
+        "Jer je evro nestabilna valuta",
+        "Jer inflacija tiho smanjuje kupovnu moc gotovine, a nemate nikakvo osiguranje ni kamatu",
+        "Jer je u Crnoj Gori nezakonito drzati gotovinu kod kuce",
+        "Jer banke naplacuju kaznu za drzanje gotovine"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dragan je cuvao 11.000 EUR u gotovini kod kuce 14 godina. Sta se desilo sa realnom vrijednoscu?",
+      "options": [
+        "Porasla je jer je gotovina najsigurnija opcija",
+        "Ostala je potpuno ista",
+        "Izgubila je otprilike 35–40% kupovne moci usljed inflacije",
+        "Udvostrucila se zahvaljujuci deflaciji"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zasto je poceti stediti sa 22 godine znatno bolje od pocetka sa 32 godine, cak i sa manjim iznosima?",
+      "options": [
+        "Jer banke nude bolje stope mladjim ljudima",
+        "Jer slozena kamata ima vise vremena da djeluje — vrijeme je mocnije od iznosa",
+        "Jer mladi ljudi imaju manje troskova",
+        "Jer inflacija utice samo na stednju starijih ljudi"
+      ],
+      "correct": 1
+    }
+  ]
+}

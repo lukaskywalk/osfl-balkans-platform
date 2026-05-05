@@ -1,0 +1,106 @@
+{
+  "module": 7,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Vaša banka Vam šalje SMS u kojem Vas traži da kliknete na link i potvrdite identitet. Šta trebate uraditi?",
+      "options": [
+        "Kliknuti na link i unijeti podatke — banka Vas treba verifikovati",
+        "Ignorisati — banke nikada ne traže verifikaciju identiteta putem SMS linkova. Nazovite banku direktno ako ste zabrinuti.",
+        "Odgovoriti na SMS sa brojem računa",
+        "Proslijediti svim kontaktima kao upozorenje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Neko Vas zove tvrdeći da je iz odjela za prevare Vaše banke i traži da im pročitate SMS kod koji ste upravo primili. Šta se dešava?",
+      "options": [
+        "Vaša banka štiti Vaš račun",
+        "To je prevara — pokušavaju ukrasti Vaš 2FA kod da autorizuju lažnu transakciju",
+        "Kod je ionako istekao, pa je sigurno podijeliti ga",
+        "Trebate ga podijeliti jer već znaju Vaš račun"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji je glavni skriveni trošak kod međunarodnih doznaka?",
+      "options": [
+        "Naknada za transfer",
+        "Razlika u kursu — razlika između kursa koji dobijete i stvarnog srednjeg tržišnog kursa",
+        "Vrijeme koje treba",
+        "Štampanje potvrde"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta mobilna plaćanja (Google Pay/Apple Pay) čini SIGURNIJIM od plaćanja fizičkom karticom?",
+      "options": [
+        "Koriste Vaš stvarni broj kartice na svakom terminalu",
+        "Koriste token umjesto Vašeg stvarnog broja kartice, pa se Vaši podaci kartice nikada ne dijele s trgovcem",
+        "Ne zahtijevaju nikakvu verifikaciju",
+        "Rade samo u Vašoj zemlji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je SIM swap napad?",
+      "options": [
+        "Kada nadogradite telefon",
+        "Kriminalac ubijedi Vašeg mobilnog operatera da prebaci Vaš broj na njihovu SIM karticu, presrećući Vaše SMS kodove",
+        "Kada telefonu ponestane memorije",
+        "Prebacivanje između dvije SIM kartice u dual-SIM telefonu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "„Kupi sada, plati kasnije\" (BNPL) je:",
+      "options": [
+        "Besplatan novac bez rizika",
+        "I dalje oblik duga koji može dovesti do prekomjerne potrošnje i naknada za kašnjenje",
+        "Dostupno samo u EU",
+        "Proizvod štednje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prije korištenja fintech aplikacije za Vaš novac, trebate provjeriti:",
+      "options": [
+        "Samo koliko lijepo izgleda dizajn aplikacije",
+        "Da li je regulisana, gdje se drže depoziti, da li su osigurani i kakva je stvarna struktura naknada",
+        "Koliko preuzimanja ima",
+        "Da li je Vaši prijatelji koriste"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Darko je uštedio ~728 BAM (~372 EUR) godišnje prelaskom sa SWIFT bankovnih transfera na Wise. Najveća ušteda je došla od:",
+      "options": [
+        "Brze brzine transfera",
+        "Boljeg dizajna aplikacije",
+        "Eliminisanja kursne marže i naknada posredničkih banaka",
+        "Korištenja druge valute"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koja tvrdnja o kriptovalutama je TAČNA?",
+      "options": [
+        "Kripto ulaganja su osigurana kao bankovni depoziti",
+        "Dobici od kriptovaluta nisu oporezivi na Balkanu",
+        "Bitcoin je padao 50–80% više puta — ekstremna volatilnost je normalna",
+        "Kripto transakcije se mogu poništiti ako pogriješite"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako ste prevareni online, šta trebate PRVO uraditi?",
+      "options": [
+        "Objaviti o tome na društvenim mrežama",
+        "Odmah kontaktirati banku da blokirate kartice i zamrznete račune",
+        "Sačekati nekoliko dana da vidite da li će se novac vratiti",
+        "Obrisati poruke prevaranta i zaboraviti na to"
+      ],
+      "correct": 1
+    }
+  ]
+}

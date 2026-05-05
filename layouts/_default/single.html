@@ -3,7 +3,7 @@
   <header class="module-header">
     <div class="module-meta">
       {{ with .Params.module_number }}<span class="module-number">{{ i18n "module" }} {{ . }}</span>{{ end }}
-      {{ with .Params.path }}<span class="module-path path-{{ . }}">{{ i18n (printf "path_%s" .) }}</span>{{ end }}
+      {{ with .Params.module_path }}<span class="module-path path-{{ . }}">{{ i18n (printf "path_%s" .) }}</span>{{ end }}
     </div>
     <h1>{{ .Title }}</h1>
     {{ with .Params.country }}

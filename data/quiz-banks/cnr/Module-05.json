@@ -1,0 +1,106 @@
+{
+  "module": 5,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Koja je glavna razlika izmedju stednje i investiranja?",
+      "options": [
+        "Stednja je za bogate, investiranje je za sve",
+        "Stednja cuva kapital sa niskim rizikom; investiranje cilja na rast sa visim rizikom",
+        "Nema razlike",
+        "Investiranje je uvijek bolje od stednje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prije nego sto pocnete investirati, trebali biste imati:",
+      "options": [
+        "Najmanje 50.000 EUR u banci",
+        "Univerzitetsku diplomu iz finansija",
+        "Fond za hitne slucajeve, nikakav visokokamatni dug i dug vremenski horizont",
+        "Prijatelja koji radi u banci"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Sta je diversifikacija?",
+      "options": [
+        "Investiranje svog novca u akciju sa najboljim rezultatima",
+        "Raspodjela investicija na razlicite imovine radi smanjenja rizika",
+        "Mijenjanje investicija svake sedmice",
+        "Investiranje iskljucivo u Crnoj Gori"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zasto se niskobudzetni indeksni fondovi preporucuju za vecinu individualnih investitora?",
+      "options": [
+        "Garantuju najvise prinose",
+        "Pruzaju siroku diversifikaciju po vrlo niskoj cijeni, a vecina aktivnih menadzera ne uspijeva da ih nadmasi dugorocno",
+        "Dostupni su samo bogatim investitorima",
+        "Bez rizika su"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta se desilo sa stednjom mnogih crnogorskih porodica tokom raspada Jugoslavije?",
+      "options": [
+        "Berza je imala normalnu korekciju",
+        "Devizni stedni ulozi su zamrznuti, a hiperinflacija i raspad sistema unistili su stednju miliona gradjana",
+        "Banke su snizile kamatne stope",
+        "Drzava je investirala u infrastrukturu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "DCA (prosjecenje troskova u evrima) znaci:",
+      "options": [
+        "Konvertovanje svog novca u razlicite valute",
+        "Investiranje fiksnog iznosa u redovnim intervalima, bez obzira na trzisnu cijenu",
+        "Kupovanje samo kada su cijene najnize",
+        "Prosjecenje prinosa tokom vise godina"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta je TER i zasto je vazan?",
+      "options": [
+        "Poreska stopa na investicije — odredjuje Vas poreski razred",
+        "Godisnja naknada fonda — cak i male razlike se kumulativno pretvaraju u velike iznose tokom decenija",
+        "Mjera rizika — visi TER znaci veci rizik",
+        "Ukupni zaradjeni prinos — sto veci to bolji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji od sledecih je ZNAK UPOZORENJA za investicionu prevaru?",
+      "options": [
+        "Kompanija je regulisana od strane Komisije za trziste kapitala",
+        "Ocekivani prinosi od 5–8% godisnje",
+        "„Garantovani prinosi od 20% mjesecno, bez rizika\"",
+        "Fond objavljuje kvartalne izvjestaje o svom portfoliju"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nikola je izgubio 50% svoje investicije. Koja je njegova najveca greska bila?",
+      "options": [
+        "Investiranje u akcije uopste",
+        "Koristenje medjunarodnog brokera",
+        "Investiranje fonda za hitne slucajeve, koncentracija u nekoliko pozicija i trgovanje na osnovu savjeta sa drustvenih mreza",
+        "Nedovoljno investiranje novca"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako imate 25 godina, stabilan posao, fond za hitne slucajeve od 3 mjeseca, nikakav visokokamatni dug i investicioni horizont od 30 godina, koji investitorski profil Vam najvise odgovara?",
+      "options": [
+        "Konzervativni (80% obveznice)",
+        "Balansirani (50/50)",
+        "Orijentisan na rast (80–90% akcijski fondovi)",
+        "Trebali biste cekati da napunite 40 godina da biste investirali"
+      ],
+      "correct": 2
+    }
+  ]
+}

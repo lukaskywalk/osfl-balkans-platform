@@ -1,0 +1,106 @@
+{
+  "module": 7,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Banka juaj Ju dërgon një SMS ku Ju kërkon të klikoni një lidhje dhe të verifikoni identitetin. Çfarë duhet të bëni?",
+      "options": [
+        "Klikoni lidhjen dhe shkruani kredencialet — banka ka nevojë t'Ju verifikojë",
+        "Injoroni — bankat nuk kërkojnë kurrë verifikim identiteti nëpërmjet lidhjeve SMS. Telefononi bankën direkt nëse shqetësoheni.",
+        "Përgjigjuni SMS-it me numrin e llogarisë",
+        "Dërgojeni tek të gjithë kontaktet si paralajmërim"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dikush Ju telefon duke pretenduar se është nga departamenti i mashtrimit i bankës suaj dhe Ju kërkon t'i lexoni kodin SMS që sapo morët. Çfarë po ndodh?",
+      "options": [
+        "Banka juaj po mbron llogarinë tuaj",
+        "Është mashtrim — ata po përpiqen të vjedhin kodin tuaj 2FA për të autorizuar një transaksion mashtrues",
+        "Kodi ka skaduar gjithsesi, prandaj është e sigurt ta ndani",
+        "Duhet ta ndani meqenëse ata tashmë e njohin llogarinë tuaj"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cila është kostoja kryesore e fshehur në dërgesat ndërkombëtare?",
+      "options": [
+        "Tarifa e transfertës",
+        "Marzhi i kursit të këmbimit — ndryshimi ndërmjet kursit që merrni dhe kursit real të tregut",
+        "Koha që zgjat",
+        "Printimi i faturës"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cila nga këto e bën pagesën celulare (Google Pay/Apple Pay) MË TË SIGURT sesa pagesën me kartë fizike?",
+      "options": [
+        "Ato përdorin numrin real të kartës në çdo terminal",
+        "Ato përdorin një zëvendësues digjital në vend të numrit real, kështu që detajet e kartës nuk ndahen kurrë me tregtarin",
+        "Nuk kërkojnë asnjë verifikim",
+        "Funksionojnë vetëm në vendin tuaj"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë është sulmi me ndërrim të kartës SIM?",
+      "options": [
+        "Kur përditësoni telefonin",
+        "Krimineli bind operatorin celular të transferojë numrin tuaj në kartën e tij SIM, duke kapur kodet SMS",
+        "Kur telefonit i mbaron hapësira e ruajtjes",
+        "Ndërrimi ndërmjet dy kartave SIM në telefon me dy SIM"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "«Blej tani, paguaj më vonë» (BNPL) është:",
+      "options": [
+        "Para falas pa rrezik",
+        "Ende një formë borxhi që mund të çojë në shpenzim të tepërt dhe gjoba për vonesë",
+        "E disponueshme vetëm në BE",
+        "Produkt kursimesh"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Para se të përdorni një aplikacion fintek për paratë tuaja, duhet të kontrolloni:",
+      "options": [
+        "Vetëm sa bukur duket dizajni",
+        "Nëse është i rregulluar, ku mbahen depozitat, nëse janë të siguruara, dhe strukturën reale të tarifave",
+        "Sa shkarkime ka",
+        "Nëse miqtë tuaj e përdorin"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dritan kurseu ~372 EUR (~39.060 ALL) në vit duke kaluar nga transferta bankare SWIFT te Wise. Kursimi më i madh erdhi nga:",
+      "options": [
+        "Shpejtësia më e madhe e transfertës",
+        "Dizajni më i mirë i aplikacionit",
+        "Eliminimi i marzhit të kursit dhe tarifave ndërmjetëse",
+        "Përdorimi i një monedhe tjetër"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cila deklaratë mbi kriptoaktivet është E VËRTETË?",
+      "options": [
+        "Investimet në kripto janë të siguruara si depozitat bankare",
+        "Fitimet nga kripto nuk janë të tatueshme në Shqipëri",
+        "Bitcoin ka rënë 50–80% shumë herë — luhatja ekstreme është normale",
+        "Transaksionet e kriptosë mund të kthehen nëse bëni gabim"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nëse jeni mashtruar në internet, çfarë duhet të bëni SË PARI?",
+      "options": [
+        "Postoni në rrjete sociale",
+        "Kontaktoni bankën menjëherë për të bllokuar kartat dhe ngrirë llogaritë",
+        "Prisni disa ditë për të parë nëse paratë kthehen",
+        "Fshini mesazhet e mashtruesit dhe harroni"
+      ],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "module": 5,
+  "lang": "sr-cyrl",
+  "questions": [
+    {
+      "question": "Koja je osnovna razlika između štednje i investiranja?",
+      "options": [
+        "Štednja je za bogate ljude, investiranje je za sve",
+        "Štednja čuva kapital sa niskim rizikom; investiranje teži rastu sa višim rizikom",
+        "Nema razlike",
+        "Investiranje je uvek bolje od štednje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Pre nego što počnete da investirate, trebalo bi da imate:",
+      "options": [
+        "Najmanje 50.000 EUR u banci",
+        "Univerzitetsku diplomu iz finansija",
+        "Fond za hitne slučajeve, bez dugova sa visokom kamatom i dug vremenski horizont",
+        "Prijatelja koji radi u banci"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta je diversifikacija?",
+      "options": [
+        "Ulaganje svog novca u akciju sa najboljim performansama",
+        "Raspoređivanje investicija na različitu imovinu radi smanjenja rizika",
+        "Prebacivanje između investicija svake nedelje",
+        "Investiranje samo u sopstvenu državu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zašto se jeftini indeksni fondovi preporučuju za većinu individualnih investitora?",
+      "options": [
+        "Garantuju najviše prinose",
+        "Pružaju široku diversifikaciju po veoma niskim troškovima, a većina aktivnih menadžera ne uspeva da ih nadmaši dugoročno",
+        "Dostupni su samo bogatim investitorima",
+        "Bez rizika su"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta se desilo tokom jugoslovenske hiperinflacije devedesetih?",
+      "options": [
+        "Berza je imala normalnu korekciju",
+        "Hiperinflacija je uništila vrednost dinara i izbrisala ušteđevine miliona građana preko noći",
+        "Banke su snizile kamatne stope",
+        "Država je investirala u infrastrukturu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prosečenje troška ulaganja (DCA) znači:",
+      "options": [
+        "Konvertovanje svog novca u dolare i evre",
+        "Investiranje fiksnog iznosa u redovnim intervalima, bez obzira na tržišnu cenu",
+        "Kupovanje samo kada su cene na najnižem nivou",
+        "Prosečenje prinosa kroz više godina"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je TER i zašto je važan?",
+      "options": [
+        "Poreska stopa na investicije — određuje Vaš poreski razred",
+        "Godišnja naknada fonda — čak i male razlike se kroz decenije akumuliraju u velike iznose",
+        "Mera rizika — viši TER znači viši rizik",
+        "Ukupan zarađeni prinos — što viši, to bolji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta od navedenog je UPOZORAVAJUĆI ZNAK investicione prevare?",
+      "options": [
+        "Kompanija je regulisana od strane NBS ili Komisije za hartije od vrednosti",
+        "Očekivani prinosi od 5–8% godišnje",
+        "„Garantovanih 20% mesečnog prinosa, bez rizika\"",
+        "Fond objavljuje kvartalne izveštaje o svom portfoliju"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nikola je izgubio 50% svoje investicije. Koja je bila njegova najveća greška?",
+      "options": [
+        "To što je uopšte investirao u akcije",
+        "Korišćenje međunarodnog brokera",
+        "Investiranje fonda za hitne slučajeve, koncentracija u nekoliko pozicija i trgovanje na osnovu saveta sa društvenih mreža",
+        "To što nije uložio dovoljno novca"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako imate 25 godina, stabilan posao, fond za hitne slučajeve od 3 meseca, bez dugova sa visokom kamatom i investicioni horizont od 30 godina, koji investitorski profil Vam najbolje odgovara?",
+      "options": [
+        "Konzervativni (80% obveznice)",
+        "Balansirani (50/50)",
+        "Za rast (80–90% akcijski fondovi)",
+        "Trebalo bi da sačekate dok ne napunite 40 godina da investirate"
+      ],
+      "correct": 2
+    }
+  ]
+}

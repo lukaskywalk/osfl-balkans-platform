@@ -1,0 +1,106 @@
+{
+  "module": 5,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Koja je glavna razlika između štednje i ulaganja?",
+      "options": [
+        "Štednja je za bogate ljude, ulaganje za sve ostale",
+        "Štednja čuva kapital uz nizak rizik; ulaganje cilja na rast uz viši rizik",
+        "Nema razlike",
+        "Ulaganje je uvijek bolje od štednje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prije početka ulaganja trebali biste imati:",
+      "options": [
+        "Najmanje 50.000 EUR u banci",
+        "Sveučilišnu diplomu iz financija",
+        "Fond za hitne slučajeve, podmirene skupe dugove i dug vremenski okvir",
+        "Prijatelja koji radi u banci"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što je diversifikacija?",
+      "options": [
+        "Ulaganje svog novca u najbolju dionicu",
+        "Raspodjela ulaganja na različitu imovinu radi smanjenja rizika",
+        "Mijenjanje investicija svaki tjedan",
+        "Ulaganje samo u vlastitu zemlju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zašto se niskotroškovni indeksni fondovi preporučuju većini individualnih ulagača?",
+      "options": [
+        "Jamče najviše prinose",
+        "Pružaju široku diversifikaciju po vrlo niskoj cijeni, a većina aktivnih upravitelja ih dugoročno ne uspijeva nadmašiti",
+        "Dostupni su samo bogatim ulagačima",
+        "Bez su rizika"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što znači prosječenje troška (DCA)?",
+      "options": [
+        "Pretvaranje svog novca u dolare i eure",
+        "Ulaganje fiksnog iznosa u redovitim intervalima, bez obzira na tržišnu cijenu",
+        "Kupovanje samo kada su cijene na najnižoj razini",
+        "Uprosječivanje prinosa kroz više godina"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je TER i zašto je važan?",
+      "options": [
+        "Porezna stopa na investicije — određuje Vaš porezni razred",
+        "Godišnja naknada fonda — čak i male razlike složenim rastom postaju ogromni iznosi kroz desetljeća",
+        "Mjerilo rizika — viši TER znači viši rizik",
+        "Ukupan zarađeni prinos — što viši, to bolji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što od navedenog je UPOZORENJE na investicijsku prijevaru?",
+      "options": [
+        "Tvrtka je regulirana od strane HANFA-e",
+        "Očekivani prinosi od 5–8% godišnje",
+        "„Zajamčeni prinosi od 20% mjesečno, bez rizika\"",
+        "Fond objavljuje tromjesečne izvještaje o svom portfelju"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nikola je izgubio 50% svoje investicije. Koja je bila njegova najveća pogreška?",
+      "options": [
+        "Ulaganje u dionice uopće",
+        "Korištenje međunarodnog brokera",
+        "Ulaganje fonda za hitne slučajeve, koncentracija u nekoliko pozicija i trgovanje na temelju savjeta s društvenih mreža",
+        "Nedovoljno ulaganje novca"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Obvezni II. mirovinski stup u Hrvatskoj znači da:",
+      "options": [
+        "Morate sami kupovati dionice na burzi",
+        "Dio Vaših mjesečnih doprinosa ulaže se u mirovinski fond po Vašem izboru",
+        "Država jamči mirovinu bez ikakvih doprinosa",
+        "Možete podići mirovinska sredstva kada želite"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako imate 25 godina, stabilan posao, fond za hitne slučajeve za 3 mjeseca, nemate skupih dugova i imate investicijski okvir od 30 godina, koji profil ulagača Vam najbolje odgovara?",
+      "options": [
+        "Konzervativni (80% obveznice)",
+        "Uravnoteženi (50/50)",
+        "Rastući (80–90% dionički fondovi)",
+        "Trebali biste čekati do 40. godine da počnete ulagati"
+      ],
+      "correct": 2
+    }
+  ]
+}

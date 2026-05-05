@@ -1,0 +1,106 @@
+{
+  "module": 2,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Koja je glavna svrha budžeta?",
+      "options": [
+        "Potpuno prestati trošiti novac",
+        "Znati kuda Vaš novac odlazi i namjerno ga usmjeravati",
+        "Impresionirati službenika u banci",
+        "Izazvati osjećaj krivice zbog potrošnje"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "U pravilu 50/30/20, šta predstavlja „20%\"?",
+      "options": [
+        "Zabavu i izlaske u restorane",
+        "Stanovanje i kiriju",
+        "Štednju i otplatu duga",
+        "Namirnice i komunalije"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Da li budžet trebate praviti na osnovu bruto ili neto plate?",
+      "options": [
+        "Bruto — to je veći broj pa budžet izgleda bolje",
+        "Neto — to je stvarni novac koji primate i možete trošiti",
+        "Svejedno je, oba podjednako funkcioniraju",
+        "Na osnovu ukupnog troška poslodavca uključujući doprinose"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Šta je „periodični rashod\"?",
+      "options": [
+        "Rashod koji se dešava svaki dan",
+        "Rashod koji se pojavljuje povremeno (godišnje, kvartalno) umjesto mjesečno",
+        "Rashod koji možete potpuno izbjeći",
+        "Pretplata za koju ste zaboravili"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koliki fond za hitne slučajeve treba imati frilenser s neredovnim prihodom?",
+      "options": [
+        "1 mjesec troškova",
+        "2 mjeseca troškova",
+        "6–9 mjeseci osnovnih troškova",
+        "Fond za hitne slučajeve nije potreban ako imate kreditnu karticu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Šta je budžetiranje s nultom bazom?",
+      "options": [
+        "Budžet u kojem pokušavate potrošiti nula novca",
+        "Budžet u kojem je svakoj jedinici prihoda dodijeljena namjena, ne ostavljajući ništa neraspoređeno",
+        "Budžet koji svake godine počinje od nule",
+        "Budžet samo za ljude bez ikakve ušteđevine"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koje je NAJBOLJE mjesto za čuvanje fonda za hitne slučajeve?",
+      "options": [
+        "Gotovina sakrivena kod kuće",
+        "Zaseban štedni račun po viđenju u Vašoj banci",
+        "Uložen u dionice",
+        "Posuđen prijatelju na čuvanje"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Porodica Hadžić iz studije slučaja je uštedjela 180 KM mjesečno na koji način?",
+      "options": [
+        "Pronalaženjem drugog posla",
+        "Otkazivanjem duplog internet paketa, smanjenjem troškova cigareta i kupovinom na pijaci",
+        "Pozajmljivanjem od rodbine",
+        "Preseljenjem u jeftiniji grad"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Ako imate neredovan prihod, koji je preporučeni pristup budžetiranju?",
+      "options": [
+        "Ne pravite budžet — to je nemoguće s promjenjivim prihodom",
+        "Pravite budžet na osnovu mjeseca s najvećom zaradom",
+        "Pravite budžet na osnovu najslabijeg mjeseca i višak iz boljih mjeseci štedjete u buffer",
+        "Potrošite sve u dobrim mjesecima i pozajmljujete u lošim"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Zarađujete 2.000 KM mjesečno neto (~1.023 EUR) i želite koristiti pravilo 50/30/20. Koliko biste trebali izdvojiti za štednju?",
+      "options": [
+        "200 KM (~102 EUR)",
+        "300 KM (~153 EUR)",
+        "400 KM (~205 EUR)",
+        "600 KM (~307 EUR)"
+      ],
+      "correct": 0
+    }
+  ]
+}

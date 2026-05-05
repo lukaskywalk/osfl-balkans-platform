@@ -1,0 +1,106 @@
+{
+  "module": 6,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Koja je razlika izmedju bruto i neto plate?",
+      "options": [
+        "Bruto je ono sto primate; neto je ono sto poslodavac placa",
+        "Bruto je ukupna plata prije odbitaka; neto je ono sto Vam ostane nakon poreza i doprinosa",
+        "To je isto",
+        "Neto je uvijek tacno polovina bruta"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Socijalni doprinosi finansiraju:",
+      "options": [
+        "Iskljucivo vojnu opremu",
+        "Penzijsko osiguranje, zdravstvenu zastitu i osiguranje od nezaposlenosti",
+        "Iskljucivo izgradnju puteva",
+        "Iskljucivo plate politicara"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kolika je stopa poreza na dohodak u Crnoj Gori za zarade iznad prosjecne plate?",
+      "options": [
+        "9%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Kao frilenser, koliko biste trebali odvajati od svakog primanja za poreze?",
+      "options": [
+        "Nista — frilenseri ne placaju poreze",
+        "5%",
+        "Oko 30% kao sigurnu procjenu",
+        "100% — ne zadrzavajte nista"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Sta se desilo Ani u Budvi kada je radila kao frilenser 3 godine bez registracije?",
+      "options": [
+        "Nista — poreske vlasti ne provjeravaju",
+        "Primila je zaostale poreze + kazne + kamatu u ukupnom iznosu od oko 12.650 EUR",
+        "Cestitali su joj na preduzetnistvu",
+        "Banka joj je zatvorila racun"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kolika je stopa poreza na kapitalne dobitke u Crnoj Gori?",
+      "options": [
+        "0% — kapitalni dobici se ne oporezuju",
+        "9%",
+        "15%",
+        "25%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Sta je „penzioni jaz\"?",
+      "options": [
+        "Vrijeme izmedju Vaseg posljednjeg radnog dana i prve penzije",
+        "Razlika izmedju ocekivane drzavne penzije i prihoda koji ce Vam zaista trebati",
+        "Vrsta penzionog fonda",
+        "Iznos koji Vas poslodavac uplacuje za Vasu penziju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Igorova porodica je ostavljala novac na stolu zato sto:",
+      "options": [
+        "Zaradzivali su previse da bi se kvalifikovali za davanja",
+        "Nikada nijesu trazili poreske olaksice za izdrzavane clanove niti aplicirali za djeciji dodatak na koji su imali pravo",
+        "Skrivali su prihod od poreskih vlasti",
+        "Drzavna davanja ne postoje u Crnoj Gori"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja je starosna granica za penziju za muskarce u Crnoj Gori?",
+      "options": [
+        "60 godina",
+        "64 godine",
+        "65 godina",
+        "66 godina"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Ako investirate putem medjunarodnog brokera, ko je odgovoran za placanje Vaseg lokalnog poreza na kapitalni dobitak?",
+      "options": [
+        "Broker to rjesava automatski",
+        "Vi ste — broker ne obustavljuje lokalne poreze",
+        "Ne placa se porez na medjunarodne investicije",
+        "Vas poslodavac to oduzima od plate"
+      ],
+      "correct": 1
+    }
+  ]
+}

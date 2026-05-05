@@ -1,0 +1,106 @@
+{
+  "module": 1,
+  "lang": "sr-cyrl",
+  "questions": [
+    {
+      "question": "Koji je osnovni problem sistema trampe (razmene dobara)?",
+      "options": [
+        "Trampa je bila zabranjena u većini civilizacija",
+        "Potrebna je dvostruka podudarnost želja — morate naći osobu koja ima to što Vam treba i kojoj treba to što Vi nudite",
+        "Trampa je mogla funkcionisati samo u velikim gradovima",
+        "Trampa je zahtevala korišćenje zlata"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja od navedenih NIJE jedna od tri osnovne funkcije novca?",
+      "options": [
+        "Sredstvo razmene",
+        "Merilo vrednosti",
+        "Sredstvo čuvanja vrednosti",
+        "Sredstvo za stvaranje bogatstva"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja institucija u Srbiji izdaje dinare (RSD)?",
+      "options": [
+        "Ministarstvo finansija",
+        "Narodna banka Srbije (NBS)",
+        "Agencija za osiguranje depozita (AOD)",
+        "Narodna skupština"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja od navedenih zemalja zapadnog Balkana koristi evro kao zvaničnu valutu?",
+      "options": [
+        "Srbija i Albanija",
+        "Crna Gora i Kosovo",
+        "Bosna i Hercegovina i Severna Makedonija",
+        "Sve navedene zemlje"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kako banke ostvaruju najveći deo svoje zarade?",
+      "options": [
+        "Naplaćivanjem naknade za otvaranje računa",
+        "Prodajom zlata",
+        "Razlikom između kamate koju plaćaju na depozite i kamate koju naplaćuju na kredite (kamatna margina)",
+        "Naknadama za izdavanje potvrda"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Šta je sistem delimičnih (frakcionih) rezervi?",
+      "options": [
+        "Sistem u kojem banka drži samo deo depozita kao rezervu, a ostatak pozajmljuje",
+        "Sistem u kojem banka deli dobit sa svim klijentima",
+        "Sistem u kojem samo deo građana može otvoriti bankovni račun",
+        "Sistem u kojem centralna banka drži sav novac zemlje"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Do kog iznosa Agencija za osiguranje depozita (AOD) štiti Vaše depozite u Srbiji?",
+      "options": [
+        "Do 10.000 EUR u protivvrednosti",
+        "Do 25.000 EUR u protivvrednosti",
+        "Do 50.000 EUR u protivvrednosti",
+        "Nema ograničenja — celokupan depozit je zaštićen"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja je ključna razlika između debitne i kreditne kartice?",
+      "options": [
+        "Debitna kartica se može koristiti samo u Srbiji, a kreditna i u inostranstvu",
+        "Debitna kartica troši novac koji imate na računu, a kreditna koristi novac koji Vam banka pozajmljuje",
+        "Debitna kartica je samo za onlajn kupovinu, a kreditna samo za prodavnice",
+        "Nema razlike — to su dva naziva za istu vrstu kartice"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koji dokument je OBAVEZAN za otvaranje tekućeg računa u Srbiji za punoletno lice?",
+      "options": [
+        "Vozačka dozvola",
+        "Diplom fakulteta",
+        "Važeća lična karta ili pasoš",
+        "Potvrda o zaposlenju"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Šta je oročena štednja?",
+      "options": [
+        "Štednja koja je dostupna samo u određeno doba dana",
+        "Depozit koji ste se obavezali da nećete podizati u ugovorenom roku, u zamenu za višu kamatu",
+        "Štednja koja se automatski konvertuje u evro nakon određenog roka",
+        "Beskamatni depozit u Narodnoj banci Srbije"
+      ],
+      "correct": 0
+    }
+  ]
+}

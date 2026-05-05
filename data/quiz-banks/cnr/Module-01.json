@@ -1,0 +1,106 @@
+{
+  "module": 1,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Koji je osnovni problem sistema trampe (razmjene dobara)?",
+      "options": [
+        "Trampa je bila zabranjena u vecini civilizacija",
+        "Potrebna je dvostruka podudarnost zelja — morate naci osobu koja ima to sto Vam treba i kojoj treba to sto Vi nudite",
+        "Trampa je mogla funkcionisati samo u velikim gradovima",
+        "Trampa je zahtijevala koristenje zlata"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja od navedenih NIJE jedna od tri osnovne funkcije novca?",
+      "options": [
+        "Sredstvo razmjene",
+        "Mjerilo vrijednosti",
+        "Sredstvo cuvanja vrijednosti",
+        "Sredstvo za stvaranje bogatstva"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Zasto Centralna banka Crne Gore (CBCG) ne moze da izdaje novac?",
+      "options": [
+        "Jer nema dovoljno zlata u rezervama",
+        "Jer Crna Gora koristi evro koji izdaje Evropska centralna banka, a Crna Gora nije clanica Evrozone",
+        "Jer je to nadleznost Ministarstva finansija",
+        "Jer je zabranila Evropska unija"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja od navedenih zemalja zapadnog Balkana koristi evro kao svakodnevnu valutu?",
+      "options": [
+        "Srbija i Albanija",
+        "Crna Gora i Kosovo",
+        "Bosna i Hercegovina i Severna Makedonija",
+        "Sve navedene zemlje"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kako banke ostvaruju najveci dio svoje zarade?",
+      "options": [
+        "Naplacivanjem naknade za otvaranje racuna",
+        "Prodajom zlata",
+        "Razlikom izmedju kamate koju placaju na depozite i kamate koju naplacuju na kredite (kamatna margina)",
+        "Naknadama za izdavanje potvrda"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Do kog iznosa Fond za zastitu depozita stiti Vase depozite u Crnoj Gori?",
+      "options": [
+        "Do 10.000 EUR",
+        "Do 25.000 EUR",
+        "Do 50.000 EUR",
+        "Nema ogranicenja — celokupan depozit je zasticen"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Sta znaci da Crna Gora koristi evro „jednostrano\"?",
+      "options": [
+        "Crna Gora koristi evro samo u medjunarodnoj trgovini, ne za domaca placanja",
+        "Crna Gora je sama odlucila da koristi evro bez formalnog sporazuma sa ECB i nema mjesto u ECB niti moze uticati na monetarnu politiku",
+        "Crna Gora koristi evro samo u digitalnom obliku",
+        "Crna Gora moze da stampa svoje evro novcanice"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja je kljucna razlika izmedju debitne i kreditne kartice?",
+      "options": [
+        "Debitna kartica se moze koristiti samo u Crnoj Gori, a kreditna i u inostranstvu",
+        "Debitna kartica trosi novac koji imate na racunu, a kreditna koristi novac koji Vam banka pozajmljuje",
+        "Debitna kartica je samo za onlajn kupovinu, a kreditna samo za prodavnice",
+        "Nema razlike — to su dva naziva za istu vrstu kartice"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Ako imate 72.000 EUR stednje u Crnoj Gori, koji je najsigurniji pristup?",
+      "options": [
+        "Drzati sve u jednoj banci — Fond za zastitu depozita ce pokriti sve",
+        "Konvertovati u gotovinu i drzati kod kuce",
+        "Podijeliti stednju u dvije ili vise banaka tako da svaki depozit bude ispod 50.000 EUR",
+        "Uloziti sve u nekretnine"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Zasto je za zaposlene u crnogorskom turizmu posebno vazno finansijsko planiranje?",
+      "options": [
+        "Jer su plate u turizmu nize od prosjeka",
+        "Jer je turizam sezonska djelatnost — prihodi su visoki ljeti (maj–septembar) ali znatno nizi van sezone, pa je potrebno planirati na godisnjem nivou",
+        "Jer je turizam ilegalan van sezone",
+        "Jer turisti ne placaju porez"
+      ],
+      "correct": 0
+    }
+  ]
+}

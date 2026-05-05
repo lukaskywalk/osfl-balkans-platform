@@ -1,0 +1,106 @@
+{
+  "module": 10,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Sta znaci „rebalansiranje\" u upravljanju portfoliom?",
+      "options": [
+        "Prodaja svih investicija i pocetak iznova",
+        "Prilagodavanje portfolia ciljnoj alokaciji prodajom natprosjecnih i kupovinom ispodprosjecnih klasa imovine",
+        "Investiranje iskljucivo u balansirane fondove",
+        "Svakodnevna provjera stanja portfolia"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koristeci pravilo 4%, koliko Vam je ulozeni novac potreban da biste sigurno povlacili 500 EUR/mjesecno u penziji?",
+      "options": [
+        "50.000 EUR",
+        "100.000 EUR",
+        "150.000 EUR",
+        "300.000 EUR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Kolika je stopa poreza na kapitalne dobitke u Crnoj Gori?",
+      "options": [
+        "5%",
+        "9%",
+        "15%",
+        "20%"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zasto je III stup dobrovoljnih penzionih fondova jedna od najboljih prvih investicija (gdje je dostupan)?",
+      "options": [
+        "Garantuje prinos od 20%",
+        "Poreske olaksice i (u nekim drzavama) drzavno sufinansiranje pruzaju trenutni zagarantovani prinos koji trziste ne moze doseci",
+        "Bez rizika je i likvidan",
+        "Zamjenjuje drzavnu penziju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zoranova dva stana za iznajmljivanje donijela su kombinovani neto prinos od:",
+      "options": [
+        "10%",
+        "7%",
+        "2,5%",
+        "0%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je najvazniji faktor u Milinom investicionom uspjehu?",
+      "options": [
+        "Iznos koji investira",
+        "Izbor pravih akcija",
+        "Vrijeme — pocetak sa 22 godine daje slozenu kamatu 40 godina da djeluje",
+        "Zivljenje u Crnoj Gori"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Za vecinu crnogorskih investitora, sta bi trebalo biti „jezgro\" investicionog portfolia?",
+      "options": [
+        "100% lokalne balkanske akcije",
+        "100% bankovni depoziti",
+        "70–80% globalno diversifikovanih fondova/ETF",
+        "100% nekretnine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koje troskove amaterski iznajmljivaci najcesce podcjenjuju?",
+      "options": [
+        "Kupovnu cijenu nekretnine",
+        "Upraznjenost, odrzavanje, naknade za upravljanje i porez na prihod od iznajmljivanja",
+        "Kamate na hipoteku",
+        "Iskljucivo troskove namjestaja"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Akumulirajuci fond je poresko efikasan jer:",
+      "options": [
+        "Ne placa naknade za upravljanje",
+        "Interno reinvestira dividende, izbjegavajuci godisnji porez na dividende — porez placate samo pri prodaji",
+        "Nikada ne generise prinos",
+        "Dostupan je samo u poreskim rajevima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Pocetak investiranja za penziju sa 25 umjesto sa 40 godina znaci da Vam je potrebno priblizno:",
+      "options": [
+        "Isti mjesecni iznos",
+        "Upola manji mjesecni iznos",
+        "Trecina mjesecnog iznosa (ili manje) zbog slozene kamate koja ima vise vremena",
+        "Dvostruki mjesecni iznos"
+      ],
+      "correct": 2
+    }
+  ]
+}

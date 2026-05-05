@@ -1,0 +1,106 @@
+{
+  "module": 4,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Koja je glavna razlika između proste i složene kamate?",
+      "options": [
+        "Prosta kamata isplaćuje se mjesečno, složena godišnje",
+        "Prosta kamata obračunava se samo na glavnicu; složena se obračunava na glavnicu plus prethodno zarađenu kamatu",
+        "Nema razlike — to je ista stvar",
+        "Prosta kamata primjenjuje se na kredite, složena na štednju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koristeći Pravilo 72, otprilike koliko je vremena potrebno da udvostručite novac uz 3% kamate?",
+      "options": [
+        "3 godine",
+        "12 godina",
+        "24 godine",
+        "72 godine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako je inflacija 5%, a Vaš štedni račun plaća 2%, kolika je Vaša realna kamatna stopa?",
+      "options": [
+        "+7%",
+        "+3%",
+        "-3%",
+        "+2%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Gdje biste trebali čuvati fond za hitne slučajeve?",
+      "options": [
+        "Na oročenom depozitu na 2 godine",
+        "Pod madracem kod kuće",
+        "Na a vista štednji dostupnoj unutar 24 sata",
+        "U dionicama za maksimalan rast"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je preporučeni početni cilj fonda za hitne slučajeve?",
+      "options": [
+        "50 EUR",
+        "1 mjesec osnovnih troškova",
+        "1 godina prihoda",
+        "Koliki god je minimalni iznos u banci"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što znači „najprije platite sebi\"?",
+      "options": [
+        "Trošite na sebe prije plaćanja računa",
+        "Izdvojite štednju odmah kad primite plaću, prije svih drugih troškova",
+        "Otplatite sve dugove prije nego počnete štedjeti",
+        "Uvijek koristite gotovinu umjesto kartice"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Izazov 52 tjedna pomoći će Vam uštedjeti otprilike koliko za godinu dana?",
+      "options": [
+        "52 EUR",
+        "520 EUR",
+        "1.378 EUR",
+        "5.200 EUR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koliki je limit osiguranja depozita u Hrvatskoj (DAB)?",
+      "options": [
+        "10.000 EUR",
+        "50.000 EUR",
+        "100.000 EUR",
+        "Nema limita — sve je osigurano"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ivan je 14 godina držao 11.400 EUR u gotovini kod kuće. Što se dogodilo s realnom vrijednošću?",
+      "options": [
+        "Povećala se jer je gotovina najsigurnija opcija",
+        "Ostala je potpuno ista",
+        "Izgubila je otprilike 35–40% kupovne moći zbog inflacije",
+        "Udvostručila se zahvaljujući deflaciji"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je početak štednje s 22 godine znatno bolji od početka s 32 godine, čak i s manjim iznosima?",
+      "options": [
+        "Jer banke nude bolje stope mlađim ljudima",
+        "Jer složena kamata ima više vremena za djelovanje — vrijeme je važnije od iznosa",
+        "Jer mladi ljudi imaju manje troškova",
+        "Jer inflacija utječe samo na starije štediše"
+      ],
+      "correct": 1
+    }
+  ]
+}

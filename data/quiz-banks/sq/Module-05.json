@@ -1,0 +1,106 @@
+{
+  "module": 5,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Cili është ndryshimi kryesor ndërmjet kursimit dhe investimit?",
+      "options": [
+        "Kursimi është për njerëzit e pasur, investimi për të gjithë",
+        "Kursimi ruan kapitalin me rrezik të ulët; investimi synon rritjen me rrezik më të lartë",
+        "Nuk ka ndryshim",
+        "Investimi është gjithmonë më i mirë se kursimi"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Para se të filloni investimin, Ju duhet të keni:",
+      "options": [
+        "Të paktën 5.250.000 ALL (50.000 EUR) në bankë",
+        "Një diplomë universitare në financë",
+        "Një fond emergjence, asnjë borxh me interes të lartë dhe një horizont të gjatë kohor",
+        "Një mik që punon në bankë"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë është diversifikimi?",
+      "options": [
+        "Investimi i të gjitha parave në aksionin me performancën më të mirë",
+        "Shpërndarja e investimeve në aktive të ndryshme për të zvogëluar rrezikun",
+        "Ndërrimi i investimeve çdo javë",
+        "Investimi vetëm në vendin tuaj"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Pse rekomandohen fondet e indeksit me kosto të ulët për shumicën e investitorëve individualë?",
+      "options": [
+        "Ato garantojnë kthimet më të larta",
+        "Ato ofrojnë diversifikim të gjerë me kosto shumë të ulët, dhe shumica e menaxherëve aktivë nuk arrijnë t'i mundën në afat të gjatë",
+        "Ato janë të disponueshme vetëm për investitorë të pasur",
+        "Ato janë pa rrezik"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë ndodhi gjatë krizës së skemave piramidale në Shqipëri në vitin 1997?",
+      "options": [
+        "Tregu i aksioneve pati një korrigjim normal",
+        "Skemat mashtruese premtuan kthime të pamundura, pastaj u shembën, duke shkatërruar rreth 1,2 miliardë dollarë kursime familjare",
+        "Bankat ulën normat e interesit",
+        "Qeveria investoi në infrastrukturë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Mesatarizimi i kostos nënkupton:",
+      "options": [
+        "Konvertimin e të gjitha parave në euro",
+        "Investimin e një shume fikse në intervale të rregullta, pavarësisht çmimit të tregut",
+        "Blerjen vetëm kur çmimet janë në pikën më të ulët",
+        "Mesatarizimin e kthimeve gjatë shumë vjetëve"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë është TER-i dhe pse ka rëndësi?",
+      "options": [
+        "Një normë tatimore mbi investimet — përcakton fashën tuaj tatimore",
+        "Tarifa vjetore e fondit — edhe ndryshime të vogla grumbullohen në shuma të mëdha gjatë dekadave",
+        "Një matës rreziku — TER më i lartë do të thotë rrezik më i lartë",
+        "Kthimi total i fituar — sa më i lartë aq më mirë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili prej këtyre është SINJAL PARALAJMËRUES i mashtrimit me investime?",
+      "options": [
+        "Kompania është e rregulluar nga një autoritet kombëtar financiar",
+        "Kthime të pritshme prej 5–8% në vit",
+        "«Kthime të garantuara mujore prej 20%, pa rrezik»",
+        "Fondi publikon raporte tremujore mbi portofolin e tij"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Artani humbi 50% të investimit të tij. Cili ishte gabimi i tij më i madh?",
+      "options": [
+        "Investimi në aksione fare",
+        "Përdorimi i një ndërmjetësi ndërkombëtar",
+        "Investimi i fondit të emergjencës, përqendrimi në pak pozicione dhe tregtimi bazuar në këshillat e mediave sociale",
+        "Mosinvestimi i parave të mjaftueshme"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nëse jeni 25 vjeç, keni punë të qëndrueshme, fond emergjence 3-mujor, asnjë borxh me interes të lartë dhe horizont investimi 30-vjeçar, cili profil investitori përshtatet më mirë?",
+      "options": [
+        "Konservator (80% obligacione)",
+        "I balancuar (50/50)",
+        "I rritjes (80–90% fonde aksionesh)",
+        "Duhet të prisni deri sa të jeni 40 vjeç për të investuar"
+      ],
+      "correct": 2
+    }
+  ]
+}

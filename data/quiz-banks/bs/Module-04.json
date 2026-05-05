@@ -1,0 +1,106 @@
+{
+  "module": 4,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Koja je glavna razlika između proste i složene kamate?",
+      "options": [
+        "Prosta kamata se plaća mjesečno, složena godišnje",
+        "Prosta kamata se obračunava samo na glavnicu; složena kamata se obračunava na glavnicu plus akumuliranu kamatu",
+        "Nema razlike — to je ista stvar",
+        "Prosta kamata se primjenjuje na kredite, složena na štednju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koristeći Pravilo 72, otprilike koliko je potrebno da se Vaš novac udvostručuje uz kamatnu stopu od 3%?",
+      "options": [
+        "3 godine",
+        "12 godina",
+        "24 godine",
+        "72 godine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ako je inflacija 5%, a Vaš štedni račun donosi 2% kamate, kolika je Vaša realna kamatna stopa?",
+      "options": [
+        "+7%",
+        "+3%",
+        "-3%",
+        "+2%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Gdje trebate čuvati fond za hitne slučajeve?",
+      "options": [
+        "U oročenom depozitu na 2 godine",
+        "Pod madracem kod kuće",
+        "Na a vista štednom računu dostupnom u roku od 24 sata",
+        "U dionicama radi maksimalnog rasta"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je preporučeni početni fond za hitne slučajeve?",
+      "options": [
+        "100 BAM (~50 EUR)",
+        "1 mjesec osnovnih troškova",
+        "1 godina prihoda",
+        "Koliki god da je minimum u banci"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta znači „platite prvo sebi\"?",
+      "options": [
+        "Potrošite na sebe prije plaćanja računa",
+        "Izdvojite štednju odmah po primanju plate, prije svih ostalih troškova",
+        "Otplatite sve dugove prije nego što počnete štedjeti",
+        "Uvijek koristite gotovinu umjesto kartica"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Izazov 52 sedmice (u BAM-u, počevši od 2 BAM sedmično) pomoći će Vam da uštedite otprilike koliko za jednu godinu?",
+      "options": [
+        "104 BAM",
+        "1.020 BAM",
+        "2.756 BAM (~1.378 EUR)",
+        "10.192 BAM"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto BAM depoziti u BiH nude slične kamatne stope kao EUR depoziti?",
+      "options": [
+        "Zato što je BAM jači od eura",
+        "Zato što je BAM vezan za EUR fiksnim kursom (1 EUR = 1,95583 BAM), što minimizira valutni rizik",
+        "Zato što EU zabranjuje visoke kamatne stope",
+        "Zato što ima manje štediša u BAM-u"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Besim je čuvao 22.344 BAM u gotovini kod kuće 14 godina. Šta se desilo s njihovom realnom vrijednošću?",
+      "options": [
+        "Porasla je jer je gotovina najsigurnija opcija",
+        "Ostala je potpuno ista",
+        "Izgubila je otprilike 35–40% kupovne moći zbog inflacije",
+        "Udvostručila se zahvaljujući deflaciji"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je početi štedjeti sa 22 godine značajno bolje nego početi sa 32, čak i s manjim iznosima?",
+      "options": [
+        "Zato što banke nude bolje stope mlađim ljudima",
+        "Zato što složena kamata ima više vremena da djeluje — vrijeme je moćnije od iznosa",
+        "Zato što mladi imaju manje troškova",
+        "Zato što inflacija utječe samo na ušteđevinu starijih osoba"
+      ],
+      "correct": 1
+    }
+  ]
+}

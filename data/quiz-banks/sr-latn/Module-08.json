@@ -1,0 +1,106 @@
+{
+  "module": 8,
+  "lang": "sr-latn",
+  "questions": [
+    {
+      "question": "Ako Vaša banka ne reši Vaš prigovor, šta je sledeći korak?",
+      "options": [
+        "Odustanem — ne mogu ništa da uradim",
+        "Eskalacija ka finansijskom regulatoru (NBS — Centar za zaštitu korisnika finansijskih usluga)",
+        "Objavljivanje ljutitih komentara na društvenim mrežama",
+        "Odmah angažujem advokata"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je „rok za odustanak\"?",
+      "options": [
+        "Vreme koje banka troši da obradi Vaš zahtev",
+        "Period (obično 14 dana) tokom koga možete odustati od finansijskog proizvoda bez penala",
+        "Vreme između potpisivanja ugovora i početka plaćanja",
+        "Period čekanja pre nego što osiguravajuće pokriće počne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je ključna pouka iz Aninog slučaja sa osiguranjem od zemljotresa?",
+      "options": [
+        "Osiguranje od zemljotresa je uvek uključeno u standardno osiguranje domaćinstva",
+        "Uvek treba pročitati isključenja u polisi osiguranja — standardno pokriće možda ne uključuje rizik sa kojim se suočavate",
+        "Osiguravajuća društva uvek isplaćuju štete",
+        "U Srbiji nema rizika od zemljotresa"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prodavac kaže „ne morate da čitate ceo ugovor, samo potpišite ovde.\" Šta treba da uradite?",
+      "options": [
+        "Poverujem mu i brzo potpišem",
+        "Potpišem, ali napišem „pod prigovorom\" pored potpisa",
+        "Ponesem ugovor kući, pročitam ga u celosti i postavim pitanja o svemu što mi nije jasno",
+        "Zamolim prijatelja da potpiše umesto mene"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta je franšiza u osiguranju?",
+      "options": [
+        "Ukupna godišnja premija koju plaćate",
+        "Iznos koji sami plaćate pre nego što osiguravajuće društvo počne da pokriva troškove",
+        "Popust za verne korisnike",
+        "Maksimum koji će osiguravač isplatiti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Milan je otkrio da mu banka naplaćuje 350 RSD mesečno za uslugu koju nikada nije tražio. Ukupan iznos za 28 meseci bio je 9.800 RSD. Kako je rešeno?",
+      "options": [
+        "Prihvatio je početnu ponudu banke za povrat za 3 meseca",
+        "Podneo je prigovor NBS-u, koji je doveo do punog povrata nakon što banka nije mogla da dokaže pristanak",
+        "Morao je da ide na sud",
+        "Nikada nije rešeno"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje vrste osiguranja su OBAVEZNE u Srbiji?",
+      "options": [
+        "Životno osiguranje i putničko osiguranje",
+        "Zdravstveno osiguranje (kroz socijalne doprinose) i osiguranje od autoodgovornosti (OC) za vlasnike vozila",
+        "Osiguranje domaćinstva i osiguranje kućnih ljubimaca",
+        "Sve vrste osiguranja su obavezne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta treba PRVO da proverite kada poredite polise osiguranja?",
+      "options": [
+        "Samo premiju (najjeftinija je najbolja)",
+        "Boju kartice osiguranja",
+        "Pokriće, isključenja, franšizu, limit pokrića I premiju — sve zajedno",
+        "Da li je agent ljubazan"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je osiguranje imovine/domaćinstva posebno važno u Srbiji?",
+      "options": [
+        "Zakonski je obavezno svuda",
+        "Region se suočava sa značajnim rizicima od poplava i zemljotresa — nedavni događaji (poplave u Srbiji i BiH 2014, zemljotres u Hrvatskoj 2020, u Albaniji 2019) to potvrđuju",
+        "Besplatno je u većini zemalja",
+        "Vrednost nekretnina nikada ne opada"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako finansijski ugovor kaže „pružalac zadržava pravo da promeni sve uslove u bilo kom trenutku bez obaveštenja,\" to je:",
+      "options": [
+        "Potpuno normalno i prihvatljivo",
+        "Crvena zastavica — potencijalno nepravična ugovorna odredba koja može biti neizvršiva",
+        "Problem samo ako pozajmljujete novac",
+        "Nešto što treba ignorisati jer ne možete to da promenite"
+      ],
+      "correct": 1
+    }
+  ]
+}

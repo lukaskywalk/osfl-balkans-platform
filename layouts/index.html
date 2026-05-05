@@ -1,0 +1,75 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-title">{{ i18n "hero_title" }}</h1>
+    <p class="hero-subtitle">{{ i18n "hero_subtitle" }}</p>
+    <div class="hero-actions">
+      <a class="btn-primary btn-lg" href="{{ "/modules/" | relLangURL }}">{{ i18n "cta_modules" }}</a>
+      <a class="btn-secondary btn-lg" href="{{ "/tools/" | relLangURL }}">{{ i18n "cta_tools" }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="paths-section">
+  <h2 class="section-heading">{{ i18n "paths_heading" }}</h2>
+  <div class="path-cards">
+
+    <div class="path-card path-card-foundation">
+      <div class="path-card-icon">📐</div>
+      <h3>{{ i18n "path_foundation" }}</h3>
+      <p>{{ i18n "path_foundation_desc" }}</p>
+      <div class="path-meta">{{ i18n "modules" }} 1–4</div>
+      <a class="path-link" href="{{ "/modules/" | relLangURL }}#foundation">{{ i18n "cta_start" }} →</a>
+    </div>
+
+    <div class="path-card path-card-intermediate">
+      <div class="path-card-icon">📈</div>
+      <h3>{{ i18n "path_intermediate" }}</h3>
+      <p>{{ i18n "path_intermediate_desc" }}</p>
+      <div class="path-meta">{{ i18n "modules" }} 5–8</div>
+      <a class="path-link" href="{{ "/modules/" | relLangURL }}#intermediate">{{ i18n "cta_start" }} →</a>
+    </div>
+
+    <div class="path-card path-card-advanced">
+      <div class="path-card-icon">🏛️</div>
+      <h3>{{ i18n "path_advanced" }}</h3>
+      <p>{{ i18n "path_advanced_desc" }}</p>
+      <div class="path-meta">{{ i18n "modules" }} 9–11</div>
+      <a class="path-link" href="{{ "/modules/" | relLangURL }}#advanced">{{ i18n "cta_start" }} →</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="tools-section">
+  <h2 class="section-heading">{{ i18n "tools_heading" }}</h2>
+  <div class="tool-cards">
+
+    <div class="tool-card">
+      <div class="tool-card-icon">💰</div>
+      <h3>{{ i18n "tool_budget_name" }}</h3>
+      <p>{{ i18n "tool_budget_desc" }}</p>
+      <a href="{{ printf "/tools/budget-calculator/index.html?lang=%s" .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-icon">🎯</div>
+      <h3>{{ i18n "tool_savings_name" }}</h3>
+      <p>{{ i18n "tool_savings_desc" }}</p>
+      <a href="{{ printf "/tools/savings-planner/index.html?lang=%s" .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-icon">🏢</div>
+      <h3>{{ i18n "tool_comparator_name" }}</h3>
+      <p>{{ i18n "tool_comparator_desc" }}</p>
+      <a href="{{ printf "/tools/business-comparator/index.html?lang=%s" .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="grant-section">
+  <p class="grant-note">{{ i18n "grant_note" }} <a href="https://borderlesstechassociation.org">Borderless Tech Association</a>. {{ i18n "license_note" }} <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+</section>
+{{ end }}

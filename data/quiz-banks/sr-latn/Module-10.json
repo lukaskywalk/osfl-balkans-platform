@@ -1,0 +1,106 @@
+{
+  "module": 10,
+  "lang": "sr-latn",
+  "questions": [
+    {
+      "question": "Šta znači „rebalansiranje\" u upravljanju portfoliom?",
+      "options": [
+        "Prodati sva ulaganja i početi iznova",
+        "Prilagoditi portfolio natrag na ciljnu alokaciju prodajom boljih i kupovinom lošijih rezultata",
+        "Ulagati samo u uravnotežene fondove",
+        "Svakodnevno proveravati stanje portfolia"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koristeći pravilo 4%, koliko Vam treba uloženog da biste bezbedno povlačili ~58.500 RSD (~500 EUR)/mesečno u penziji?",
+      "options": [
+        "~5.850.000 RSD (~50.000 EUR)",
+        "~11.700.000 RSD (~100.000 EUR)",
+        "~17.550.000 RSD (~150.000 EUR)",
+        "~35.100.000 RSD (~300.000 EUR)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "U Srbiji, kapitalni dobitak od hartija od vrednosti oporezuje se po stopi od:",
+      "options": [
+        "0% (oslobođeno)",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto su dobrovoljni penzioni fondovi (III stup) u Srbiji preporučeni kao prvo investiciono sredstvo?",
+      "options": [
+        "Garantuju prinos od 20%",
+        "Doprinosi do ~5.894 RSD/mesečno su odbitni od poreske osnove — trenutna poreska olakšica bez tržišnog rizika",
+        "Bez rizika su i potpuno likvidni",
+        "Zamenjuju državnu penziju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zoranova dva stana za iznajmljivanje donela su kombinovani neto prinos od:",
+      "options": [
+        "10%",
+        "7%",
+        "2,3%",
+        "0%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koji je najvažniji faktor Milinog investicionog uspeha?",
+      "options": [
+        "Iznos koji ulaže",
+        "Izbor pravih akcija",
+        "Vreme — počinjanje sa 22 godine daje složenoj kamati 40 godina da deluje",
+        "Život u Severnoj Makedoniji"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Za većinu balkanskih investitora, šta bi trebalo da bude „jezgro\" njihovog investicionog portfolia?",
+      "options": [
+        "100% lokalne balkanske akcije",
+        "100% bankovni depoziti",
+        "70–80% globalni diversifikovani fondovi/ETF-ovi",
+        "100% nekretnine"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koje troškove amaterski stanodavci najčešće potcenjuju?",
+      "options": [
+        "Kupovnu cenu nekretnine",
+        "Prazninu, održavanje, naknade za upravljanje i porez na prihod od kirije",
+        "Hipotekarne kamate",
+        "Jedino troškove nameštaja"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Akumulacioni fond je poresko efikasan jer:",
+      "options": [
+        "Ne naplaćuje naknade za upravljanje",
+        "Interno reinvestira dividende, izbegavajući godišnji porez na dividende — porez plaćate tek kada prodate",
+        "Nikada ne generiše prinos",
+        "Dostupan je samo u poreskim rajevima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Počinjanje ulaganja za penziju sa 25 umesto sa 40 godina znači da Vam treba otprilike:",
+      "options": [
+        "Isti mesečni iznos",
+        "Upola manji mesečni iznos",
+        "Trećina mesečnog iznosa (ili manje) zahvaljujući složenoj kamati koja ima više vremena",
+        "Dvostruki mesečni iznos"
+      ],
+      "correct": 2
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "module": 6,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Cili është ndryshimi ndërmjet pagës bruto dhe neto?",
+      "options": [
+        "Bruto është ajo që merrni; neto është ajo që punëdhënësi paguan",
+        "Bruto është totali para zbritjeve; neto është paga që merrni në dorë pas tatimeve dhe kontributeve",
+        "Janë e njëjta gjë",
+        "Neto është gjithmonë saktësisht gjysma e brutos"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kontributet shoqërore financojnë cilin nga këto?",
+      "options": [
+        "Vetëm pajisje ushtarake",
+        "Pensionin, kujdesin shëndetësor dhe sigurimin e papunësisë",
+        "Vetëm ndërtimin e rrugëve",
+        "Vetëm pagat e politikanëve"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cila është shkalla e tatimit mbi të ardhurat në Shqipëri për dikë që fiton 80.000 ALL/muaj?",
+      "options": [
+        "23% mbi të gjithë shumën",
+        "0% mbi 50.000 ALL-të e para + 13% mbi 30.000 ALL-të mbi pragun",
+        "13% mbi të gjithë shumën",
+        "10% shkallë e sheshtë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Si punëtor i pavarur, sa duhet të vini mënjanë nga çdo pagesë për tatimet?",
+      "options": [
+        "Asgjë — punëtorët e pavarur nuk paguajnë tatime",
+        "5%",
+        "Rreth 30% si vlerësim i sigurt",
+        "100% — mos mbani asgjë"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë ndodhi me Artën në Shqipëri kur punoi si e pavarur për 3 vjet pa u regjistruar?",
+      "options": [
+        "Asgjë — autoritetet tatimore nuk kontrollojnë kurrë",
+        "Ajo mori tatime të prapambetura + gjoba + interes në total rreth 1.650.000 ALL (~15.700 EUR)",
+        "Ajo u përshëndet për sipërmarrësinë",
+        "Banka i mbylli llogarinë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili është tatimi mbi dividentët në Shqipëri?",
+      "options": [
+        "15%",
+        "10%",
+        "8%",
+        "0%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë është «hendeku i pensionit»?",
+      "options": [
+        "Koha ndërmjet ditës së fundit të punës dhe pagesës së parë të pensionit",
+        "Ndryshimi ndërmjet pensionit tuaj shtetëror të pritshëm dhe të ardhurave që do t'Ju duhen realisht",
+        "Një lloj fondi pensional",
+        "Shuma që punëdhënësi kontribuon për pensionin tuaj"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Familja e Arbenit po humbte para sepse:",
+      "options": [
+        "Ata fitonin shumë për t'u kualifikuar për përfitime",
+        "Ata nuk kishin aplikuar kurrë për ndihmën ekonomike, pagesën e aftësisë së kufizuar ose subvencionet e energjisë që u takonin",
+        "Ata po fshihnin të ardhura nga autoritetet tatimore",
+        "Përfitimet nuk ekzistojnë në Shqipëri"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili është avantazhi kryesor tatimor i regjistrimit si person fizik tregtar në Shqipëri?",
+      "options": [
+        "Nuk paguani asnjë tatim kurrë",
+        "0% tatim mbi fitimin për të ardhura vjetore nën 14 milionë ALL (~133.000 EUR)",
+        "Nuk keni nevojë të paguani kontribute shoqërore",
+        "Përjashtoheni nga TVSH-ja përgjithmonë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Nëse investoni nëpërmjet një ndërmjetësi ndërkombëtar, kush është përgjegjës për pagesën e tatimit tuaj vendor mbi fitimet kapitale?",
+      "options": [
+        "Ndërmjetësi e trajton automatikisht",
+        "Ju jeni — ndërmjetësi nuk mban tatimet vendase",
+        "Asnjë tatim nuk detyrohet mbi investimet ndërkombëtare",
+        "Punëdhënësi Juaj e zbret nga paga"
+      ],
+      "correct": 1
+    }
+  ]
+}

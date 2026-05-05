@@ -1,0 +1,106 @@
+{
+  "module": 1,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Koja od navedenih opcija NIJE funkcija novca?",
+      "options": [
+        "Sredstvo razmjene",
+        "Mjera vrijednosti",
+        "Sredstvo zabave",
+        "Sredstvo očuvanja vrijednosti"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koliki je fiksni kurs konvertibilne marke prema euru?",
+      "options": [
+        "1 EUR = 1,00 KM",
+        "1 EUR = 1,50 KM",
+        "1 EUR = 1,95583 KM",
+        "1 EUR = 2,50 KM"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja institucija izdaje konvertibilnu marku?",
+      "options": [
+        "Agencija za bankarstvo FBiH",
+        "Centralna banka Bosne i Hercegovine (CBBiH)",
+        "Evropska centralna banka",
+        "Ministarstvo finansija BiH"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koliki je maksimalni osigurani iznos depozita po osobi, po banci u BiH?",
+      "options": [
+        "10.000 KM",
+        "25.000 KM",
+        "50.000 KM",
+        "100.000 KM"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja vrsta kartice Vam omogućava da trošite samo novac koji imate na računu?",
+      "options": [
+        "Kreditna kartica",
+        "Debitna kartica",
+        "Prepaid kartica",
+        "Poklon kartica"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Šta je sistem frakcionih rezervi?",
+      "options": [
+        "Sistem u kojem banka čuva sav novac deponenata u trezoru",
+        "Sistem u kojem banka drži samo dio depozita kao rezervu, a ostatak plasira u kredite",
+        "Sistem u kojem država određuje cijene svih proizvoda",
+        "Sistem u kojem građani čuvaju novac isključivo kod kuće"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja od navedenih zemalja zapadnog Balkana koristi euro kao valutu?",
+      "options": [
+        "Srbija",
+        "Sjeverna Makedonija",
+        "Crna Gora",
+        "Albanija"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koji od navedenih dokumenata obavezno trebate za otvaranje bankovnog računa u BiH?",
+      "options": [
+        "Vozačku dozvolu",
+        "Važeću ličnu kartu BiH",
+        "Diplomu fakulteta",
+        "Potvrdu o krvnoj grupi"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Koja agencija nadzire banke u Federaciji BiH?",
+      "options": [
+        "CBBiH",
+        "ABRS",
+        "FBA",
+        "AOD BiH"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Amira ima 3.000 KM i želi da joj novac donosi kamatu, ali da istovremeno ima pristup dijelu novca u hitnim slučajevima. Šta bi bilo najpametnije?",
+      "options": [
+        "Držati sav novac kod kuće",
+        "Staviti sav novac na oročenu štednju na 5 godina",
+        "Podijeliti novac — dio na oročenu štednju, dio na štednju po viđenju",
+        "Potrošiti novac odmah jer ionako gubi vrijednost"
+      ],
+      "correct": 0
+    }
+  ]
+}

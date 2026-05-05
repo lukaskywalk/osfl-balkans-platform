@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="tools-index">
+  <h1>{{ i18n "tools_heading" }}</h1>
+  <p class="tools-index-desc">{{ i18n "hero_subtitle" }}</p>
+
+  <div class="tools-grid">
+
+    <div class="tools-grid-card">
+      <div class="tool-icon">💰</div>
+      <h2>{{ i18n "tool_budget_name" }}</h2>
+      <p>{{ i18n "tool_budget_desc" }}</p>
+      <a href="{{ printf "/tools/budget-calculator/index.html?lang=%s" .Language.Lang }}" class="btn-primary">{{ i18n "cta_open_tool" }}</a>
+    </div>
+
+    <div class="tools-grid-card">
+      <div class="tool-icon">🎯</div>
+      <h2>{{ i18n "tool_savings_name" }}</h2>
+      <p>{{ i18n "tool_savings_desc" }}</p>
+      <a href="{{ printf "/tools/savings-planner/index.html?lang=%s" .Language.Lang }}" class="btn-primary">{{ i18n "cta_open_tool" }}</a>
+    </div>
+
+    <div class="tools-grid-card">
+      <div class="tool-icon">🏢</div>
+      <h2>{{ i18n "tool_comparator_name" }}</h2>
+      <p>{{ i18n "tool_comparator_desc" }}</p>
+      <a href="{{ printf "/tools/business-comparator/index.html?lang=%s" .Language.Lang }}" class="btn-primary">{{ i18n "cta_open_tool" }}</a>
+    </div>
+
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,106 @@
+{
+  "module": 8,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Ako Vaša banka ne riješi Vašu pritužbu, koji je sljedeći korak?",
+      "options": [
+        "Odustati — ništa ne možete uraditi",
+        "Eskalirati prema finansijskom regulatoru (FBA u FBiH / ABRS u RS)",
+        "Objaviti ljute komentare na društvenim mrežama",
+        "Odmah angažovati advokata"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je „period za odustajanje\"?",
+      "options": [
+        "Vrijeme koje banka treba da obradi Vaš zahtjev",
+        "Period (obično 14 dana) tokom kojeg možete otkazati finansijski proizvod bez kazne",
+        "Vrijeme između potpisivanja ugovora i početka plaćanja",
+        "Period čekanja prije nego što pokriće osiguranja počne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je ključna pouka iz Aninog slučaja s osiguranjem?",
+      "options": [
+        "Osiguranje od zemljotresa je uvijek uključeno u standardno osiguranje doma",
+        "Uvijek trebate pročitati izuzetke Vaše polise osiguranja — standardno pokriće možda ne uključuje rizik s kojim se suočavate",
+        "Osiguravajuća društva uvijek isplaćuju štete",
+        "Prirodne nepogode se ne dešavaju u BiH"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prodavac kaže „ne trebate čitati cijeli ugovor, samo potpišite ovdje.\" Šta trebate uraditi?",
+      "options": [
+        "Vjerovati im i brzo potpisati",
+        "Potpisati ali napisati „uz protest\" pored potpisa",
+        "Odnijeti ugovor kući, pročitati ga u potpunosti i postaviti pitanja o svemu što Vam je nejasno",
+        "Zamoliti prijatelja da potpiše umjesto Vas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta je franšiza (učešće u šteti) u osiguranju?",
+      "options": [
+        "Ukupna godišnja premija koju plaćate",
+        "Iznos koji Vi plaćate iz džepa prije nego što osiguravajuće društvo počne pokrivati troškove",
+        "Popust za vjerne klijente",
+        "Maksimum koji će osiguravač isplatiti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Milan je otkrio da mu banka naplaćuje 5,90 BAM/mjesečno za uslugu koju nikada nije zatražio. Ukupno za 28 mjeseci bilo je 165,20 BAM. Kako je riješeno?",
+      "options": [
+        "Prihvatio je početnu ponudu banke za povrat od 3 mjeseca",
+        "Podnio je pritužbu FBA-i, što je dovelo do punog povrata jer banka nije mogla dokazati pristanak",
+        "Morao je ići na sud",
+        "Nikada nije riješeno"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje vrste osiguranja su OBAVEZNE u BiH?",
+      "options": [
+        "Životno osiguranje i putno osiguranje",
+        "Zdravstveno osiguranje (kroz socijalne doprinose) i obavezno auto-osiguranje (TPL) za vlasnike vozila",
+        "Osiguranje doma i osiguranje kućnih ljubimaca",
+        "Sve vrste osiguranja su obavezne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta trebate PRVO provjeriti kada upoređujete polise osiguranja?",
+      "options": [
+        "Samo premiju (najjeftinije je najbolje)",
+        "Boju kartice osiguranja",
+        "Pokriće, izuzetke, franšizu, limit pokrića I premiju — sve zajedno",
+        "Da li je agent ljubazan"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zašto je osiguranje imovine/doma posebno važno u BiH?",
+      "options": [
+        "Zakonski je obavezno svugdje",
+        "Regija se suočava sa značajnim rizicima od poplava i zemljotresa — katastrofalne poplave 2014. (Maglaj, Doboj, Šamac) to jasno demonstriraju, a podosiguranost je ogroman problem",
+        "Besplatno je u većini zemalja",
+        "Vrijednosti nekretnina nikada ne opadaju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako finansijski ugovor kaže „pružalac zadržava pravo da promijeni sve uslove u bilo koje vrijeme bez obavještenja,\" ovo je:",
+      "options": [
+        "Potpuno normalno i prihvatljivo",
+        "Crvena zastavica — potencijalno nepravična ugovorna odredba koja može biti neprovediva",
+        "Problem samo ako posuđujete novac",
+        "Nešto što treba ignorisati jer ne možete to promijeniti"
+      ],
+      "correct": 1
+    }
+  ]
+}

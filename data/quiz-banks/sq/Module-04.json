@@ -1,0 +1,106 @@
+{
+  "module": 4,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Cili është ndryshimi kryesor ndërmjet interesit të thjeshtë dhe interesit të përbërë?",
+      "options": [
+        "Interesi i thjeshtë paguhet mujore, interesi i përbërë vjetore",
+        "Interesi i thjeshtë llogaritet vetëm mbi principalin; interesi i përbërë llogaritet mbi principalin plus interesin e akumuluar",
+        "Nuk ka ndryshim — janë e njëjta gjë",
+        "Interesi i thjeshtë zbatohet për kreditë, interesi i përbërë për kursimet"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Duke përdorur Rregullin e 72-shit, përafërsisht sa kohë duhet për të dyfishuar paratë me 3% interes?",
+      "options": [
+        "3 vjet",
+        "12 vjet",
+        "24 vjet",
+        "72 vjet"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Nëse inflacioni është 5% dhe llogaria Juaj e kursimit paguan 2%, cila është norma Juaj reale e interesit?",
+      "options": [
+        "+7%",
+        "+3%",
+        "-3%",
+        "+2%"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Ku duhet ta mbani fondin tuaj të emergjencës?",
+      "options": [
+        "Në një depozitë me afat 2-vjeçar",
+        "Nën dyshek në shtëpi",
+        "Në një depozitë pa afat (a vista) të arritshme brenda 24 orëve",
+        "Në aksione për rritje maksimale"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cili është qëllimi fillestar i rekomanduar për fondin e emergjencës?",
+      "options": [
+        "5.250 ALL (~50 EUR)",
+        "1 muaj shpenzime thelbësore",
+        "1 vit të ardhura",
+        "Çfarëdo minimumi që kërkon banka"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë do të thotë «paguaje veten e parë»?",
+      "options": [
+        "Shpenzoni për veten para se të paguani faturat",
+        "Vini mënjanë kursimet menjëherë kur merrni pagën, para çdo shpenzimi tjetër",
+        "Shlyeni të gjitha borxhet para se të kurseni gjë",
+        "Përdorni gjithmonë para të gatshme në vend të kartave"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sfida e 52-javëve (në ALL) do t'Ju ndihmonte të kurseni përafërsisht sa në një vit?",
+      "options": [
+        "5.460 ALL (~52 EUR)",
+        "54.600 ALL (~520 EUR)",
+        "144.690 ALL (~1.378 EUR)",
+        "546.000 ALL (~5.200 EUR)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Pse llogaritë e kursimit në ALL në Shqipëri shpesh kanë norma më të larta interesi se llogaritë në EUR?",
+      "options": [
+        "Sepse leku është më i fortë se euro",
+        "Sepse bankat paguajnë më shumë për të kompensuar rrezikun e zhvlerësimit të monedhës",
+        "Sepse BE-ja ndalon normat e larta të interesit",
+        "Sepse ka më pak kursimtarë në monedhë vendase"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Besniku mbajti 1.200.000 ALL në para të gatshme në shtëpi për 14 vjet. Çfarë ndodhi me vlerën e tyre reale?",
+      "options": [
+        "U rrit sepse paratë e gatshme janë alternativa më e sigurt",
+        "Mbeti saktësisht njësoj",
+        "Humbi përafërsisht 35–40% të fuqisë blerëse për shkak të inflacionit",
+        "U dyfishua për shkak të deflacionit"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Pse fillimi i kursimit në moshën 22 është ndjeshëm më i mirë se fillimi në moshën 32, edhe me shuma më të vogla?",
+      "options": [
+        "Sepse bankat ofrojnë norma më të mira për të rinjtë",
+        "Sepse interesi i përbërë ka më shumë kohë të punojë — koha është më e fuqishme se shuma",
+        "Sepse të rinjtë kanë më pak shpenzime",
+        "Sepse inflacioni ndikon vetëm kursimet e njerëzve të moshuar"
+      ],
+      "correct": 1
+    }
+  ]
+}

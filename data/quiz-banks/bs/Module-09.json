@@ -1,0 +1,106 @@
+{
+  "module": 9,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Koja je ključna prednost d.o.o. u odnosu na samostalnog privrednika?",
+      "options": [
+        "Uvijek je jeftinije za osnivanje",
+        "Ograničena odgovornost — Vaša lična imovina je zaštićena ako posao propadne",
+        "Ne morate plaćati poreze",
+        "Ne trebate nikakvo računovodstvo"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Minimalni kapital za d.o.o. u Republici Srpskoj od 2023. iznosi:",
+      "options": [
+        "1.000 BAM",
+        "1 BAM",
+        "5.000 BAM",
+        "500 BAM"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja je razlika između dobiti i novčanog toka?",
+      "options": [
+        "To je ista stvar",
+        "Dobit pokazuje što ste zaradili na papiru; novčani tok pokazuje stvarno dostupan novac. Možete biti profitabilni i opet ostati bez gotovine.",
+        "Novčani tok je uvijek veći od dobiti",
+        "Samo velika preduzeća trebaju pratiti novčani tok"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Eminina agencija je bila profitabilna, ali je zamalo bankrotirala. Zašto?",
+      "options": [
+        "Imala je previše klijenata",
+        "Dva velika klijenta su odgodila plaćanja za 90 dana, što je stvorilo jaz u novčanom toku koji nije mogla pokriti",
+        "Zaposlenici su tražili povišice",
+        "Zaboravila je platiti poreze"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koji je prag za PDV registraciju u BiH?",
+      "options": [
+        "0 BAM (sva preduzeća moraju biti registrovana)",
+        "50.000 BAM (~25.500 EUR) godišnjih prihoda",
+        "500.000 BAM",
+        "U BiH nema PDV-a"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Dobar poslovni fond za hitne slučajeve trebao bi pokriti:",
+      "options": [
+        "1 sedmicu troškova",
+        "2–3 mjeseca poslovnih troškova",
+        "1 godinu prihoda",
+        "Samo Vaše lične troškove"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je učinilo Artanovu grantovnu prijavu uspješnom?",
+      "options": [
+        "Tražio je maksimalni iznos",
+        "Imao je jasan poslovni plan, istraživanje tržišta, obećanje otvaranja radnih mjesta i realne projekcije",
+        "Imao je političke veze",
+        "Aplicirao je samo za jedan program"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kada bi freelancer trebao razmotriti prijelaz sa samostalnog privrednika na d.o.o.?",
+      "options": [
+        "Odmah pri pokretanju bilo kojeg posla",
+        "Kada prihodi premaše prag paušalnog oporezivanja, klijenti to zahtijevaju ili se povećava rizik od odgovornosti",
+        "Tek nakon 10 godina poslovanja",
+        "Nikad — samostalni privrednik je uvijek bolji"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zašto lični i poslovni bankovni računi trebaju biti odvojeni?",
+      "options": [
+        "Nije važno — mogu biti isti",
+        "Čisto računovodstvo, pravna zaštita, lakše porezno izvještavanje i izbjegavanje problema s inspekcijom",
+        "Banke to zahtijevaju od svih klijenata",
+        "Samo za preduzeća s zaposlenicima"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Šta je fiskalizacija?",
+      "options": [
+        "Vrsta poslovnog osiguranja",
+        "Elektronsko evidentiranje faktura u stvarnom vremenu poreznom organu",
+        "Postupak zatvaranja preduzeća",
+        "Bankovni kreditni proizvod"
+      ],
+      "correct": 1
+    }
+  ]
+}

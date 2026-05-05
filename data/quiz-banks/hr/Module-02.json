@@ -1,0 +1,106 @@
+{
+  "module": 2,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Koja je glavna svrha proračuna?",
+      "options": [
+        "Potpuno prestati trošiti novac",
+        "Znati kamo Vaš novac odlazi i namjerno ga usmjeravati",
+        "Impresionirati svog bankara",
+        "Osjećati krivnju zbog potrošnje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "U pravilu 50/30/20, što predstavlja „20%\"?",
+      "options": [
+        "Zabavu i izlaske u restorane",
+        "Stanovanje i najam",
+        "Štednju i otplatu dugova",
+        "Namirnice i režije"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Trebate li izrađivati proračun na temelju bruto ili neto plaće?",
+      "options": [
+        "Bruto — to je veći broj pa proračun izgleda bolje",
+        "Neto — to je stvarni novac koji primate i možete trošiti",
+        "Svejedno je, oboje jednako funkcionira",
+        "Na temelju ukupnog troška poslodavca uključujući njegove doprinose"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je „periodični rashod\"?",
+      "options": [
+        "Trošak koji se pojavljuje svaki dan",
+        "Trošak koji se javlja povremeno (godišnje, kvartalno) umjesto mjesečno",
+        "Trošak koji možete potpuno izbjeći",
+        "Pretplata koju ste zaboravili"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliki fond za hitne slučajeve bi trebao imati slobodnjak s neredovitim prihodima?",
+      "options": [
+        "1 mjesec troškova",
+        "2 mjeseca troškova",
+        "6–9 mjeseci osnovnih troškova",
+        "Ne treba mu fond za hitne slučajeve ako ima kreditnu karticu"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što je proračun s nultom bazom?",
+      "options": [
+        "Proračun u kojem pokušavate potrošiti nula novca",
+        "Proračun u kojem je svakom euru dodijeljena svrha, ne ostavljajući ništa neraspoređeno",
+        "Proračun koji počinje ispočetka svake godine",
+        "Proračun samo za ljude bez ikakve ušteđevine"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje je NAJBOLJE mjesto za čuvanje fonda za hitne slučajeve?",
+      "options": [
+        "Gotovina skrivena kod kuće",
+        "Zaseban štedni račun po viđenju u Vašoj banci",
+        "Uložen u dionice",
+        "Posudba prijatelju na čuvanje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Obitelj Horvat u studiji slučaja uštedjela je 132 EUR mjesečno na koji način?",
+      "options": [
+        "Pronalaskom drugog posla",
+        "Otkazivanjem dvostruke pretplate na internet, smanjenjem potrošnje na cigarete i kupovinom na tržnici",
+        "Posuđivanjem od rodbine",
+        "Preseljenjem u jeftiniji grad"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako imate neredovite prihode, koji je preporučeni pristup izradi proračuna?",
+      "options": [
+        "Ne izrađivati proračun — nemoguće je s promjenjivim prihodima",
+        "Izrađivati proračun na temelju mjeseca s najvišim primanjima",
+        "Izrađivati proračun na temelju najslabijeg mjeseca i štedjeti višak iz boljih mjeseci u međuspremnik",
+        "Trošiti sve u dobrim mjesecima i posuđivati u lošima"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zarađujete 1.000 EUR neto mjesečno i želite koristiti pravilo 50/30/20. Koliko biste trebali izdvojiti za štednju?",
+      "options": [
+        "100 EUR",
+        "150 EUR",
+        "200 EUR",
+        "300 EUR"
+      ],
+      "correct": 2
+    }
+  ]
+}

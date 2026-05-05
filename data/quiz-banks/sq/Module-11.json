@@ -1,0 +1,106 @@
+{
+  "module": 11,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Çfarë është IPA III?",
+      "options": [
+        "Një markë birre italiane",
+        "Instrumenti kryesor financiar i BE-së për vendet kandidate (asistenca e para-anëtarësimit)",
+        "Një lloj fondi investimi",
+        "Një kod tatimor kroat"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili program i BE-së financon projektet arsimore ndërkufitare dhe projekte të rinisë?",
+      "options": [
+        "Horizon Europe",
+        "LIFE",
+        "Erasmus+",
+        "COSME"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cila është arsyeja më e zakonshme që aplikimet për fonde të BE-së dështojnë?",
+      "options": [
+        "Ideja e projektit është e keqe",
+        "Aplikanti nuk i lexoi udhëzimet e thirrjes dhe propozimi nuk përputhet me atë çfarë financohet",
+        "Ka shumë konkurrencë",
+        "Fondet e BE-së shkojnë vetëm tek organizatat e mëdha"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë është një LogFrame?",
+      "options": [
+        "Një lloj konstruksioni druri",
+        "Një matricë e strukturuar që lidh objektivat e projektit, aktivitetet, treguesit dhe burimet e verifikimit",
+        "Një format buxheti",
+        "Një formular regjistrimi"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Grantet IPARD funksionojnë mbi bazë rimbursimi. Kjo nënkupton:",
+      "options": [
+        "E merrni paranë para fillimit të projektit",
+        "Paguani kostot paraprakisht dhe rimbursohen pasi ofroni prova të shpenzimeve",
+        "Nuk i merrni kurrë paratë realisht",
+        "BE-ja paguan drejtpërdrejt furnitorët"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë e bëri aplikimin Erasmus+ të Marinës të suksesshëm?",
+      "options": [
+        "Ajo aplikoi në minutën e fundit",
+        "Partneritet i fortë ndërkufitar, objektiva të qarta e të matshme, plan qëndrueshmërie dhe pjesëmarrje në një punëtori përgatitore",
+        "Kishte lidhje politike",
+        "Dorëzoi aplikimin më të gjatë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Fushata e crowdfunding-ut e Teutës pati sukses kryesisht sepse:",
+      "options": [
+        "Ajo ofroi shpërblime shumë të shtrenjta",
+        "Synoi diasporën shqiptare me një histori bindëse dhe prezantim profesional",
+        "Mblodhi para vetëm nga miqtë dhe familja",
+        "Përdori një platformë lokale shqiptare"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kur duhet të filloni të monitoroni mundësitë e granteve?",
+      "options": [
+        "Ditën para afatit",
+        "Vetëm kur keni nevojë urgjente për para",
+        "6–12 muaj para se të planifikoni të aplikoni, për të ndërtuar partneritete dhe për t'u përgatitur",
+        "Pasi thirrja të ketë mbyllur"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cili vend ballkanik ka sektorin e mikrofinancimit më të zhvilluar?",
+      "options": [
+        "Kroacia",
+        "Serbia",
+        "Bosnja dhe Hercegovina",
+        "Mali i Zi"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Çfarë është bashkë-financimi në aplikimet e granteve?",
+      "options": [
+        "Kur dy banka financojnë të njëjtën kredi",
+        "Pjesa e kostove të projektit që aplikanti duhet të mbulojë nga burimet e veta ose të tjera",
+        "Një lloj crowdfunding-u",
+        "Fondet e BE-së që shoqërohen automatikisht nga qeveritë kombëtare"
+      ],
+      "correct": 1
+    }
+  ]
+}

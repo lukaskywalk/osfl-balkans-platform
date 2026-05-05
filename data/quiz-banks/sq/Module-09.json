@@ -1,0 +1,106 @@
+{
+  "module": 9,
+  "lang": "sq",
+  "questions": [
+    {
+      "question": "Cili është avantazhi kryesor i SHPK-së ndaj personit fizik tregtar?",
+      "options": [
+        "Është gjithmonë më e lirë të regjistrohet",
+        "Përgjegjësia e kufizuar — pasuritë tuaja personale janë të mbrojtura nëse biznesi dështon",
+        "Nuk keni nevojë të paguani taksa",
+        "Nuk keni nevojë për asnjë kontabilitet"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kapitali minimal i Kroacisë për një d.o.o. që nga viti 2023 është:",
+      "options": [
+        "20.000 EUR",
+        "2.500 EUR",
+        "1 EUR",
+        "10.000 EUR"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Cili është dallimi midis fitimit dhe rrjedhës monetare?",
+      "options": [
+        "Janë e njëjta gjë",
+        "Fitimi tregon çfarë keni fituar në letër; rrjedha monetare tregon para realisht të disponueshme. Mund të jeni fitimprurës dhe gjithsesi t'ju mbarojnë paratë.",
+        "Rrjedha monetare është gjithmonë më e lartë se fitimi",
+        "Vetëm kompanitë e mëdha kanë nevojë të gjurmojnë rrjedhën monetare"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Agjencia e Eminës ishte fitimprurëse por gati falimentoi. Pse?",
+      "options": [
+        "Kishte shumë klientë",
+        "Dy klientë kryesorë vonuan pagesat me 90 ditë, duke krijuar boshllëk rrjedhë monetare që nuk mund ta mbulonte",
+        "Punonjësit e saj kërkuan rritje pagash",
+        "Harroi të paguante taksat"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Cili është pragu i regjistrimit të TVSH-së në Shqipëri?",
+      "options": [
+        "0 ALL (të gjitha bizneset duhet të regjistrohen)",
+        "10.000.000 ALL (~95.000 EUR) të ardhura vjetore",
+        "50.000.000 ALL",
+        "Nuk ka TVSH në Shqipëri"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Një fond i mirë emergjence biznesi duhet të mbulojë:",
+      "options": [
+        "1 javë shpenzimesh",
+        "2–3 muaj shpenzimesh operative",
+        "1 vit të ardhurash",
+        "Vetëm shpenzimet tuaja personale"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë e bëri aplikimin për grant të Artanit të suksesshëm?",
+      "options": [
+        "Kërkoi shumën maksimale",
+        "Kishte plan biznesi të qartë, hulumtim tregu, premtim krijimi vendesh pune dhe projeksione realiste",
+        "Kishte lidhje politike",
+        "Aplikoi vetëm në një program"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kur duhet të konsiderojë një freelancer kalimin nga person fizik tregtar në SHPK?",
+      "options": [
+        "Menjëherë kur fillon çdo biznes",
+        "Kur të ardhurat tejkalojnë pragun e normës së sheshtë, klientët e kërkojnë, ose rreziku i përgjegjësisë rritet",
+        "Vetëm pas 10 vitesh biznes",
+        "Kurrë — person fizik tregtar është gjithmonë më i mirë"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Pse duhet të jenë të ndara llogaritë bankare personale dhe ato të biznesit?",
+      "options": [
+        "Nuk ka rëndësi — mund të jenë e njëjta",
+        "Kontabilitet i pastër, mbrojtje ligjore, raportim tatimor më i lehtë dhe shmangja e problemeve të auditit",
+        "Bankat e kërkojnë për të gjithë klientët",
+        "Vetëm për bizneset me punonjës"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Çfarë është fiskalizimi?",
+      "options": [
+        "Një lloj sigurimi biznesi",
+        "Raportim elektronik në kohë reale i faturave te autoriteti tatimor",
+        "Procesi i mbylljes së biznesit",
+        "Një produkt kredie bankare"
+      ],
+      "correct": 1
+    }
+  ]
+}

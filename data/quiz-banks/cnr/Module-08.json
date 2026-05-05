@@ -1,0 +1,106 @@
+{
+  "module": 8,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Ako Vasa banka ne rijesi Vas prigovor, sta je sljedeci korak?",
+      "options": [
+        "Odustanite — nema nista sto mozete uciniti",
+        "Eskalirajte prigovor finansijskom regulatoru (CBCG)",
+        "Objavite ljutite komentare na drustvenim mrezama",
+        "Odmah angazujte advokata"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta je „rok za odustajanje\"?",
+      "options": [
+        "Vrijeme koje je Vasoj banci potrebno da obradi zahtjev",
+        "Period (obicno 14 dana) tokom kojeg mozete otkazati finansijski proizvod bez penala",
+        "Vrijeme izmedju potpisivanja ugovora i pocetka placanja",
+        "Period cekanja prije nego sto pokrice osiguranja pocne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja je kljucna pouka iz Aninog slucaja sa osiguranjem od zemljotresa?",
+      "options": [
+        "Osiguranje od zemljotresa je uvijek ukljuceno u standardno osiguranje stambenog objekta",
+        "Uvijek treba procitati izuzece Vase polise osiguranja — standardno pokrice mozda ne ukljucuje rizik sa kojim se suocavate",
+        "Osiguravajuca drustva uvijek isplacuju stete",
+        "Zemljotresi se ne desavaju u Crnoj Gori"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Prodavac kaze „ne morate citati cijeli ugovor, samo potpisite ovdje.\" Sta trebate uraditi?",
+      "options": [
+        "Vjerovati mu i brzo potpisati",
+        "Potpisati, ali napisati „pod protestom\" pored potpisa",
+        "Ponijeti ugovor kuci, procitati ga u potpunosti i postaviti pitanja o svemu sto je nejasno",
+        "Zamoliti prijatelja da potpise umjesto Vas"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Sta je fransiza u osiguranju?",
+      "options": [
+        "Ukupna godisnja premija koju placate",
+        "Iznos koji Vi placate iz dzepa prije nego sto osiguravajuce drustvo pocne pokrivati troskove",
+        "Popust za lojalne klijente",
+        "Maksimum koji ce osiguravac platiti"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Milan je otkrio da mu banka naplacuje 3 EUR mjesecno za uslugu koju nikada nije zatrazio. Ukupno za 28 mjeseci bilo je 84 EUR. Kako je rijeseno?",
+      "options": [
+        "Prihvatio je pocetnu ponudu banke za povrat za 3 mjeseca",
+        "Podnio je prigovor regulatoru CBCG, sto je dovelo do potpunog povrata nakon sto banka nije mogla dokazati pristanak",
+        "Morao je ici na sud",
+        "Nikada nije rijeseno"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje vrste osiguranja su OBAVEZNE u Crnoj Gori?",
+      "options": [
+        "Zivotno osiguranje i putno osiguranje",
+        "Zdravstveno osiguranje (kroz socijalne doprinose) i osiguranje od odgovornosti automobila (TPL) za vlasnike vozila",
+        "Osiguranje stambenog objekta i osiguranje kucnih ljubimaca",
+        "Sve vrste osiguranja su obavezne"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta trebate PRVO provjeriti kada uporedjujete police osiguranja?",
+      "options": [
+        "Samo premiju (najjeftinija je najbolja)",
+        "Boju kartice osiguranja",
+        "Pokrice, izuzece, fransiZu, limit pokrica i premiju — sve zajedno",
+        "Da li je agent ljubazan"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zasto je osiguranje stambenog objekta posebno vazno u Crnoj Gori?",
+      "options": [
+        "Zakonski je obavezno svuda",
+        "Region se suocava sa znacajnim rizicima od zemljotresa, poplava i jakih vremenskih nepogoda — nedavni dogadjaji (Hrvatska 2020, Albanija 2019, BiH/Srbija 2014) to pokazuju, a Crna Gora je seizmicki aktivna",
+        "Besplatno je u vecini zemalja",
+        "Vrijednosti nekretnina nikada ne padaju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako finansijski ugovor kaze „pruzalac zadrzava pravo da mijenja sve uslove u bilo kojem trenutku bez obavjestenja\", ovo je:",
+      "options": [
+        "Sasvim normalno i prihvatljivo",
+        "Crvena zastavica — potencijalno nepravican ugovorni uslov koji moze biti neprimjenjiv",
+        "Problem samo ako pozajmljujete novac",
+        "Nesto sto treba ignorisati jer to ne mozete promijeniti"
+      ],
+      "correct": 1
+    }
+  ]
+}

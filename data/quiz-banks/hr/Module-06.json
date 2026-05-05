@@ -1,0 +1,106 @@
+{
+  "module": 6,
+  "lang": "hr",
+  "questions": [
+    {
+      "question": "Koja je razlika između bruto i neto plaće?",
+      "options": [
+        "Bruto je ono što primate; neto je ono što poslodavac plaća",
+        "Bruto je ukupan iznos prije odbitaka; neto je ono što Vam ostane nakon poreza i doprinosa",
+        "To je isti iznos",
+        "Neto je uvijek točno polovica bruta"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Socijalni doprinosi financiraju koje od navedenog?",
+      "options": [
+        "Samo vojnu opremu",
+        "Mirovine, zdravstvenu zaštitu i osiguranje za slučaj nezaposlenosti",
+        "Samo izgradnju cesta",
+        "Samo plaće političara"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kakav sustav poreza na dohodak koristi Hrvatska?",
+      "options": [
+        "Paušalni (jedinstvenu stopu za sve)",
+        "Regresivni (viši prihodi plaćaju manje)",
+        "Progresivni (stopa raste s dohotkom: 23,6% i 35,4%)",
+        "Hrvatska nema porez na dohodak"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Koliko bi slobodnjak trebao odvajati od svakog primanja za poreze?",
+      "options": [
+        "Ništa — slobodna zanimanja ne plaćaju poreze",
+        "5%",
+        "Oko 30% kao sigurnu procjenu",
+        "100% — ne zadržavajte ništa"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što se dogodilo Ani u Rijeci kada je radila kao slobodnjak tri godine bez registracije?",
+      "options": [
+        "Ništa — Porezna uprava nikada ne provjerava",
+        "Dobila je zaostale poreze + kazne + kamate u ukupnom iznosu od oko 11.400 EUR",
+        "Čestitali su joj na poduzetničkom duhu",
+        "Banka joj je zatvorila račun"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Što je prirez?",
+      "options": [
+        "Državni porez na promet",
+        "Kazna za zakašnjelo plaćanje poreza",
+        "Dodatni lokalni porez na porez na dohodak, koji varira ovisno o općini/gradu",
+        "Porez samo na kriptovalute"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Što je „mirovinski jaz\"?",
+      "options": [
+        "Vrijeme između posljednjeg radnog dana i prve mirovine",
+        "Razlika između očekivane državne mirovine i prihoda koji će Vam stvarno trebati",
+        "Vrsta mirovinskog fonda",
+        "Iznos koji Vaš poslodavac uplaćuje u Vašu mirovinu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Igorova obitelj „ostavljala je novac na stolu\" jer:",
+      "options": [
+        "Zarađivali su previše da bi se kvalificirali za potpore",
+        "Nikada nisu zatražili porezne olakšice za uzdržavane članove niti podnijeli zahtjev za dječji doplatak na koji su imali pravo",
+        "Skrivali su prihode od Porezne uprave",
+        "Potpore u Hrvatskoj ne postoje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kolika je stopa poreza na kapitalne dobitke od prodaje vrijednosnih papira u Hrvatskoj?",
+      "options": [
+        "0% — Hrvatska ne oporezuje kapitalne dobitke",
+        "10%",
+        "25%",
+        "35,4%"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako ulažete putem međunarodnog brokera, tko je odgovoran za plaćanje hrvatskog poreza na kapitalne dobitke?",
+      "options": [
+        "Broker to obavlja automatski",
+        "Vi ste odgovorni — broker ne obustavi hrvatski porez",
+        "Na međunarodna ulaganja se ne plaća porez",
+        "Vaš poslodavac to oduzima od Vaše plaće"
+      ],
+      "correct": 1
+    }
+  ]
+}

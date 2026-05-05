@@ -1,0 +1,106 @@
+{
+  "module": 2,
+  "lang": "cnr",
+  "questions": [
+    {
+      "question": "Koja je osnovna svrha budzeta?",
+      "options": [
+        "Da potpuno prestanete da trosite novac",
+        "Da znate kuda Vas novac ide i da ga namjerno usmjeravate",
+        "Da impresionate svog bankara",
+        "Da se osjecate krivim zbog potrosnje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "U pravilu 50/30/20, sta predstavlja „20%\"?",
+      "options": [
+        "Zabavu i izlaske",
+        "Stanovanje i zakupninu",
+        "Stednju i otplatu duga",
+        "Namirnice i rezije"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Da li treba budzetirati na osnovu bruto ili neto zarade?",
+      "options": [
+        "Bruto — veci je broj pa budzet izgleda bolje",
+        "Neto — to je stvarni novac koji primate i sa kojim mozete raspolagati",
+        "Bilo koji jednako funkcionise",
+        "Na osnovu ukupnog troska poslodavca ukljucujuci doprinose"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Sta je „periodicni rashod\"?",
+      "options": [
+        "Rashod koji se desava svaki dan",
+        "Rashod koji se pojavljuje povremeno (godisnje, kvartalno) a ne mjesecno",
+        "Rashod koji mozete potpuno izbjeci",
+        "Pretplata koju ste zaboravili"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliki fond za hitne slucajeve treba da ima sezonski radnik u turizmu?",
+      "options": [
+        "1 mjesec troskova",
+        "2 mjeseca troskova",
+        "6–9 mjeseci osnovnih troskova",
+        "Ne treba mu fond za hitne slucajeve ako ima kreditnu karticu"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Sta je budzetiranje od nule?",
+      "options": [
+        "Budzet u kojem pokusavate da potrosite nula novca",
+        "Budzet u kojem je svakom evru prihoda dodijeljena namjena, ne ostavljajuci nista nerasporedijelno",
+        "Budzet koji pocinje od nule svake godine",
+        "Budzet samo za ljude sa nula stednje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koje je NAJBOLJE mjesto za cuvanje fonda za hitne slucajeve?",
+      "options": [
+        "Gotovina skrivena kod kuce",
+        "Poseban stedni racun po vidjenju u Vasoj banci",
+        "Investirano u akcije",
+        "Pozajmljeno prijatelju na cuvanje"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Kako je porodica Radonjic iz studije slucaja ustedila 130 EUR mjesecno?",
+      "options": [
+        "Nalazjenjem drugog posla",
+        "Otkazivanjem duplog internet paketa, smanjenjem potrosnje na cigarete i kupovinom na pijaci",
+        "Pozajmljivanjem od rodjaka",
+        "Selidbom u jeftiniji grad"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako imate sezonski prihod, koji je preporuceni pristup budzetiranju?",
+      "options": [
+        "Ne budzetirajte — nemoguce je sa varijabilnim prihodom",
+        "Budzetirajte na osnovu mjeseca sa najvisim prihodom",
+        "Izracunajte godisnji prihod, podijelite sa 12 i budzetirajte na osnovu mjesecnog prosjeka, stedeci visak iz sezone za zimske mjesece",
+        "Trosite sve u dobrim mjesecima i pozajmljujte u losim"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Zaradjujete 850 EUR mjesecno neto i zelite koristiti pravilo 50/30/20. Koliko treba izdvojiti za stednju?",
+      "options": [
+        "85 EUR",
+        "127,50 EUR",
+        "170 EUR",
+        "255 EUR"
+      ],
+      "correct": 2
+    }
+  ]
+}

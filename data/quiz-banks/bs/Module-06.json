@@ -1,0 +1,106 @@
+{
+  "module": 6,
+  "lang": "bs",
+  "questions": [
+    {
+      "question": "Koja je razlika između bruto i neto plate?",
+      "options": [
+        "Bruto je ono što Vi primate; neto je ono što poslodavac plaća",
+        "Bruto je ukupna plata prije odbitaka; neto je Vaša plata „na ruke\" nakon poreza i doprinosa",
+        "To je ista stvar",
+        "Neto je uvijek tačno pola bruta"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Socijalni doprinosi finansiraju šta od navedenog?",
+      "options": [
+        "Samo vojnu opremu",
+        "Penziju, zdravstvenu zaštitu i osiguranje od nezaposlenosti",
+        "Samo izgradnju cesta",
+        "Samo plate političara"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koja je ključna razlika u poreznom sistemu između FBiH i RS-a?",
+      "options": [
+        "U FBiH se ne plaćaju porezi",
+        "U FBiH doprinose dijele zaposlenik i poslodavac (porez 10%); u RS-u doprinose uglavnom plaća poslodavac (porez 8%)",
+        "RS nema porez na dohodak",
+        "Oba entiteta imaju identičan sistem"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliko bi freelancer trebao odvajati od svakog primanja za poreze?",
+      "options": [
+        "Ništa — freelanceri ne plaćaju poreze",
+        "5%",
+        "Oko 30% kao sigurna procjena",
+        "100% — ne zadržavajte ništa"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta se desilo Amri u Tuzli kada je radila freelance 3 godine bez registracije?",
+      "options": [
+        "Ništa — porezna uprava nikada ne provjerava",
+        "Dobila je zaostale poreze + kazne + zateznu kamatu u ukupnom iznosu od oko 32.340 BAM (~16.500 EUR)",
+        "Pohvaljena je zbog preduzetničkog duha",
+        "Banka joj je zatvorila račun"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Koliki je lični odbitak (neoporezivi iznos) u svakom entitetu?",
+      "options": [
+        "300 BAM u oba entiteta",
+        "500 BAM u oba entiteta",
+        "300 BAM u FBiH i 500 BAM u RS-u",
+        "Ne postoji lični odbitak u BiH"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Šta je „penzijski jaz\"?",
+      "options": [
+        "Vrijeme između zadnjeg radnog dana i prve penzije",
+        "Razlika između Vaše očekivane državne penzije i prihoda koji će Vam zaista trebati",
+        "Vrsta penzijskog fonda",
+        "Iznos koji Vaš poslodavac uplaćuje za Vašu penziju"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Igorova porodica je propuštala novac zato što:",
+      "options": [
+        "Zarađivali su previše da bi se kvalifikovali za davanja",
+        "Nikada nisu ostvarili porezne odbitke za izdržavana lica niti aplicirali za dječiji dodatak na koji imaju pravo",
+        "Skrivali su prihod od poreznih vlasti",
+        "Davanja ne postoje u RS-u"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Zašto je važno provjeriti kantonalni nivo davanja u FBiH?",
+      "options": [
+        "Sva davanja su ista u svim kantonima",
+        "Svaki od 10 kantona može imati različite iznose, uslove i procedure za davanja poput dječijeg dodatka i porodiljske naknade",
+        "Kantoni ne administriraju nikakva davanja",
+        "Samo Kanton Sarajevo ima davanja"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Ako investirate putem međunarodnog brokera, ko je odgovoran za plaćanje Vašeg lokalnog poreza na kapitalni dobitak?",
+      "options": [
+        "Broker to automatski rješava",
+        "Vi ste — broker ne obustavlja lokalne poreze",
+        "Na međunarodne investicije se ne plaća porez",
+        "Vaš poslodavac to odbija od Vaše plate"
+      ],
+      "correct": 1
+    }
+  ]
+}
