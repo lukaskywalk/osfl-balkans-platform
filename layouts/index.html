@@ -4,8 +4,8 @@
     <h1 class="hero-title">{{ i18n "hero_title" }}</h1>
     <p class="hero-subtitle">{{ i18n "hero_subtitle" }}</p>
     <div class="hero-actions">
-      <a class="btn-primary btn-lg" href="{{ "/modules/" | relLangURL }}">{{ i18n "cta_modules" }}</a>
-      <a class="btn-secondary btn-lg" href="{{ "/tools/" | relLangURL }}">{{ i18n "cta_tools" }}</a>
+      <a class="btn-primary btn-lg" href="{{ printf "%s/modules/" .Language.Lang | relURL }}">{{ i18n "cta_modules" }}</a>
+      <a class="btn-secondary btn-lg" href="{{ printf "%s/tools/" .Language.Lang | relURL }}">{{ i18n "cta_tools" }}</a>
     </div>
   </div>
 </section>
@@ -19,7 +19,7 @@
       <h3>{{ i18n "path_foundation" }}</h3>
       <p>{{ i18n "path_foundation_desc" }}</p>
       <div class="path-meta">{{ i18n "modules" }} 1–4</div>
-      <a class="path-link" href="{{ "/modules/" | relLangURL }}#foundation">{{ i18n "cta_start" }} →</a>
+      <a class="path-link" href="{{ printf "%s/modules/" .Language.Lang | relURL }}#foundation">{{ i18n "cta_start" }} →</a>
     </div>
 
     <div class="path-card path-card-intermediate">
@@ -27,7 +27,7 @@
       <h3>{{ i18n "path_intermediate" }}</h3>
       <p>{{ i18n "path_intermediate_desc" }}</p>
       <div class="path-meta">{{ i18n "modules" }} 5–8</div>
-      <a class="path-link" href="{{ "/modules/" | relLangURL }}#intermediate">{{ i18n "cta_start" }} →</a>
+      <a class="path-link" href="{{ printf "%s/modules/" .Language.Lang | relURL }}#intermediate">{{ i18n "cta_start" }} →</a>
     </div>
 
     <div class="path-card path-card-advanced">
@@ -35,7 +35,7 @@
       <h3>{{ i18n "path_advanced" }}</h3>
       <p>{{ i18n "path_advanced_desc" }}</p>
       <div class="path-meta">{{ i18n "modules" }} 9–11</div>
-      <a class="path-link" href="{{ "/modules/" | relLangURL }}#advanced">{{ i18n "cta_start" }} →</a>
+      <a class="path-link" href="{{ printf "%s/modules/" .Language.Lang | relURL }}#advanced">{{ i18n "cta_start" }} →</a>
     </div>
 
   </div>
@@ -49,21 +49,21 @@
       <div class="tool-card-icon">💰</div>
       <h3>{{ i18n "tool_budget_name" }}</h3>
       <p>{{ i18n "tool_budget_desc" }}</p>
-      <a href="{{ printf "/tools/budget-calculator/index.html?lang=%s" .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+      <a href="{{ "tools/budget-calculator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
     </div>
 
     <div class="tool-card">
       <div class="tool-card-icon">🎯</div>
       <h3>{{ i18n "tool_savings_name" }}</h3>
       <p>{{ i18n "tool_savings_desc" }}</p>
-      <a href="{{ printf "/tools/savings-planner/index.html?lang=%s" .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+      <a href="{{ "tools/savings-planner/index.html" | relURL }}?lang={{ .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
     </div>
 
     <div class="tool-card">
       <div class="tool-card-icon">🏢</div>
       <h3>{{ i18n "tool_comparator_name" }}</h3>
       <p>{{ i18n "tool_comparator_desc" }}</p>
-      <a href="{{ printf "/tools/business-comparator/index.html?lang=%s" .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+      <a href="{{ "tools/business-comparator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
     </div>
 
   </div>
