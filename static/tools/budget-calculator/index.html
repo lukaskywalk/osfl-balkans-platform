@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Budget Calculator — OSFL Balkans</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <script src="/js/tool-i18n.js"></script>
+  <link rel="stylesheet" href="/osflbalkans/css/main.css">
+  <script src="/osflbalkans/js/tool-i18n.js"></script>
   <style>
     .expense-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
     .expense-row input[type="text"] { flex: 2; }
@@ -23,7 +23,8 @@
 </head>
 <body>
 <main id="main-content" style="max-width:640px;margin:40px auto;padding:0 20px">
-  <a href="/" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <a id="back-link" href="/osflbalkans/" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <script>(function(){var l=new URLSearchParams(window.location.search).get('lang')||'hr';document.getElementById('back-link').href='/osflbalkans/'+l+'/';})()</script>
   <h1 style="margin-top:16px">Budget Calculator</h1>
   <p style="color:#555;margin-bottom:28px">Enter your monthly income and expenses to see your budget breakdown using the 50/30/20 rule.</p>
 
