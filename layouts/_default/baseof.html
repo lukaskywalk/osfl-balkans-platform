@@ -23,7 +23,7 @@
     </nav>
   </header>
 
-  <main id="main-content">
+  <main id="main-content"{{ if .IsHome }} class="home-main"{{ end }}>
     {{ block "main" . }}{{ end }}
   </main>
 

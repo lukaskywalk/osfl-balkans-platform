@@ -1,74 +1,154 @@
 {{ define "main" }}
-<section class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-title">{{ i18n "hero_title" }}</h1>
-    <p class="hero-subtitle">{{ i18n "hero_subtitle" }}</p>
+<!-- ═══════════════════ HERO V2 ═══════════════════ -->
+<section class="hero-v2">
+  <div class="hero-v2-inner">
+    <p class="hero-eyebrow">{{ i18n "hero_eyebrow" }}</p>
+    <h1 class="hero-v2-title">
+      <span class="hero-line1">{{ i18n "hero_title_line1" }}</span>
+      <span class="hero-line2">{{ i18n "hero_title_line2" }}</span>
+    </h1>
+    <p class="hero-v2-subtitle">{{ i18n "hero_subtitle" }}</p>
     <div class="hero-actions">
       <a class="btn-primary btn-lg" href="{{ printf "%s/modules/" .Language.Lang | relURL }}">{{ i18n "cta_modules" }}</a>
       <a class="btn-secondary btn-lg" href="{{ printf "%s/tools/" .Language.Lang | relURL }}">{{ i18n "cta_tools" }}</a>
     </div>
   </div>
+  <div class="stats-strip">
+    <div class="stat-item"><span class="stat-num">11</span><span class="stat-label">{{ i18n "stat_modules" }}</span></div>
+    <div class="stat-item"><span class="stat-num">3</span><span class="stat-label">{{ i18n "stat_levels" }}</span></div>
+    <div class="stat-item"><span class="stat-num">7</span><span class="stat-label">{{ i18n "stat_languages" }}</span></div>
+    <div class="stat-item"><span class="stat-num">∞</span><span class="stat-label">{{ i18n "stat_price" }}</span></div>
+  </div>
 </section>
 
-<section class="paths-section">
-  <h2 class="section-heading">{{ i18n "paths_heading" }}</h2>
-  <div class="path-cards">
+<!-- ═══════════════════ PROBLEM CARDS ═══════════════════ -->
+<section class="problems-section">
+  <div class="problems-inner">
+    <h2 class="section-heading">{{ i18n "problems_heading" }}</h2>
+    <div class="problem-cards">
 
-    <div class="path-card path-card-foundation">
-      <div class="path-card-icon">📐</div>
-      <h3>{{ i18n "path_foundation" }}</h3>
-      <p>{{ i18n "path_foundation_desc" }}</p>
-      <div class="path-meta">{{ i18n "modules" }} 1–4</div>
-      <a class="path-link" href="{{ printf "%s/modules/" .Language.Lang | relURL }}#foundation">{{ i18n "cta_start" }} →</a>
+      <div class="problem-card">
+        <span class="problem-icon">💸</span>
+        <h3>{{ i18n "problem_1_title" }}</h3>
+        <p>{{ i18n "problem_1_desc" }}</p>
+        <a href="{{ printf "%s/modules/module-02/" .Language.Lang | relURL }}" class="problem-link">{{ i18n "cta_start" }} →</a>
+      </div>
+
+      <div class="problem-card">
+        <span class="problem-icon">🏦</span>
+        <h3>{{ i18n "problem_2_title" }}</h3>
+        <p>{{ i18n "problem_2_desc" }}</p>
+        <a href="{{ printf "%s/modules/module-01/" .Language.Lang | relURL }}" class="problem-link">{{ i18n "cta_start" }} →</a>
+      </div>
+
+      <div class="problem-card">
+        <span class="problem-icon">🐖</span>
+        <h3>{{ i18n "problem_3_title" }}</h3>
+        <p>{{ i18n "problem_3_desc" }}</p>
+        <a href="{{ printf "%s/modules/module-03/" .Language.Lang | relURL }}" class="problem-link">{{ i18n "cta_start" }} →</a>
+      </div>
+
+      <div class="problem-card">
+        <span class="problem-icon">📈</span>
+        <h3>{{ i18n "problem_4_title" }}</h3>
+        <p>{{ i18n "problem_4_desc" }}</p>
+        <a href="{{ printf "%s/modules/module-05/" .Language.Lang | relURL }}" class="problem-link">{{ i18n "cta_start" }} →</a>
+      </div>
+
+      <div class="problem-card">
+        <span class="problem-icon">🧾</span>
+        <h3>{{ i18n "problem_5_title" }}</h3>
+        <p>{{ i18n "problem_5_desc" }}</p>
+        <a href="{{ printf "%s/modules/module-06/" .Language.Lang | relURL }}" class="problem-link">{{ i18n "cta_start" }} →</a>
+      </div>
+
+      <div class="problem-card">
+        <span class="problem-icon">🏢</span>
+        <h3>{{ i18n "problem_6_title" }}</h3>
+        <p>{{ i18n "problem_6_desc" }}</p>
+        <a href="{{ printf "%s/modules/module-09/" .Language.Lang | relURL }}" class="problem-link">{{ i18n "cta_start" }} →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CURRICULUM MAP ═══════════════════ -->
+<section class="curriculum-section">
+  <div class="curriculum-inner">
+    <h2 class="section-heading">{{ i18n "curriculum_heading" }}</h2>
+
+    {{ $modules := where site.RegularPages "Section" "modules" }}
+    {{ $sorted  := sort $modules "Params.module_number" }}
+
+    <div class="curriculum-row curriculum-foundation">
+      <div class="curriculum-label">
+        <span class="path-badge badge-foundation">{{ i18n "path_foundation" }}</span>
+        <span class="curriculum-range">{{ i18n "modules" }} 1–4</span>
+      </div>
+      <div class="curriculum-nodes">
+        {{ range $sorted }}{{ if and (ge .Params.module_number 1) (le .Params.module_number 4) }}
+        <a href="{{ .RelPermalink }}" class="curriculum-node node-foundation">
+          <span class="node-num">{{ .Params.module_number }}</span>
+          <span class="node-title">{{ .Title }}</span>
+        </a>
+        {{ end }}{{ end }}
+      </div>
     </div>
 
-    <div class="path-card path-card-intermediate">
-      <div class="path-card-icon">📈</div>
-      <h3>{{ i18n "path_intermediate" }}</h3>
-      <p>{{ i18n "path_intermediate_desc" }}</p>
-      <div class="path-meta">{{ i18n "modules" }} 5–8</div>
-      <a class="path-link" href="{{ printf "%s/modules/" .Language.Lang | relURL }}#intermediate">{{ i18n "cta_start" }} →</a>
+    <div class="curriculum-row curriculum-intermediate">
+      <div class="curriculum-label">
+        <span class="path-badge badge-intermediate">{{ i18n "path_intermediate" }}</span>
+        <span class="curriculum-range">{{ i18n "modules" }} 5–8</span>
+      </div>
+      <div class="curriculum-nodes">
+        {{ range $sorted }}{{ if and (ge .Params.module_number 5) (le .Params.module_number 8) }}
+        <a href="{{ .RelPermalink }}" class="curriculum-node node-intermediate">
+          <span class="node-num">{{ .Params.module_number }}</span>
+          <span class="node-title">{{ .Title }}</span>
+        </a>
+        {{ end }}{{ end }}
+      </div>
     </div>
 
-    <div class="path-card path-card-advanced">
-      <div class="path-card-icon">🏛️</div>
-      <h3>{{ i18n "path_advanced" }}</h3>
-      <p>{{ i18n "path_advanced_desc" }}</p>
-      <div class="path-meta">{{ i18n "modules" }} 9–11</div>
-      <a class="path-link" href="{{ printf "%s/modules/" .Language.Lang | relURL }}#advanced">{{ i18n "cta_start" }} →</a>
+    <div class="curriculum-row curriculum-advanced">
+      <div class="curriculum-label">
+        <span class="path-badge badge-advanced">{{ i18n "path_advanced" }}</span>
+        <span class="curriculum-range">{{ i18n "modules" }} 9–11</span>
+      </div>
+      <div class="curriculum-nodes">
+        {{ range $sorted }}{{ if and (ge .Params.module_number 9) (le .Params.module_number 11) }}
+        <a href="{{ .RelPermalink }}" class="curriculum-node node-advanced">
+          <span class="node-num">{{ .Params.module_number }}</span>
+          <span class="node-title">{{ .Title }}</span>
+        </a>
+        {{ end }}{{ end }}
+      </div>
     </div>
 
   </div>
 </section>
 
-<section class="tools-section">
-  <h2 class="section-heading">{{ i18n "tools_heading" }}</h2>
-  <div class="tool-cards">
-
-    <div class="tool-card">
-      <div class="tool-card-icon">💰</div>
-      <h3>{{ i18n "tool_budget_name" }}</h3>
-      <p>{{ i18n "tool_budget_desc" }}</p>
-      <a href="{{ "tools/budget-calculator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+<!-- ═══════════════════ TOOL TEASER ═══════════════════ -->
+<section class="tool-teaser-section">
+  <div class="tool-teaser-inner">
+    <div class="tool-teaser-text">
+      <h2>{{ i18n "tool_teaser_heading" }}</h2>
+      <p>{{ i18n "tool_teaser_desc" }}</p>
+      <a href="{{ "tools/budget-calculator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="btn-primary">{{ i18n "tool_budget_name" }} →</a>
     </div>
-
-    <div class="tool-card">
-      <div class="tool-card-icon">🎯</div>
-      <h3>{{ i18n "tool_savings_name" }}</h3>
-      <p>{{ i18n "tool_savings_desc" }}</p>
-      <a href="{{ "tools/savings-planner/index.html" | relURL }}?lang={{ .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
+    <div class="tool-teaser-frame">
+      <iframe
+        src="{{ "tools/budget-calculator/index.html" | relURL }}?lang={{ .Language.Lang }}&embed=1"
+        title="{{ i18n "tool_budget_name" }}"
+        loading="lazy"
+        style="width:100%;height:460px;border:none;display:block">
+      </iframe>
     </div>
-
-    <div class="tool-card">
-      <div class="tool-card-icon">🏢</div>
-      <h3>{{ i18n "tool_comparator_name" }}</h3>
-      <p>{{ i18n "tool_comparator_desc" }}</p>
-      <a href="{{ "tools/business-comparator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="tool-link">{{ i18n "cta_open_tool" }} →</a>
-    </div>
-
   </div>
 </section>
 
+<!-- ═══════════════════ GRANT ═══════════════════ -->
 <section class="grant-section">
   <p class="grant-note">{{ i18n "grant_note" }} <a href="https://borderlesstechassociation.org">Borderless Tech Association</a>. {{ i18n "license_note" }} <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
 </section>
