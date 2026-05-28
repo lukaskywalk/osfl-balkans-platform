@@ -7,7 +7,7 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
   {{ with .Site.Params.analyticsURL }}
-  <script async defer data-website-id="" src="{{ . }}"></script>
+  <script async defer data-website-id="{{ $.Site.Params.analyticsWebsiteId }}" src="{{ . }}"></script>
   {{ end }}
 </head>
 <body>
