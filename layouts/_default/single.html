@@ -24,8 +24,8 @@
   {{ end }}
 
   <nav class="module-nav">
-    {{ with .PrevInSection }}<a class="module-nav-prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
-    {{ with .NextInSection }}<a class="module-nav-next" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+    {{ with .NextInSection }}<a class="module-nav-prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+    {{ with .PrevInSection }}<a class="module-nav-next" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
   </nav>
 </article>
 {{ end }}

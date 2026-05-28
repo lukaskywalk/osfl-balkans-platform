@@ -1,7 +1,7 @@
 {{ $lang := .lang }}
 {{ $moduleNum := printf "%02d" (int .module) }}
-{{ $quizFile := printf "quiz-banks/%s/Module-%s.json" $lang $moduleNum }}
-{{ $quiz := index $.Site.Data.quiz_banks $lang (printf "Module-%s" $moduleNum) }}
+{{ $quizBanks := index hugo.Data "quiz-banks" }}
+{{ $quiz := index $quizBanks $lang (printf "Module-%s" $moduleNum) }}
 
 {{ if $quiz }}
 <div class="quiz" id="quiz-{{ $moduleNum }}" data-module="{{ $moduleNum }}" data-lang="{{ $lang }}">
