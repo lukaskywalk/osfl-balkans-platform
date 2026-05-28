@@ -28,7 +28,7 @@
   <div style="margin-top:48px;padding:24px;background:#f8f9fa;border-radius:6px;border:1px solid #ddd">
     <h2 style="font-size:1.1rem;margin-bottom:12px">{{ i18n "modules" }}</h2>
     <ul style="list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px">
-      {{ range where .Site.Pages "Params.module_number" "ne" nil }}
+      {{ range where site.Pages "Params.module_number" "ne" nil }}
       {{ if eq .Language.Lang $.Language.Lang }}
       <li><a href="{{ .RelPermalink }}" style="font-size:0.875rem">
         {{ i18n "module" }} {{ .Params.module_number }} — {{ .Title }}
