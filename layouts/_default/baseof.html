@@ -6,12 +6,13 @@
   <title>{{ block "title" . }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "pagefind/pagefind-ui.css" | relURL }}">
   {{ with .Site.Params.analyticsURL }}
   <script async defer data-website-id="{{ $.Site.Params.analyticsWebsiteId }}" src="{{ . }}"></script>
   {{ end }}
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" data-pagefind-ignore>
     <nav class="nav-main">
       <a class="nav-logo" href="{{ printf "%s/" .Language.Lang | relURL }}">OSFL Balkans</a>
       <div class="nav-links">
@@ -20,18 +21,50 @@
         <a href="{{ printf "%s/facilitator/" .Language.Lang | relURL }}">{{ i18n "nav_facilitator" }}</a>
       </div>
       {{ partial "lang-switcher.html" . }}
+      <button class="search-btn" id="search-open" aria-label="{{ i18n "search_label" | default "Search" }}">🔍</button>
     </nav>
   </header>
 
-  <main id="main-content"{{ if .IsHome }} class="home-main"{{ end }}>
+  <!-- Search overlay -->
+  <div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="{{ i18n "search_label" | default "Search" }}">
+    <div class="search-panel">
+      <button class="search-close" id="search-close" aria-label="Close">✕</button>
+      <div id="pagefind-ui"></div>
+    </div>
+  </div>
+
+  <main id="main-content"{{ if .IsHome }} class="home-main"{{ else }} data-pagefind-body{{ end }}>
     {{ block "main" . }}{{ end }}
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" data-pagefind-ignore>
     <p>{{ i18n "footer_license" }} — <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
     <p>{{ i18n "footer_grant" }}</p>
   </footer>
 
   <script src="{{ "js/site.js" | relURL }}"></script>
+  <script src="{{ "pagefind/pagefind-ui.js" | relURL }}" defer></script>
+  <script>
+  (function(){
+    var overlay = document.getElementById('search-overlay');
+    var openBtn = document.getElementById('search-open');
+    var closeBtn = document.getElementById('search-close');
+    var ui;
+    function openSearch(){
+      overlay.classList.add('active');
+      if (!ui && typeof PagefindUI !== 'undefined'){
+        ui = new PagefindUI({ element: '#pagefind-ui', showSubResults: true, resetStyles: false });
+      }
+      setTimeout(function(){ var inp = overlay.querySelector('input'); if(inp) inp.focus(); }, 80);
+    }
+    if (openBtn) openBtn.addEventListener('click', openSearch);
+    if (closeBtn) closeBtn.addEventListener('click', function(){ overlay.classList.remove('active'); });
+    if (overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) overlay.classList.remove('active'); });
+    document.addEventListener('keydown', function(e){
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k'){ e.preventDefault(); openSearch(); }
+      if (e.key === 'Escape') overlay.classList.remove('active');
+    });
+  })();
+  </script>
 </body>
 </html>
