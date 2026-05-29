@@ -1,9 +1,27 @@
-<div class="lang-switcher">
-  {{ range site.Languages }}
-  <a href="{{ $.RelPermalink | replaceRE (printf "^/%s/" $.Language.Lang) (printf "/%s/" .Lang) }}"
-     class="lang-option {{ if eq .Lang $.Language.Lang }}lang-active{{ end }}"
-     lang="{{ .Lang }}">
-    {{ .LanguageName }}
-  </a>
-  {{ end }}
-</div>
+{{ $page := . }}
+{{ $shortCodes := dict "hr" "HR" "sr-latn" "SR" "sr-cyrl" "СР" "bs" "BS" "cnr" "CNR" "mk" "МК" "sq" "SQ" }}
+{{ $currentShort := index $shortCodes .Language.Lang | default (.Language.Lang | upper) }}
+<details class="lang-dropdown">
+  <summary class="lang-dropdown-btn" aria-label="Language / Jezik">
+    <span class="lang-globe">🌐</span>
+    <span class="lang-code">{{ $currentShort }}</span>
+    <span class="lang-chevron">▾</span>
+  </summary>
+  <div class="lang-dropdown-menu">
+    {{ range site.Languages }}
+      {{ $langCode := .Lang }}
+      {{ $isActive := eq $langCode $page.Language.Lang }}
+      {{ $href := "" }}
+      {{ range $page.AllTranslations }}
+        {{ if eq .Language.Lang $langCode }}{{ $href = .RelPermalink }}{{ end }}
+      {{ end }}
+      {{ if not $href }}{{ $href = printf "%s/" $langCode | relURL }}{{ end }}
+      <a href="{{ $href }}"
+         class="lang-menu-item{{ if $isActive }} lang-active{{ end }}"
+         lang="{{ $langCode }}">
+        <span class="lang-menu-code">{{ index $shortCodes $langCode | default ($langCode | upper) }}</span>
+        {{ .LanguageName }}
+      </a>
+    {{ end }}
+  </div>
+</details>

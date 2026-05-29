@@ -45,6 +45,13 @@
   <script src="{{ "js/site.js" | relURL }}"></script>
   <script src="{{ "pagefind/pagefind-ui.js" | relURL }}" defer></script>
   <script>
+  // Close <details> dropdowns when clicking outside
+  document.addEventListener('click', function(e){
+    document.querySelectorAll('details[open]').forEach(function(d){
+      if (!d.contains(e.target)) d.removeAttribute('open');
+    });
+  });
+
   (function(){
     var overlay = document.getElementById('search-overlay');
     var openBtn = document.getElementById('search-open');
