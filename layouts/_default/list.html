@@ -13,8 +13,8 @@
       {{ range $foundation }}
       <li class="module-card">
         <a href="{{ .RelPermalink }}">
-          <span class="module-number">{{ i18n "module" }} {{ .Params.module_number }}</span>
-          <span class="module-title">{{ .Title }}</span>
+          <span class="module-card-num">{{ .Params.module_number }}</span>
+          <span class="module-card-title">{{ .Title }}</span>
         </a>
       </li>
       {{ end }}
@@ -29,8 +29,8 @@
       {{ range $intermediate }}
       <li class="module-card">
         <a href="{{ .RelPermalink }}">
-          <span class="module-number">{{ i18n "module" }} {{ .Params.module_number }}</span>
-          <span class="module-title">{{ .Title }}</span>
+          <span class="module-card-num">{{ .Params.module_number }}</span>
+          <span class="module-card-title">{{ .Title }}</span>
         </a>
       </li>
       {{ end }}
@@ -45,8 +45,8 @@
       {{ range $advanced }}
       <li class="module-card">
         <a href="{{ .RelPermalink }}">
-          <span class="module-number">{{ i18n "module" }} {{ .Params.module_number }}</span>
-          <span class="module-title">{{ .Title }}</span>
+          <span class="module-card-num">{{ .Params.module_number }}</span>
+          <span class="module-card-title">{{ .Title }}</span>
         </a>
       </li>
       {{ end }}

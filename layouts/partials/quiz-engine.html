@@ -4,7 +4,7 @@
 {{ $quiz := index $quizBanks $lang (printf "Module-%s" $moduleNum) }}
 
 {{ if $quiz }}
-<div class="quiz" id="quiz-{{ $moduleNum }}" data-module="{{ $moduleNum }}" data-lang="{{ $lang }}">
+<div class="quiz quiz-card" id="quiz-{{ $moduleNum }}" data-module="{{ $moduleNum }}" data-lang="{{ $lang }}">
   <h2 class="quiz-title">{{ i18n "quiz_title" }}</h2>
   <div class="quiz-questions" id="quiz-questions-{{ $moduleNum }}"></div>
   <button class="quiz-submit btn-primary" onclick="submitQuiz('{{ $moduleNum }}')" style="display:none">
