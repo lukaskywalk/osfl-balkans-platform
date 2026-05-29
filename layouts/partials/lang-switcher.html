@@ -1,13 +1,15 @@
 {{ $page := . }}
 {{ $shortCodes := dict "hr" "HR" "sr-latn" "SR" "sr-cyrl" "СР" "bs" "BS" "cnr" "CNR" "mk" "МК" "sq" "SQ" }}
 {{ $currentShort := index $shortCodes .Language.Lang | default (.Language.Lang | upper) }}
-<details class="lang-dropdown">
-  <summary class="lang-dropdown-btn" aria-label="Language / Jezik">
+<div class="lang-dropdown" id="lang-dropdown">
+  <button class="lang-dropdown-btn" id="lang-dropdown-btn"
+          type="button" aria-haspopup="listbox" aria-expanded="false"
+          aria-label="Select language">
     <span class="lang-globe">🌐</span>
     <span class="lang-code">{{ $currentShort }}</span>
     <span class="lang-chevron">▾</span>
-  </summary>
-  <div class="lang-dropdown-menu">
+  </button>
+  <div class="lang-dropdown-menu" id="lang-dropdown-menu" role="listbox" style="display:none">
     {{ range site.Languages }}
       {{ $langCode := .Lang }}
       {{ $isActive := eq $langCode $page.Language.Lang }}
@@ -18,10 +20,12 @@
       {{ if not $href }}{{ $href = printf "%s/" $langCode | relURL }}{{ end }}
       <a href="{{ $href }}"
          class="lang-menu-item{{ if $isActive }} lang-active{{ end }}"
-         lang="{{ $langCode }}">
+         lang="{{ $langCode }}"
+         role="option"
+         aria-selected="{{ if $isActive }}true{{ else }}false{{ end }}">
         <span class="lang-menu-code">{{ index $shortCodes $langCode | default ($langCode | upper) }}</span>
         {{ .LanguageName }}
       </a>
     {{ end }}
   </div>
-</details>
+</div>

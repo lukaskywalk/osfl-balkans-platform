@@ -45,17 +45,27 @@
   <script src="{{ "js/site.js" | relURL }}"></script>
   <script src="{{ "pagefind/pagefind-ui.js" | relURL }}" defer></script>
   <script>
-  // Close <details> dropdowns when clicking outside
-  document.addEventListener('click', function(e){
-    document.querySelectorAll('details[open]').forEach(function(d){
-      if (!d.contains(e.target)) d.removeAttribute('open');
-    });
-  });
+  // ── Language dropdown ──────────────────────────────────────
+  (function(){
+    var btn  = document.getElementById('lang-dropdown-btn');
+    var menu = document.getElementById('lang-dropdown-menu');
+    var wrap = document.getElementById('lang-dropdown');
+    if (!btn || !menu) return;
 
+    function close(){ menu.style.display='none'; btn.setAttribute('aria-expanded','false'); wrap.classList.remove('open'); }
+    function open() { menu.style.display='block'; btn.setAttribute('aria-expanded','true');  wrap.classList.add('open');    }
+    function toggle(){ if(menu.style.display==='block') close(); else open(); }
+
+    btn.addEventListener('click', function(e){ e.stopPropagation(); toggle(); });
+    document.addEventListener('click', function(e){ if(!wrap.contains(e.target)) close(); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+  })();
+
+  // ── Search overlay ─────────────────────────────────────────
   (function(){
     var overlay = document.getElementById('search-overlay');
     var openBtn = document.getElementById('search-open');
-    var closeBtn = document.getElementById('search-close');
+    var closeBtn= document.getElementById('search-close');
     var ui;
     function openSearch(){
       overlay.classList.add('active');
@@ -64,12 +74,13 @@
       }
       setTimeout(function(){ var inp = overlay.querySelector('input'); if(inp) inp.focus(); }, 80);
     }
-    if (openBtn) openBtn.addEventListener('click', openSearch);
-    if (closeBtn) closeBtn.addEventListener('click', function(){ overlay.classList.remove('active'); });
-    if (overlay) overlay.addEventListener('click', function(e){ if(e.target === overlay) overlay.classList.remove('active'); });
+    function closeSearch(){ overlay.classList.remove('active'); }
+    if (openBtn)  openBtn.addEventListener('click', openSearch);
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+    if (overlay)  overlay.addEventListener('click', function(e){ if(e.target===overlay) closeSearch(); });
     document.addEventListener('keydown', function(e){
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k'){ e.preventDefault(); openSearch(); }
-      if (e.key === 'Escape') overlay.classList.remove('active');
+      if ((e.ctrlKey||e.metaKey) && e.key==='k'){ e.preventDefault(); openSearch(); }
+      if (e.key==='Escape') closeSearch();
     });
   })();
   </script>
