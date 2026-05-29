@@ -3,8 +3,12 @@
 
 var chartInstance = null;
 
-function preset(name, amount, rate) {
-  document.getElementById('goal-name').value = name;
+function t(key) {
+  return (window.toolI18n && window.toolI18n.t) ? window.toolI18n.t(key) : key;
+}
+
+function preset(nameKey, amount, rate) {
+  document.getElementById('goal-name').value = t(nameKey);
   document.getElementById('goal-amount').value = amount;
   document.getElementById('interest-rate').value = rate;
   // Default target: 2 years from now
@@ -20,13 +24,13 @@ function calculate() {
   var currency = document.getElementById('currency').value;
   var targetVal = document.getElementById('target-date').value;
 
-  if (goal <= 0) { alert('Please enter a target amount.'); return; }
-  if (!targetVal) { alert('Please select a target date.'); return; }
+  if (goal <= 0) { alert(t('please_enter_amount')); return; }
+  if (!targetVal) { alert(t('please_select_date')); return; }
 
   var now = new Date();
   var target = new Date(targetVal + '-01');
   var months = (target.getFullYear() - now.getFullYear()) * 12 + (target.getMonth() - now.getMonth());
-  if (months <= 0) { alert('Target date must be in the future.'); return; }
+  if (months <= 0) { alert(t('date_must_future')); return; }
 
   var monthlyRate = rate / 12;
   // Required monthly contribution formula (future value of annuity + lump sum)
@@ -43,14 +47,15 @@ function calculate() {
   var fmt = function (n) { return currency + ' ' + Math.round(n).toLocaleString(); };
   var totalContributions = monthly * months + current;
   var interestEarned = goal - totalContributions;
+  var goalName = document.getElementById('goal-name').value || t('goal_fallback');
 
   document.getElementById('summary').innerHTML =
-    '<h2 style="font-size:1.1rem;margin-bottom:16px">' + (document.getElementById('goal-name').value || 'Your goal') + '</h2>' +
+    '<h2 style="font-size:1.1rem;margin-bottom:16px">' + goalName + '</h2>' +
     '<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">' +
-      '<div><span style="font-size:0.8rem;color:#555">Monthly savings needed</span><br><strong style="font-size:1.5rem;color:#005fa3">' + fmt(monthly) + '</strong></div>' +
-      '<div><span style="font-size:0.8rem;color:#555">Time to goal</span><br><strong style="font-size:1.5rem">' + months + ' months</strong></div>' +
-      '<div><span style="font-size:0.8rem;color:#555">Total you save</span><br><strong>' + fmt(totalContributions) + '</strong></div>' +
-      '<div><span style="font-size:0.8rem;color:#555">Interest earned</span><br><strong style="color:#1a7a4a">' + fmt(Math.max(0, interestEarned)) + '</strong></div>' +
+      '<div><span style="font-size:0.8rem;color:#555">' + t('monthly_needed') + '</span><br><strong style="font-size:1.5rem;color:#005fa3">' + fmt(monthly) + '</strong></div>' +
+      '<div><span style="font-size:0.8rem;color:#555">' + t('time_to_goal') + '</span><br><strong style="font-size:1.5rem">' + months + ' ' + t('months') + '</strong></div>' +
+      '<div><span style="font-size:0.8rem;color:#555">' + t('total_saved') + '</span><br><strong>' + fmt(totalContributions) + '</strong></div>' +
+      '<div><span style="font-size:0.8rem;color:#555">' + t('interest_earned') + '</span><br><strong style="color:#1a7a4a">' + fmt(Math.max(0, interestEarned)) + '</strong></div>' +
     '</div>';
 
   // Build chart data month by month
@@ -76,8 +81,8 @@ function calculate() {
     data: {
       labels: labels,
       datasets: [
-        { label: 'Balance', data: balances, borderColor: '#005fa3', backgroundColor: 'rgba(0,95,163,0.08)', fill: true, tension: 0.3, pointRadius: 0 },
-        { label: 'Contributions', data: contributions, borderColor: '#aaa', borderDash: [5,3], fill: false, tension: 0, pointRadius: 0 }
+        { label: t('chart_balance'), data: balances, borderColor: '#005fa3', backgroundColor: 'rgba(0,95,163,0.08)', fill: true, tension: 0.3, pointRadius: 0 },
+        { label: t('chart_contributions'), data: contributions, borderColor: '#aaa', borderDash: [5,3], fill: false, tension: 0, pointRadius: 0 }
       ]
     },
     options: {

@@ -2,6 +2,10 @@
 // Data sourced from M3 Module 9 country supplements
 // All regulatory data last verified: April 2026
 
+function t(key) {
+  return (window.toolI18n && window.toolI18n.t) ? window.toolI18n.t(key) : key;
+}
+
 var DATA = {
   HR: {
     name: "Croatia",
@@ -216,7 +220,7 @@ function getVal(name) {
 
 function compare() {
   var countryCode = document.getElementById('country').value;
-  if (!countryCode) { alert('Please select a country.'); return; }
+  if (!countryCode) { alert(t('please_select_country')); return; }
   var type = getVal('type');
   var revenue = getVal('revenue');
   var liability = getVal('liability');
@@ -236,17 +240,24 @@ function compare() {
   scored.sort(function (a, b) { return b.score - a.score; });
   var topScore = scored[0].score;
 
-  var html = '<h2 style="margin-bottom:16px">Business structures in ' + country.name + '</h2>';
+  var countryName = t('country_' + countryCode.toLowerCase());
+  var html = '<h2 style="margin-bottom:16px">' + t('comparator_heading') + ' ' + countryName + '</h2>';
   html += '<table class="comparison-table"><thead><tr>' +
-    '<th>Structure</th><th>Liability</th><th>Min. capital</th><th>Reg. cost</th>' +
-    '<th>Reg. time</th><th>Tax rate</th><th>VAT threshold</th><th>Register at</th>' +
+    '<th>' + t('col_structure') + '</th>' +
+    '<th>' + t('col_liability') + '</th>' +
+    '<th>' + t('col_capital') + '</th>' +
+    '<th>' + t('col_reg_cost') + '</th>' +
+    '<th>' + t('col_reg_time') + '</th>' +
+    '<th>' + t('col_tax') + '</th>' +
+    '<th>' + t('col_vat') + '</th>' +
+    '<th>' + t('col_where') + '</th>' +
     '</tr></thead><tbody>';
 
   scored.forEach(function (item) {
     var s = item.s;
     var isTop = item.score === topScore && topScore > 0;
     html += '<tr' + (isTop ? ' class="recommended"' : '') + '>' +
-      '<td><strong>' + s.name + '</strong>' + (isTop ? ' <span class="badge badge-recommended">Recommended</span>' : '') + '</td>' +
+      '<td><strong>' + s.name + '</strong>' + (isTop ? ' <span class="badge badge-recommended">' + t('recommended') + '</span>' : '') + '</td>' +
       '<td>' + s.liability_desc + '</td>' +
       '<td>' + s.min_capital + '</td>' +
       '<td>' + s.reg_cost + '</td>' +
@@ -258,8 +269,8 @@ function compare() {
   });
 
   html += '</tbody></table>';
-  html += '<p style="margin-top:14px;font-size:0.8rem;color:#555">Data last verified: April 2026. Always confirm with a local accountant or official registry before registering. This tool is for educational purposes only.</p>';
-  html += '<button onclick="window.print()" style="margin-top:12px;padding:6px 14px;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:0.85rem">Print comparison</button>';
+  html += '<p style="margin-top:14px;font-size:0.8rem;color:#555">' + t('comparator_disclaimer') + '</p>';
+  html += '<button onclick="window.print()" style="margin-top:12px;padding:6px 14px;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:0.85rem">' + t('print_comparison') + '</button>';
 
   var result = document.getElementById('result');
   result.innerHTML = html;

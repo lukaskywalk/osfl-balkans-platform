@@ -7,23 +7,27 @@ var categories = {
   savings: ['savings', 'investment', 'pension', 'debt repayment', 'emergency fund']
 };
 
+function t(key) {
+  return (window.toolI18n && window.toolI18n.t) ? window.toolI18n.t(key) : key;
+}
+
 function addRow(label, amount, freq, category) {
   var container = document.getElementById('expense-rows');
   var row = document.createElement('div');
   row.className = 'expense-row';
   row.innerHTML =
-    '<input type="text" placeholder="Label (e.g. Rent)" value="' + (label || '') + '" style="flex:2">' +
-    '<input type="number" placeholder="Amount" value="' + (amount || '') + '" min="0" step="1" style="flex:1">' +
+    '<input type="text" placeholder="' + t('label_placeholder') + '" value="' + (label || '') + '" style="flex:2">' +
+    '<input type="number" placeholder="' + t('amount_placeholder') + '" value="' + (amount || '') + '" min="0" step="1" style="flex:1">' +
     '<select style="flex:1">' +
-      '<option value="monthly"' + (freq === 'monthly' ? ' selected' : '') + '>Monthly</option>' +
-      '<option value="weekly"' + (freq === 'weekly' ? ' selected' : '') + '>Weekly</option>' +
-      '<option value="annual"' + (freq === 'annual' ? ' selected' : '') + '>Annual</option>' +
+      '<option value="monthly"' + (freq === 'monthly' ? ' selected' : '') + '>' + t('freq_monthly') + '</option>' +
+      '<option value="weekly"' + (freq === 'weekly' ? ' selected' : '') + '>' + t('freq_weekly') + '</option>' +
+      '<option value="annual"' + (freq === 'annual' ? ' selected' : '') + '>' + t('freq_annual') + '</option>' +
     '</select>' +
     '<select style="flex:1">' +
-      '<option value="auto"' + (!category || category === 'auto' ? ' selected' : '') + '>Auto</option>' +
-      '<option value="needs"' + (category === 'needs' ? ' selected' : '') + '>Needs</option>' +
-      '<option value="wants"' + (category === 'wants' ? ' selected' : '') + '>Wants</option>' +
-      '<option value="savings"' + (category === 'savings' ? ' selected' : '') + '>Savings</option>' +
+      '<option value="auto"' + (!category || category === 'auto' ? ' selected' : '') + '>' + t('cat_auto') + '</option>' +
+      '<option value="needs"' + (category === 'needs' ? ' selected' : '') + '>' + t('needs') + '</option>' +
+      '<option value="wants"' + (category === 'wants' ? ' selected' : '') + '>' + t('wants') + '</option>' +
+      '<option value="savings"' + (category === 'savings' ? ' selected' : '') + '>' + t('savings') + '</option>' +
     '</select>' +
     '<button onclick="this.parentElement.remove()" title="Remove">✕</button>';
   container.appendChild(row);
@@ -48,7 +52,7 @@ function toMonthly(amount, freq) {
 function calculate() {
   var income = parseFloat(document.getElementById('income').value) || 0;
   var currency = document.getElementById('currency').value;
-  if (income <= 0) { alert('Please enter your monthly income.'); return; }
+  if (income <= 0) { alert(t('please_enter_income')); return; }
 
   var rows = document.querySelectorAll('#expense-rows .expense-row');
   var totals = { needs: 0, wants: 0, savings: 0 };
@@ -76,9 +80,9 @@ function calculate() {
   var chart = document.getElementById('chart');
   chart.innerHTML = '';
   var bars = [
-    { key: 'needs', label: 'Needs', cls: 'bar-needs' },
-    { key: 'wants', label: 'Wants', cls: 'bar-wants' },
-    { key: 'savings', label: 'Savings', cls: 'bar-savings' }
+    { key: 'needs',   label: t('needs'),   cls: 'bar-needs' },
+    { key: 'wants',   label: t('wants'),   cls: 'bar-wants' },
+    { key: 'savings', label: t('savings'), cls: 'bar-savings' }
   ];
   bars.forEach(function (b) {
     var p = pct(totals[b.key]);
@@ -89,7 +93,7 @@ function calculate() {
         '<div style="display:flex;justify-content:space-between;font-size:0.85rem;margin-bottom:4px">' +
           '<span><strong>' + b.label + '</strong></span>' +
           '<span>' + fmt(totals[b.key]) + ' (' + p + '%) — target ' + tp + '%' +
-          (over ? ' <span style="color:#c0392b">▲ over</span>' : ' <span style="color:#1a7a4a">✓</span>') + '</span>' +
+          (over ? ' <span style="color:#c0392b">' + t('over') + '</span>' : ' <span style="color:#1a7a4a">' + t('on_target') + '</span>') + '</span>' +
         '</div>' +
         '<div style="background:#e0e0e0;border-radius:4px;height:20px;overflow:hidden">' +
           '<div class="chart-bar ' + b.cls + '" style="width:' + Math.min(p, 100) + '%">' + (p >= 8 ? p + '%' : '') + '</div>' +
@@ -100,13 +104,13 @@ function calculate() {
   var summary = document.getElementById('summary');
   summary.innerHTML =
     '<div style="display:flex;gap:20px;flex-wrap:wrap">' +
-      '<div><span style="font-size:0.85rem;color:#555">Income</span><br><strong>' + fmt(income) + '</strong></div>' +
-      '<div><span style="font-size:0.85rem;color:#555">Total expenses</span><br><strong>' + fmt(totalExpenses) + '</strong></div>' +
-      '<div><span style="font-size:0.85rem;color:#555">' + (surplus >= 0 ? 'Surplus' : 'Deficit') + '</span><br>' +
+      '<div><span style="font-size:0.85rem;color:#555">' + t('income_label') + '</span><br><strong>' + fmt(income) + '</strong></div>' +
+      '<div><span style="font-size:0.85rem;color:#555">' + t('total_expenses') + '</span><br><strong>' + fmt(totalExpenses) + '</strong></div>' +
+      '<div><span style="font-size:0.85rem;color:#555">' + t(surplus >= 0 ? 'surplus' : 'deficit') + '</span><br>' +
         '<strong class="' + (surplus >= 0 ? 'surplus' : 'deficit') + '">' + fmt(Math.abs(surplus)) + '</strong></div>' +
     '</div>' +
-    (surplus < 0 ? '<p style="margin-top:14px;color:#c0392b;font-size:0.9rem">⚠ Your expenses exceed your income. Review your Wants category first.</p>' : '') +
-    '<p style="margin-top:14px;font-size:0.85rem;color:#555">Target: 50% Needs · 30% Wants · 20% Savings</p>';
+    (surplus < 0 ? '<p style="margin-top:14px;color:#c0392b;font-size:0.9rem">' + t('expenses_exceed') + '</p>' : '') +
+    '<p style="margin-top:14px;font-size:0.85rem;color:#555">' + t('target') + '</p>';
 
   document.getElementById('result').style.display = 'block';
   localStorage.setItem('osfl_budget', JSON.stringify({ income: income, currency: currency, rows: getRows() }));
@@ -126,7 +130,7 @@ function saveState() {
   var state = btoa(JSON.stringify({ income: document.getElementById('income').value, currency: document.getElementById('currency').value, rows: getRows() }));
   var url = window.location.origin + window.location.pathname + '?s=' + state;
   navigator.clipboard ? navigator.clipboard.writeText(url) : prompt('Copy link:', url);
-  alert('Link copied to clipboard.');
+  alert(t('link_copied'));
 }
 
 // Restore from URL or localStorage on load

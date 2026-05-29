@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $letters := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "R" "S" "T" "U" "V" "W" "Z" }}
+{{ if eq .Language.Lang "mk" }}{{ $letters = slice "А" "Б" "В" "Г" "Д" "Е" "З" "И" "К" "Л" "М" "Н" "О" "П" "Р" "С" "Т" "У" "Ф" "Х" "Ц" }}{{ end }}
+{{ if eq .Language.Lang "sr-cyrl" }}{{ $letters = slice "А" "Б" "В" "Г" "Д" "Е" "З" "И" "К" "Л" "М" "Н" "О" "П" "Р" "С" "Т" "У" "Ф" "Х" "Ц" }}{{ end }}
+
+<div class="glossary-wrap">
+  <div class="glossary-alpha-nav" aria-label="Alphabet navigation">
+    {{ range $letters }}
+    <a href="#{{ lower . }}" class="alpha-link">{{ . }}</a>
+    {{ end }}
+  </div>
+
+  <article class="glossary-content module-card" data-pagefind-body>
+    <h1 class="module-h1">{{ .Title }}</h1>
+    <div class="glossary-body">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{ end }}

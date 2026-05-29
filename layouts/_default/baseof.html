@@ -18,6 +18,7 @@
       <div class="nav-links">
         <a href="{{ printf "%s/modules/" .Language.Lang | relURL }}">{{ i18n "nav_modules" }}</a>
         <a href="{{ printf "%s/tools/" .Language.Lang | relURL }}">{{ i18n "nav_tools" }}</a>
+        <a href="{{ printf "%s/glossary/" .Language.Lang | relURL }}">{{ i18n "nav_glossary" }}</a>
         <a href="{{ printf "%s/facilitator/" .Language.Lang | relURL }}">{{ i18n "nav_facilitator" }}</a>
       </div>
       {{ partial "lang-switcher.html" . }}

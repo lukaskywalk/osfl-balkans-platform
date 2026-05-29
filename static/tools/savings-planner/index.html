@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="hr" data-i18n-title="tool_savings_title">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,23 @@
 </head>
 <body>
 <main id="main-content" style="max-width:640px;margin:40px auto;padding:0 20px">
-  <a id="back-link" href="/osflbalkans/" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <a id="back-link" href="/osflbalkans/" data-i18n="back_link" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
   <script>(function(){var l=new URLSearchParams(window.location.search).get('lang')||'hr';document.getElementById('back-link').href='/osflbalkans/'+l+'/';})()</script>
-  <h1 style="margin-top:16px">Savings Goal Planner</h1>
-  <p style="color:#555;margin-bottom:28px">Calculate how much you need to save each month to reach your goal.</p>
+  <h1 data-i18n="tool_savings_title" style="margin-top:16px">Savings Goal Planner</h1>
+  <p data-i18n="tool_savings_desc" style="color:#555;margin-bottom:28px">Calculate how much you need to save each month to reach your goal.</p>
 
   <div class="form-group">
-    <label for="goal-name">Goal name</label>
+    <label for="goal-name" data-i18n="goal_name">Goal name</label>
     <input type="text" id="goal-name" placeholder="e.g. Emergency fund">
   </div>
 
   <div style="display:flex;gap:12px">
     <div class="form-group" style="flex:1">
-      <label for="goal-amount">Target amount</label>
+      <label for="goal-amount" data-i18n="goal_amount">Target amount</label>
       <input type="number" id="goal-amount" min="0" step="100" placeholder="0">
     </div>
     <div class="form-group" style="width:120px">
-      <label for="currency">Currency</label>
+      <label for="currency" data-i18n="currency_label">Currency</label>
       <select id="currency">
         <option>EUR</option><option>RSD</option><option>BAM</option><option>MKD</option><option>ALL</option>
       </select>
@@ -35,32 +35,32 @@
 
   <div style="display:flex;gap:12px">
     <div class="form-group" style="flex:1">
-      <label for="current-balance">Current savings</label>
+      <label for="current-balance" data-i18n="current_balance">Current savings</label>
       <input type="number" id="current-balance" min="0" step="10" placeholder="0" value="0">
     </div>
     <div class="form-group" style="flex:1">
-      <label for="interest-rate">Annual interest rate (%)</label>
+      <label for="interest-rate" data-i18n="interest_rate">Annual interest rate (%)</label>
       <input type="number" id="interest-rate" min="0" max="30" step="0.1" placeholder="2.5" value="2.5">
     </div>
   </div>
 
   <div class="form-group">
-    <label for="target-date">Target date</label>
+    <label for="target-date" data-i18n="target_date">Target date</label>
     <input type="month" id="target-date">
   </div>
 
   <div style="margin-bottom:18px">
-    <strong style="font-size:0.9rem;display:block;margin-bottom:8px">Preset goals</strong>
+    <strong data-i18n="preset_goals_label" style="font-size:0.9rem;display:block;margin-bottom:8px">Preset goals</strong>
     <div style="display:flex;flex-wrap:wrap;gap:8px">
-      <button onclick="preset('Emergency fund', 3000, 2.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Emergency fund</button>
-      <button onclick="preset('Down payment', 15000, 2.5)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Down payment</button>
-      <button onclick="preset('Education', 5000, 2.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Education</button>
-      <button onclick="preset('Travel', 1500, 1.5)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Travel</button>
-      <button onclick="preset('Retirement top-up', 30000, 4.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Retirement top-up</button>
+      <button data-i18n="preset_emergency" onclick="preset('preset_emergency', 3000, 2.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Emergency fund</button>
+      <button data-i18n="preset_downpayment" onclick="preset('preset_downpayment', 15000, 2.5)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Down payment</button>
+      <button data-i18n="preset_education" onclick="preset('preset_education', 5000, 2.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Education</button>
+      <button data-i18n="preset_travel" onclick="preset('preset_travel', 1500, 1.5)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Travel</button>
+      <button data-i18n="preset_retirement" onclick="preset('preset_retirement', 30000, 4.0)" style="padding:5px 12px;border:1px solid #ccc;border-radius:20px;background:#fff;cursor:pointer;font-size:0.85rem">Retirement top-up</button>
     </div>
   </div>
 
-  <button class="btn-primary" onclick="calculate()" style="width:100%">Calculate</button>
+  <button class="btn-primary" data-i18n="calculate" onclick="calculate()" style="width:100%">Calculate</button>
 
   <div id="result" style="display:none;margin-top:28px">
     <div id="summary" style="padding:20px;background:#f0f7ff;border-radius:6px;border:1px solid #b3d4f0;margin-bottom:24px"></div>
@@ -70,16 +70,7 @@
 <script src="planner.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  if (typeof toolI18n === 'undefined') return;
-  var t = toolI18n.t.bind(toolI18n);
-  var labels = { 'goal-name': 'goal_name', 'goal-amount': 'goal_amount',
-    'current-balance': 'current_balance', 'interest-rate': 'interest_rate', 'target-date': 'target_date' };
-  Object.keys(labels).forEach(function(id) {
-    var el = document.getElementById(id);
-    if (el) { var lbl = el.closest('.form-group').querySelector('label'); if(lbl) lbl.textContent = t(labels[id]); }
-  });
-  var calcBtn = document.querySelector('[onclick="calculate()"]');
-  if (calcBtn) calcBtn.textContent = t('calculate');
+  if (window.toolI18n) toolI18n.applyAll();
 });
 </script>
 </body>
