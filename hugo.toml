@@ -1,4 +1,4 @@
-baseURL = "https://drugakozmicka.com/osflbalkans"
+baseURL = "https://osflbalkans.org"
 title = "OSFL Balkans"
 defaultContentLanguage = "hr"
 defaultContentLanguageInSubdir = true
@@ -55,5 +55,5 @@ defaultContentLanguageInSubdir = true
 [params]
   description = "Open Source Financial Literacy for the Balkans"
   countries = ["HR", "RS", "BA", "ME", "MK", "AL"]
-  analyticsURL = "https://drugakozmicka.com/umami/script.js"
+  analyticsURL = "https://osflbalkans.org/umami/script.js"
   analyticsWebsiteId = "6d834c21-b4a7-43ef-9f99-8ee41ad44ce4"
