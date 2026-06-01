@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hr" data-i18n-title="tool_salary_title">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator plaće — OSFL Balkans</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/tool-i18n.js"></script>
+  <style>
+    .result-card { background: #f0f7ff; border: 1px solid #b3d4f0; border-radius: 6px; padding: 24px; margin-top: 28px; }
+    .net-amount { font-size: 2.2rem; font-weight: 700; color: #005fa3; margin: 8px 0 20px; }
+    .deduction-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 12px; }
+    .deduction-table td { padding: 7px 10px; border-bottom: 1px solid #e0e0e0; }
+    .deduction-table tr:last-child td { border-bottom: none; font-weight: 700; }
+    .deduction-table td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+    .salary-bar-wrap { margin: 20px 0 8px; height: 28px; background: #e0e7ef; border-radius: 4px; overflow: hidden; display: flex; }
+    .salary-bar-net { background: #005fa3; height: 100%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.78rem; font-weight: 600; min-width: 40px; }
+    .salary-bar-ded { background: #b0c4d8; height: 100%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.78rem; font-weight: 600; min-width: 20px; }
+    .employer-section { margin-top: 20px; padding-top: 16px; border-top: 1px solid #d0d8e4; }
+    .toggle-wrap { display: flex; align-items: center; gap: 10px; margin-top: 4px; }
+    .toggle-wrap input[type=checkbox] { width: 18px; height: 18px; cursor: pointer; }
+  </style>
+</head>
+<body>
+<main id="main-content" style="max-width:580px;margin:40px auto;padding:0 20px">
+  <a id="back-link" href="/" data-i18n="back_link" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <script>(function(){var l=new URLSearchParams(window.location.search).get('lang')||'hr';document.getElementById('back-link').href='/'+l+'/';})()</script>
+  <h1 data-i18n="tool_salary_title" style="margin-top:16px">Kalkulator plaće (Bruto → Neto)</h1>
+  <p data-i18n="tool_salary_desc" style="color:#555;margin-bottom:28px">Izračunajte svoju neto plaću u Hrvatskoj — uključujući porez, prirez i doprinose.</p>
+
+  <div class="form-group">
+    <label for="gross" data-i18n="gross_salary">Bruto plaća (€/mj.)</label>
+    <input type="number" id="gross" min="0" step="50" placeholder="1500" style="font-size:1.1rem">
+  </div>
+
+  <div style="display:flex;gap:12px">
+    <div class="form-group" style="flex:2">
+      <label for="city" data-i18n="city_label">Grad (prirez)</label>
+      <select id="city">
+        <option value="10"   data-i18n="city_zagreb">Zagreb (10%)</option>
+        <option value="10"   data-i18n="city_split">Split (10%)</option>
+        <option value="8"    data-i18n="city_rijeka">Rijeka (8%)</option>
+        <option value="6"    data-i18n="city_osijek">Osijek (6%)</option>
+        <option value="7.2"  data-i18n="city_varazdin">Varaždin (7,2%)</option>
+        <option value="0"    data-i18n="city_other">Ostalo (0%)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="toggle-wrap" style="margin-bottom:20px">
+    <input type="checkbox" id="show-employer">
+    <label for="show-employer" data-i18n="show_employer_cost" style="font-size:0.9rem;cursor:pointer">Prikaži troškove poslodavca</label>
+  </div>
+
+  <button class="btn-primary" data-i18n="calculate" onclick="calculate()" style="width:100%">Izračunaj</button>
+
+  <div id="result" style="display:none"></div>
+</main>
+<script src="calculator.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.toolI18n) toolI18n.applyAll();
+  document.getElementById('gross').addEventListener('keydown', function(e){ if(e.key==='Enter') calculate(); });
+});
+</script>
+</body>
+</html>

@@ -77,14 +77,34 @@
 <section class="curriculum-section">
   <div class="curriculum-inner">
     <h2 class="section-heading">{{ i18n "curriculum_heading" }}</h2>
+    <p class="section-subheading">{{ i18n "curriculum_subheading" }}</p>
+
+    <!-- Entry prompt (dismissible) -->
+    <div id="entry-prompt" class="entry-prompt" style="display:none">
+      <span>{{ i18n "entry_prompt" }}</span>
+      {{ $modules := where site.RegularPages "Section" "modules" }}
+      {{ $sorted  := sort $modules "Params.module_number" }}
+      {{ range first 1 $sorted }}
+      <a href="{{ .RelPermalink }}" class="entry-prompt-link">{{ .Title }} →</a>
+      {{ end }}
+      <button class="entry-prompt-close" onclick="document.getElementById('entry-prompt').style.display='none';localStorage.setItem('osfl_prompt_dismissed','1')" aria-label="Zatvori">✕</button>
+    </div>
+    <script>
+      if (!localStorage.getItem('osfl_prompt_dismissed')) {
+        document.getElementById('entry-prompt').style.display = 'flex';
+      }
+    </script>
 
     {{ $modules := where site.RegularPages "Section" "modules" }}
     {{ $sorted  := sort $modules "Params.module_number" }}
 
-    <div class="curriculum-row curriculum-foundation">
+    <!-- Foundation — visually primary -->
+    <div class="curriculum-row curriculum-foundation curriculum-featured">
       <div class="curriculum-label">
         <span class="path-badge badge-foundation">{{ i18n "path_foundation" }}</span>
+        <span class="start-here-badge">{{ i18n "start_here" }}</span>
         <span class="curriculum-range">{{ i18n "modules" }} 1–4</span>
+        <span class="path-time">{{ i18n "path_time_foundation" }}</span>
       </div>
       <div class="curriculum-nodes">
         {{ range $sorted }}{{ if and (ge .Params.module_number 1) (le .Params.module_number 4) }}
@@ -96,10 +116,14 @@
       </div>
     </div>
 
+    <div class="curriculum-path-arrow">↓</div>
+
     <div class="curriculum-row curriculum-intermediate">
       <div class="curriculum-label">
         <span class="path-badge badge-intermediate">{{ i18n "path_intermediate" }}</span>
         <span class="curriculum-range">{{ i18n "modules" }} 5–8</span>
+        <span class="path-time">{{ i18n "path_time_intermediate" }}</span>
+        <span class="path-prereq">{{ i18n "path_prereq_intermediate" }}</span>
       </div>
       <div class="curriculum-nodes">
         {{ range $sorted }}{{ if and (ge .Params.module_number 5) (le .Params.module_number 8) }}
@@ -111,10 +135,14 @@
       </div>
     </div>
 
+    <div class="curriculum-path-arrow">↓</div>
+
     <div class="curriculum-row curriculum-advanced">
       <div class="curriculum-label">
         <span class="path-badge badge-advanced">{{ i18n "path_advanced" }}</span>
         <span class="curriculum-range">{{ i18n "modules" }} 9–11</span>
+        <span class="path-time">{{ i18n "path_time_advanced" }}</span>
+        <span class="path-prereq">{{ i18n "path_prereq_advanced" }}</span>
       </div>
       <div class="curriculum-nodes">
         {{ range $sorted }}{{ if and (ge .Params.module_number 9) (le .Params.module_number 11) }}

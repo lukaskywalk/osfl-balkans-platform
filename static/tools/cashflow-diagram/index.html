@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hr" data-i18n-title="tool_cashflow_title">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dijagram novčanog toka — OSFL Balkans</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/tool-i18n.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <style>
+    .flow-section { margin-bottom: 24px; }
+    .flow-section h3 { font-size: 0.875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #555; margin-bottom: 10px; }
+    .flow-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+    .flow-row input[type="text"] { flex: 2; }
+    .flow-row input[type="number"] { flex: 1; min-width: 80px; }
+    .flow-row select { flex: 1; min-width: 90px; }
+    .flow-row button { padding: 7px 10px; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer; font-size: 0.85rem; }
+    .flow-row button:hover { background: #ffe0e0; border-color: #f44; }
+    #diagram-wrap { margin-top: 28px; min-height: 320px; }
+    #sankey-chart { width: 100%; height: 380px; }
+    .action-bar { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+    .action-bar button { padding: 7px 16px; border: 1px solid #ccc; border-radius: 4px; background: #fff; cursor: pointer; font-size: 0.85rem; }
+    .action-bar button:hover { border-color: #005fa3; color: #005fa3; }
+    @media print {
+      .no-print { display: none !important; }
+      nav, header, footer, #main-content > *:not(#diagram-wrap) { display: none !important; }
+      #diagram-wrap { display: block !important; }
+    }
+  </style>
+</head>
+<body>
+<main id="main-content" style="max-width:720px;margin:40px auto;padding:0 20px">
+  <a id="back-link" href="/" data-i18n="back_link" style="font-size:0.85rem;color:#555">← OSFL Balkans</a>
+  <script>(function(){var l=new URLSearchParams(window.location.search).get('lang')||'hr';document.getElementById('back-link').href='/'+l+'/';})()</script>
+  <h1 data-i18n="tool_cashflow_title" style="margin-top:16px">Dijagram novčanog toka</h1>
+  <p data-i18n="tool_cashflow_desc" style="color:#555;margin-bottom:28px">Vizualizirajte kuda odlazi vaš novac — unesite prihode i rashode i generirajte Sankey dijagram.</p>
+
+  <!-- Income sources -->
+  <div class="flow-section no-print">
+    <h3 data-i18n="income_sources">Prihodi</h3>
+    <div id="income-rows"></div>
+    <button onclick="addIncomeRow()" style="padding:6px 14px;border:1px dashed #aaa;border-radius:4px;background:transparent;cursor:pointer;font-size:0.85rem;color:#555" data-i18n="add_income">+ Dodaj prihod</button>
+  </div>
+
+  <!-- Expense categories -->
+  <div class="flow-section no-print">
+    <h3 data-i18n="expense_categories">Rashodi</h3>
+    <div id="expense-rows"></div>
+    <button onclick="addExpenseRow()" style="padding:6px 14px;border:1px dashed #aaa;border-radius:4px;background:transparent;cursor:pointer;font-size:0.85rem;color:#555" data-i18n="add_expense">+ Dodaj rashod</button>
+  </div>
+
+  <button class="btn-primary no-print" data-i18n="generate_diagram" onclick="generateDiagram()" style="width:100%;margin-top:8px">Generiraj dijagram</button>
+
+  <div id="diagram-wrap" style="display:none">
+    <div id="sankey-chart"></div>
+    <div class="action-bar no-print">
+      <button onclick="shareDiagram()" data-i18n="share_diagram">🔗 Podijeli</button>
+      <button onclick="window.print()" data-i18n="print_diagram">🖨 Ispiši</button>
+    </div>
+  </div>
+</main>
+<script src="diagram.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.toolI18n) toolI18n.applyAll();
+  initRows();
+});
+</script>
+</body>
+</html>

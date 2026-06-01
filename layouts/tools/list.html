@@ -26,6 +26,20 @@
       <a href="{{ "tools/business-comparator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="btn-primary">{{ i18n "cta_open_tool" }}</a>
     </div>
 
+    <div class="tools-grid-card">
+      <div class="tool-icon-wrap tw-amber">💼</div>
+      <h2>{{ i18n "tool_salary_name" }}</h2>
+      <p>{{ i18n "tool_salary_desc" }}</p>
+      <a href="{{ "tools/salary-calculator/index.html" | relURL }}?lang={{ .Language.Lang }}" class="btn-primary">{{ i18n "cta_open_tool" }}</a>
+    </div>
+
+    <div class="tools-grid-card">
+      <div class="tool-icon-wrap tw-teal">🌊</div>
+      <h2>{{ i18n "tool_cashflow_name" }}</h2>
+      <p>{{ i18n "tool_cashflow_desc" }}</p>
+      <a href="{{ "tools/cashflow-diagram/index.html" | relURL }}?lang={{ .Language.Lang }}" class="btn-primary">{{ i18n "cta_open_tool" }}</a>
+    </div>
+
   </div>
 </div>
 {{ end }}
