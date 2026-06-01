@@ -14,7 +14,7 @@
     <div class="resource-card">
       <h3>📄 {{ i18n "facilitator_worksheets" }}</h3>
       <p>{{ i18n "path_foundation_desc" }}</p>
-      <a href="/worksheets/" class="btn-primary" style="font-size:0.875rem;padding:7px 16px">{{ i18n "facilitator_worksheets" }}</a>
+      <a href="{{ printf "%s/worksheets/" .Language.Lang | relURL }}" class="btn-primary" style="font-size:0.875rem;padding:7px 16px">{{ i18n "facilitator_worksheets" }}</a>
     </div>
 
     <div class="resource-card">

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div style="max-width:760px;margin:40px auto;padding:0 20px">
+  <div class="no-print" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:24px">
+    <nav style="font-size:0.85rem;color:#555">
+      <a href="{{ printf "%s/" .Language.Lang | relURL }}" style="color:#555">{{ i18n "nav_home" | default "Home" }}</a>
+      &rsaquo;
+      <a href="{{ printf "%s/facilitator/" .Language.Lang | relURL }}" style="color:#555">{{ i18n "nav_facilitator" | default "Facilitatori" }}</a>
+      &rsaquo;
+      <a href="{{ printf "%s/worksheets/" .Language.Lang | relURL }}" style="color:#555">{{ i18n "nav_worksheets" | default "Radni listići" }}</a>
+      &rsaquo; {{ i18n "module" | default "Modul" }} {{ .Params.module_number }}
+    </nav>
+    <button onclick="window.print()" style="padding:7px 16px;background:#005fa3;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:0.875rem;font-weight:600">
+      🖨 {{ i18n "print_worksheet" | default "Ispiši" }}
+    </button>
+  </div>
+
+  <article class="module-card" style="padding:36px 40px" data-pagefind-ignore>
+    <h1 class="module-h1">{{ .Title }}</h1>
+    <div class="module-body">{{ .Content }}</div>
+  </article>
+
+  <div class="no-print" style="margin-top:20px;text-align:center">
+    {{ with .PrevInSection }}
+    <a href="{{ .RelPermalink }}" style="margin-right:16px;color:#005fa3">← {{ i18n "module" | default "Modul" }} {{ .Params.module_number }}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .RelPermalink }}" style="color:#005fa3">{{ i18n "module" | default "Modul" }} {{ .Params.module_number }} →</a>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+@media print {
+  .no-print { display: none !important; }
+  nav, header, footer { display: none !important; }
+  .module-card { box-shadow: none !important; border: none !important; padding: 0 !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { border: 1px solid #999 !important; padding: 6px 8px !important; }
+}
+</style>
+{{ end }}
