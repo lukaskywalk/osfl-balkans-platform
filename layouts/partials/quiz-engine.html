@@ -1,6 +1,6 @@
 {{ $lang := .lang }}
 {{ $moduleNum := printf "%02d" (int .module) }}
-{{ $quizBanks := index hugo.Data "quiz-banks" }}
+{{ $quizBanks := index site.Data "quiz-banks" }}
 {{ $quiz := index $quizBanks $lang (printf "Module-%s" $moduleNum) }}
 
 {{ if $quiz }}
