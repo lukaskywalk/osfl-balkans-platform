@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="0; url=/hr/worksheets/">
+<script>
+  // Redirect to language-appropriate worksheets if possible
+  var lang = (navigator.language || navigator.userLanguage || 'hr').toLowerCase().split('-')[0];
+  var map = { hr: 'hr', sr: 'sr-latn', bs: 'bs', mk: 'mk', sq: 'sq' };
+  var target = '/worksheets/' + (map[lang] || 'hr') + '/';
+  // Simpler: just go to /hr/worksheets/
+  window.location.replace('/hr/worksheets/');
+</script>
+<link rel="canonical" href="/hr/worksheets/">
+</head>
+<body>
+<a href="/hr/worksheets/">Radni listići</a>
+</body>
+</html>
