@@ -18,6 +18,13 @@
       <div class="nav-links">
         <a href="{{ printf "%s/modules/" .Language.Lang | relURL }}">{{ i18n "nav_modules" }}</a>
         <a href="{{ printf "%s/tools/" .Language.Lang | relURL }}">{{ i18n "nav_tools" }}</a>
+        <div class="nav-dropdown" id="calc-dropdown">
+          <button class="nav-dropdown-btn" id="calc-dropdown-btn" aria-haspopup="true" aria-expanded="false">{{ i18n "nav_calculators" }} <span class="nav-dropdown-arrow">▾</span></button>
+          <div class="nav-dropdown-menu" id="calc-dropdown-menu">
+            <a href="{{ "tools/salary-calculator/index.html" | relURL }}?lang={{ .Language.Lang }}">{{ i18n "tool_salary_name" }}</a>
+            <a href="{{ "tools/cashflow-diagram/index.html" | relURL }}?lang={{ .Language.Lang }}">{{ i18n "tool_cashflow_name" }}</a>
+          </div>
+        </div>
         <a href="{{ printf "%s/glossary/" .Language.Lang | relURL }}">{{ i18n "nav_glossary" }}</a>
         <a href="{{ printf "%s/facilitator/" .Language.Lang | relURL }}">{{ i18n "nav_facilitator" }}</a>
       </div>
@@ -51,6 +58,20 @@
   <script src="{{ "js/site.js" | relURL }}"></script>
   <script src="{{ "pagefind/pagefind-ui.js" | relURL }}" defer></script>
   <script>
+  // ── Calculators dropdown ───────────────────────────────────
+  (function(){
+    var btn  = document.getElementById('calc-dropdown-btn');
+    var menu = document.getElementById('calc-dropdown-menu');
+    var wrap = document.getElementById('calc-dropdown');
+    if (!btn || !menu) return;
+    function close(){ menu.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+    function open() { menu.classList.add('open');    btn.setAttribute('aria-expanded','true');  }
+    function toggle(){ menu.classList.contains('open') ? close() : open(); }
+    btn.addEventListener('click', function(e){ e.stopPropagation(); toggle(); });
+    document.addEventListener('click', function(e){ if(!wrap.contains(e.target)) close(); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+  })();
+
   // ── Language dropdown ──────────────────────────────────────
   (function(){
     var btn  = document.getElementById('lang-dropdown-btn');
